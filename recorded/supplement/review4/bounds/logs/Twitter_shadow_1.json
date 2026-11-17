@@ -1,0 +1,40 @@
+{
+  "graph": "Twitter",
+  "arm": "shadow",
+  "rep": 1,
+  "status": 0,
+  "wall_s": 2.7576706999971066,
+  "graph_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "binary_sha256": "88b62095dc326ae32d154f729e4cb994bba70ba12b5182dfa9d54065796bb242",
+  "flags": {
+    "OMP_NUM_THREADS": "1",
+    "UTHR_TOL": "1e-12",
+    "UTHR_GROUP_BASE": "1",
+    "UTHR_INDEXED": "1",
+    "UTHR_COALESCE": "1",
+    "UTHR_CERT_ORDER": "C:\\vldb_paper2_fair\\review4_bounds\\Twitter_shadow_1.ord",
+    "REV_BOUND": "shadow",
+    "REV_SAMPLES": "D:\\papers\\VLDB\\paper2\\paper\\supplement\\review4\\bounds\\logs\\Twitter_samples.csv"
+  },
+  "work": {
+    "sweep_cells": 23437927,
+    "sweep_factors": 431790,
+    "peel_cells": 755468071,
+    "repeat_calls": 610357,
+    "repeated_vertex_levels": 168288
+  },
+  "maintenance": {
+    "notices": 4143440,
+    "ranked_probes": 151053387,
+    "binomial_queries": 4143440,
+    "binomial_misses": 453401
+  },
+  "theta_sha256": "ae89349fe91e26ad3c2e2f63b6a04b1039ecaac85c9c696ad7e9b5249bfaa417",
+  "order_sha256": "78e5728aeae5a1056af77f67bbb6fc65d22cd827e07b6259d0a3baa3575cafa2",
+  "ladder_length": 23,
+  "verify_status": 0,
+  "verify_s": 0.2641334000218194,
+  "values": 229574,
+  "Dminus": 9.976437260111323e-13,
+  "Dplus": 1.157484988704227e-12
+}

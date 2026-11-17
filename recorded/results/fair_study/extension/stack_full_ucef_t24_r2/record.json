@@ -1,0 +1,19 @@
+{
+  "input": "stack_full",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 2,
+  "status": "ok",
+  "process_wall_s": 79.0520397000073,
+  "budget_s": 300,
+  "input_sha256": "798a833b985a429ded950697d3ea1f7fded75b7aa93114744fdebfcada39c200",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 28341100,
+  "max_abs": 2.124633802225162e-12,
+  "mae": 7.591327002375325e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "8bfe8e970488b6960e9ff8e081c754fdd3399c1a3782f1446d0ee88ec7fc1a27",
+  "output_bytes": 226731176
+}

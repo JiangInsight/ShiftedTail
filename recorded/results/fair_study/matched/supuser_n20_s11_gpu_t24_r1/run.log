@@ -1,0 +1,16 @@
+start tick
+current k=12
+current k=11
+current k=10
+current k=9
+current k=8
+current k=7
+current k=6
+current k=5
+current k=4
+current k=3
+current k=2
+current k=1
+stop tick
+Total run time is 130ms
+memcap: limit_mb=32768 peak_mb=361 exit=0

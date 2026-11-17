@@ -1,0 +1,24 @@
+{
+  "graph": "WebGoogle",
+  "arm": "opti",
+  "rep": 1,
+  "status": "ok",
+  "seconds": 48.04398859999492,
+  "budget_s": 300,
+  "workers": 1,
+  "exe_sha256": "31a84e707aebe63a28aed422aac3bb58a67579d5462b1d19bb4ac6bd536447d9",
+  "input_sha256": "89eae2de55c9ceff4b76eb06f505e1cf7be9163b40ece30a17da1586f376ea77",
+  "values": 5198504,
+  "max_abs": 9.93979415757412e-13,
+  "mae": 3.3474553337521654e-15,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "work": {
+    "opti_dp_cells": 1491853490,
+    "repeat_calls": 10584828,
+    "repeated_vertex_levels": 2665018
+  },
+  "host_peak_mib": 296,
+  "output_sha256": "e0490672f91b4e9ce31c799d69ee9ad396b91ac5b72f9365808c44981ed4ba7d"
+}

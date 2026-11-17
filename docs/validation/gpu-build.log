@@ -1,0 +1,15 @@
+MSVC/cl.exe with traditional preprocessor is used. This may lead to unexpected compilation errors. Please switch to the standard conforming preprocessor by passing `/Zc:preprocessor` to cl.exe. You can define CCCL_IGNORE_MSVC_TRADITIONAL_PREPROCESSOR_WARNING to suppress this warning.
+kernel.cu
+tmpxft_00006d8c_00000000-7_kernel.cudafe1.cpp
+MSVC/cl.exe with traditional preprocessor is used. This may lead to unexpected compilation errors. Please switch to the standard conforming preprocessor by passing `/Zc:preprocessor` to cl.exe. You can define CCCL_IGNORE_MSVC_TRADITIONAL_PREPROCESSOR_WARNING to suppress this warning.
+graph_gpu.cu
+tmpxft_00006d8c_00000000-11_graph_gpu.cudafe1.cpp
+MSVC/cl.exe with traditional preprocessor is used. This may lead to unexpected compilation errors. Please switch to the standard conforming preprocessor by passing `/Zc:preprocessor` to cl.exe. You can define CCCL_IGNORE_MSVC_TRADITIONAL_PREPROCESSOR_WARNING to suppress this warning.
+uco.cu
+tmpxft_00006d8c_00000000-15_uco.cudafe1.cpp
+refactor.cu
+tmpxft_00006d8c_00000000-19_refactor.cudafe1.cpp
+global_buffer.cu
+tmpxft_00006d8c_00000000-23_global_buffer.cudafe1.cpp
+partitioned_buffer.cu
+tmpxft_00006d8c_00000000-27_partitioned_buffer.cudafe1.cpp

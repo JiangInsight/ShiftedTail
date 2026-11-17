@@ -1,0 +1,20 @@
+{
+  "exact_rows": [
+    [
+      "15/16",
+      "15/16",
+      "15/16",
+      "1/2"
+    ],
+    [
+      "9/16",
+      "9/16",
+      "9/16",
+      "0"
+    ]
+  ],
+  "source": "real UCEF above; independent exhaustive calculation over all 15 nonempty vertex subsets",
+  "accept_rc": 0,
+  "reject_rc": 3,
+  "mutation": "set vertex 2 k=1 threshold to 1; keep original order"
+}

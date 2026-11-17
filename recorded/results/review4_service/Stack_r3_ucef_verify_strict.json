@@ -1,0 +1,15 @@
+{
+  "seconds": 16.635617900028592,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\default_strict_verifier.exe",
+    "D:\\papers\\VLDB\\paper2\\data\\study\\Stack.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\Stack\\prep_r3\\ucef.thr",
+    "C:\\vldb_paper2_fair\\review4_service\\Stack\\prep_r3\\ucef.ord",
+    "24"
+  ],
+  "binary_sha256": "c1061ff07d7a8d13c3d2ddc3f8afdfd3f2c531dc7e818f5abe7b58d88054e8dc",
+  "extra_environment": {}
+}

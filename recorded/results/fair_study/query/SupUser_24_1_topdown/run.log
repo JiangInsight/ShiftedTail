@@ -1,0 +1,97 @@
+Reading graph ...
+Graph name: D:\papers\VLDB\paper2\data\study\SupUser.bin
+n = 192409, m = 714570, max_deg = 14294
+Reading time: 0.070000 s
+Thread nums: 24
+READY 0.1389853
+Maximum upper bound: 61
+Upper bound time: 0.022000 s
+max_lb = 0, max_ub = 61 
+Time: 0.017000 s, lb_core=30, cnt=548
+Time: 0.035000 s, max_core=36, cnt=201
+Time: 0.043000 s, maxlb=30
+Test iterator time: 0.127000 s
+Uncertain core decomposition time: 0.150000 s
+Node Numbers: 192409
+ANSWER 0 0.5 0.1544491 0.2936905
+Maximum upper bound: 61
+Upper bound time: 0.020000 s
+max_lb = 0, max_ub = 61 
+Time: 0.014000 s, lb_core=30, cnt=869
+Time: 0.029000 s, max_core=40, cnt=249
+Time: 0.041000 s, maxlb=30
+Test iterator time: 0.116000 s
+Uncertain core decomposition time: 0.137000 s
+Node Numbers: 192409
+ANSWER 1 0.1 0.141416 0.43515
+Maximum upper bound: 61
+Upper bound time: 0.021000 s
+max_lb = 0, max_ub = 61 
+Time: 0.009000 s, lb_core=30, cnt=302
+Time: 0.023000 s, max_core=32, cnt=133
+Time: 0.025000 s, maxlb=30
+Test iterator time: 0.100000 s
+Uncertain core decomposition time: 0.121000 s
+Node Numbers: 192409
+ANSWER 2 0.9 0.1248609 0.5612985
+Maximum upper bound: 61
+Upper bound time: 0.023000 s
+max_lb = 0, max_ub = 61 
+Time: 0.012000 s, lb_core=30, cnt=664
+Time: 0.025000 s, max_core=38, cnt=190
+Time: 0.036000 s, maxlb=30
+Test iterator time: 0.125000 s
+Uncertain core decomposition time: 0.148000 s
+Node Numbers: 192409
+ANSWER 3 0.3 0.1520421 0.7133602
+Maximum upper bound: 61
+Upper bound time: 0.020000 s
+max_lb = 0, max_ub = 61 
+Time: 0.012000 s, lb_core=30, cnt=409
+Time: 0.025000 s, max_core=35, cnt=117
+Time: 0.030000 s, maxlb=30
+Test iterator time: 0.106000 s
+Uncertain core decomposition time: 0.127000 s
+Node Numbers: 192409
+ANSWER 4 0.7 0.1333034 0.8466861
+Maximum upper bound: 61
+Upper bound time: 0.021000 s
+max_lb = 0, max_ub = 61 
+Time: 0.010000 s, lb_core=30, cnt=767
+Time: 0.023000 s, max_core=39, cnt=190
+Time: 0.035000 s, maxlb=30
+Test iterator time: 0.126000 s
+Uncertain core decomposition time: 0.148000 s
+Node Numbers: 192409
+ANSWER 5 0.2 0.1520419 0.9987508
+Maximum upper bound: 61
+Upper bound time: 0.021000 s
+max_lb = 0, max_ub = 61 
+Time: 0.012000 s, lb_core=30, cnt=340
+Time: 0.021000 s, max_core=34, cnt=117
+Time: 0.028000 s, maxlb=30
+Test iterator time: 0.115000 s
+Uncertain core decomposition time: 0.137000 s
+Node Numbers: 192409
+ANSWER 6 0.8 0.1409039 1.1396771
+Maximum upper bound: 61
+Upper bound time: 0.023000 s
+max_lb = 0, max_ub = 61 
+Time: 0.009000 s, lb_core=30, cnt=600
+Time: 0.025000 s, max_core=37, cnt=193
+Time: 0.032000 s, maxlb=30
+Test iterator time: 0.121000 s
+Uncertain core decomposition time: 0.145000 s
+Node Numbers: 192409
+ANSWER 7 0.4 0.1493333 1.2890357
+Maximum upper bound: 61
+Upper bound time: 0.022000 s
+max_lb = 0, max_ub = 61 
+Time: 0.010000 s, lb_core=30, cnt=508
+Time: 0.023000 s, max_core=36, cnt=117
+Time: 0.036000 s, maxlb=30
+Test iterator time: 0.121000 s
+Uncertain core decomposition time: 0.143000 s
+Node Numbers: 192409
+ANSWER 8 0.6 0.1476045 1.4366679
+memcap: limit_mb=32768 peak_mb=140 exit=0

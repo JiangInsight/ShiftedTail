@@ -1,0 +1,21 @@
+{
+  "input": "supuser_n80_s23",
+  "arm": "gpu",
+  "rep": 3,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 3.4493288999947254,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "31fb76049a922cb9cddbea8999791873abb21d607fe4ca7b86169f5b1de77c5d",
+  "host_peak_mib": 493,
+  "solver_s": 3.285,
+  "output_bytes": 3724060,
+  "output_sha256": "9fd8aaa9d6aa83f884a33830cb370faff41ceb2af002de7bdf95a6348f31278f",
+  "values": 465434,
+  "max_abs": 7.933257263892379e-07,
+  "mae": 2.471268072310463e-07,
+  "match6": 0.9745484859292617,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

@@ -1,0 +1,41 @@
+{
+  "cmd": [
+    "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+    "-O3",
+    "-march=native",
+    "-fopenmp",
+    "-std=gnu++17",
+    "-DREFINE_QUERY",
+    "-ffp-contract=off",
+    "C:\\vldb_paper2_fair\\review4_service\\query_workload.cpp",
+    "-ID:\\papers\\VLDB\\paper2\\code\\revisions\\review4_service",
+    "-IC:\\vldb_paper2_fair\\deps\\ucrt64\\include",
+    "-LC:\\vldb_paper2_fair\\deps\\ucrt64\\lib",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "C:\\vldb_paper2_fair\\review4_service\\index.exe"
+  ],
+  "binary": "3cb42aea5e5c023ca2aa48945b28800870b8213cd046d35bbf75f9acc4cc682b",
+  "source_hashes": {
+    "D:\\papers\\VLDB\\paper2\\code\\fair_study\\query_workload.cpp": "d37ee0650677c2b7de57254084f9232b1cb44f0df1bd1a769ec417e1a835e9f2",
+    "D:\\papers\\VLDB\\paper2\\code\\revisions\\review4_service\\boundary_query.hpp": "1faaf2277c58a8529c9dc4e70763ee62388dce0e8078adea2eef209ab681fa1f",
+    "C:\\vldb_paper2_fair\\review4_service\\query_workload.cpp": "b3fc41804f95e63db21d75fe81ec34d8a4315e2834a48f33b9ef74f4cac24ca5",
+    "D:\\papers\\VLDB\\paper2\\code\\revisions\\review4_service\\ucef_order.cpp": "5affd1460ec1011abfbf009a201dd451409e86500f145c37a89d1ed7c5620b1c",
+    "D:\\papers\\VLDB\\paper2\\code\\graph.hpp": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13",
+    "D:\\papers\\VLDB\\paper2\\code\\fair_study\\ucef.cpp": "4287924b2c86c21828202feb1e47540f50e9768f7c357297ef3c32d731610fc2",
+    "D:\\papers\\VLDB\\paper2\\code\\verify_thresholds.cpp": "a35b72425ff0f6a8a6dab2de164e0e825f75725d59f50c8c66b70e02d549cbc7",
+    "D:\\papers\\VLDB\\paper2\\code\\export_rank.cpp": "5f710985131a0516ddc4d8f98b8b4a7811edc7c2c697c6899d26417c6ba5a2c4",
+    "D:\\papers\\VLDB\\paper2\\code\\uthr_study.cpp": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c",
+    "D:\\papers\\VLDB\\paper2\\code\\peel_queue.hpp": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\graph.h": "ad78c811ea46abc8d9c658be58d2c9efd2eb237419ac6d638204bc9fd5ede172",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\uncertain-core.h": "75dc1584f884cbcf54a65caa52a2d3e68be076fc11ef89bf412962cb927b80a8",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\graph.cpp": "e7675e782c54e7b1bff47a4440305df0b510036aeee469ae2e54a4a466d12fde",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\uncertain-core-main.cpp": "a4534dca44494916b3994420f7f9000f23c67552f7d2576057896f0c2cd85d86",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\uncertain-core-topdown.cpp": "cb4bf1cec2e5d5018da55d1ba4b7b69ebd860167afae2331beeddff2decc3566",
+    "C:\\vldb_paper2_fair\\UncertainCore\\src\\uncertain-core.cpp": "a4fad7651b7c3587f86e0ca45f24bf227c593d0a9e69158a6b0e7f408440392b"
+  },
+  "flags_env": {
+    "CL": "/arch:AVX2"
+  }
+}

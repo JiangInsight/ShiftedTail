@@ -1,0 +1,29 @@
+{
+  "input": "flickr_n40_s23",
+  "arm": "reference",
+  "rep": 0,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 0.09441799999331124,
+  "budget_s": 300,
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "input_sha256": "75639bd60348f67dbe32c07f71d621e5ac851bf34a991181f0d6923dc615763f",
+  "host_peak_mib": 10,
+  "fields": {
+    "method": "frontier",
+    "time": "0.07s",
+    "sweep": "0.01s",
+    "peel": "0.06s",
+    "thresholds": "58754",
+    "theta_sum": "8251.165402",
+    "hash": "e40417c5ff346378",
+    "evals": "162436",
+    "cells": "1.872e+08",
+    "shortcut": "43241",
+    "exact_pops": "15513",
+    "pushes": "501484"
+  },
+  "solver_s": 0.07,
+  "output_bytes": 470992,
+  "output_sha256": "8e1855b6c438b0b1a16ec14a1d57c003c3f0792da56e3eefa5b84f729e427da2"
+}

@@ -1,0 +1,15 @@
+{
+  "seconds": 12.310976200009463,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "D:\\papers\\VLDB\\paper2\\code\\verify_thresholds.exe",
+    "D:\\papers\\VLDB\\paper2\\data\\study\\Stack.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\Stack\\prep_r2\\frontier.thr",
+    "C:\\vldb_paper2_fair\\review4_service\\Stack\\prep_r2\\frontier.ord",
+    "24"
+  ],
+  "binary_sha256": "222a3a118f0814fa71f958a3688dc6ecb469dccb44f6f9d00adf956ebe877c5d",
+  "extra_environment": {}
+}

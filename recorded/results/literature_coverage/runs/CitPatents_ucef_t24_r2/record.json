@@ -1,0 +1,19 @@
+{
+  "input": "CitPatents",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 2,
+  "status": "ok",
+  "process_wall_s": 19.63482550001936,
+  "budget_s": 300,
+  "input_sha256": "f17f73bbf5ce2f20a87af5e017e671a3aff7630f204419544759ff53f669bfc2",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 17727752,
+  "max_abs": 9.94378663365139e-13,
+  "mae": 7.931762014647286e-16,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_bytes": 141822784,
+  "output_sha256": "d23184796ebb0d92339b00f3f67d00ca8425cbe1b7412a8e06741eb45b69e65e"
+}

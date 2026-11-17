@@ -1,0 +1,24 @@
+{
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "compiler_msvc": "14.51.36231",
+  "compiler_gcc": "16.2.0",
+  "gpp_sha256": "9c2577eacb115c305d7a1a0b10aa0b16d0b7b697824e151d190c62b21dd2eb8c",
+  "author_direct_commit": "315dee85ff5aae487c296a99fb600304bbee0f24",
+  "measured_dll_sha256": {
+    "libgmp-10.dll": "c2567ccf3f410c3411ba7cd4b7ba14f393a0e70a1d0c0593297df6706b5fba96",
+    "libgmpxx-4.dll": "b563feecd50808924f93c9c2cb495bafa3b8ac50f5c9ca55f9f730afa002886c",
+    "libgsl-28.dll": "d0f7e108ffbb958b551c798ce733104632002ff5d03f2a1988b8f6bb65cf6552",
+    "libgslcblas-0.dll": "de35388e089cbcd723ad7ec968ea4ff1d3811f5b0f5c66606bfeb7d7906631f9"
+  },
+  "cap_mib": 32768,
+  "threads": 24,
+  "env": {
+    "OMP_NUM_THREADS": "24",
+    "UTHR_GROUP_BASE": "1",
+    "UTHR_COALESCE": "1",
+    "UTHR_INDEXED": "1",
+    "UTHR_TOL": "1e-12"
+  }
+}

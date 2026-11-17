@@ -1,0 +1,4 @@
+k=40 checked=4462 lower_deficit=4.75660624e-13 upper_excess=2.41407817e-13
+k=20 checked=43969 lower_deficit=9.97643726e-13 upper_excess=2.41407817e-13
+k=1 checked=229574 lower_deficit=9.97643726e-13 upper_excess=8.97171226e-13
+certificate values=229574 max_lower_deficit=9.9764372601113228e-13 max_upper_excess=8.971712261995891e-13 unique_rounding_6dp=229554

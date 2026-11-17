@@ -1,0 +1,56 @@
+graph=C:\vldb_paper2_fair\literature_coverage\CN15kProjection\CN15kProjection.bin n=15000 m=177700 dmax=1252 kmax=33 sum_core=183787 method=frontier pmodel=5 threads=1 L=23 load=0.00s prep=0.02s
+binomial seed rows=1253 p=0.70929324626922607
+  levels down to k=33 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=32 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=31 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=30 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=29 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=28 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=27 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=26 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=25 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=24 done: 0.2s (sweep 0.0s, peel 0.1s)
+  levels down to k=23 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=22 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=21 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=20 done: 0.3s (sweep 0.0s, peel 0.2s)
+  levels down to k=19 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=18 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=17 done: 0.4s (sweep 0.0s, peel 0.3s)
+  levels down to k=16 done: 0.4s (sweep 0.0s, peel 0.4s)
+  levels down to k=15 done: 0.4s (sweep 0.0s, peel 0.4s)
+  levels down to k=14 done: 0.5s (sweep 0.0s, peel 0.4s)
+  levels down to k=13 done: 0.5s (sweep 0.0s, peel 0.5s)
+  levels down to k=12 done: 0.6s (sweep 0.0s, peel 0.5s)
+  levels down to k=11 done: 0.6s (sweep 0.0s, peel 0.6s)
+  levels down to k=10 done: 0.7s (sweep 0.0s, peel 0.6s)
+  levels down to k=9 done: 0.7s (sweep 0.0s, peel 0.7s)
+  levels down to k=8 done: 0.8s (sweep 0.0s, peel 0.7s)
+  levels down to k=7 done: 0.8s (sweep 0.0s, peel 0.8s)
+  levels down to k=6 done: 0.9s (sweep 0.0s, peel 0.9s)
+  levels down to k=5 done: 1.0s (sweep 0.0s, peel 0.9s)
+  levels down to k=4 done: 1.0s (sweep 0.0s, peel 1.0s)
+  levels down to k=3 done: 1.1s (sweep 0.0s, peel 1.0s)
+  levels down to k=2 done: 1.1s (sweep 0.0s, peel 1.1s)
+  levels down to k=1 done: 1.2s (sweep 0.0s, peel 1.1s)
+work sweep_cells=15164496 sweep_factors=355400 peel_cells=202142205 repeat_calls=364959 repeated_vertex_levels=140198
+maintenance notices=2719370 ranked_probes=66157168 binomial_queries=2719370 binomial_misses=239545
+group bin=0 shift=62616 retained=11096 tie=1 only_shift_above_T=27636 only_retained_above_T=3307 both_above_T=15592
+group bin=1 shift=55765 retained=13081 tie=0 only_shift_above_T=34424 only_retained_above_T=2783 both_above_T=16657
+group bin=2 shift=23746 retained=8215 tie=0 only_shift_above_T=16150 only_retained_above_T=2084 both_above_T=7395
+group bin=3 shift=15215 retained=9178 tie=0 only_shift_above_T=9593 only_retained_above_T=73 both_above_T=13712
+group bin=4 shift=34771 retained=24695 tie=0 only_shift_above_T=24431 only_retained_above_T=189 both_above_T=33343
+group bin=5 shift=103261 retained=187389 tie=0 only_shift_above_T=75056 only_retained_above_T=4175 both_above_T=205844
+group bin=6 shift=110087 retained=7899 tie=0 only_shift_above_T=41053 only_retained_above_T=900 both_above_T=35585
+group bin=7 shift=129105 retained=9767 tie=0 only_shift_above_T=65696 only_retained_above_T=1739 both_above_T=40185
+group bin=8 shift=70055 retained=9717 tie=0 only_shift_above_T=44736 only_retained_above_T=2062 both_above_T=14594
+group bin=9 shift=74772 retained=6895 tie=0 only_shift_above_T=45491 only_retained_above_T=30 both_above_T=29184
+group bin=10 shift=172861 retained=19578 tie=0 only_shift_above_T=106036 only_retained_above_T=129 both_above_T=76067
+group bin=11 shift=625136 retained=219495 tie=0 only_shift_above_T=387359 only_retained_above_T=4780 both_above_T=417425
+group bin=12 shift=24961 retained=2021 tie=0 only_shift_above_T=8069 only_retained_above_T=89 both_above_T=8226
+group bin=13 shift=30948 retained=3028 tie=0 only_shift_above_T=10860 only_retained_above_T=459 both_above_T=13004
+group bin=14 shift=12971 retained=5325 tie=0 only_shift_above_T=5314 only_retained_above_T=1549 both_above_T=5897
+group bin=15 shift=49276 retained=279 tie=0 only_shift_above_T=20874 only_retained_above_T=0 both_above_T=24545
+group bin=16 shift=115779 retained=994 tie=0 only_shift_above_T=46744 only_retained_above_T=30 both_above_T=64302
+group bin=17 shift=410996 retained=58396 tie=0 only_shift_above_T=125921 only_retained_above_T=7555 both_above_T=316879
+result method=frontier time=1.18s sweep=0.04s peel=1.13s thresholds=183787 theta_sum=115786.310621 hash=2c508a10826221d4 evals=364959 cells=2.021e+08 shortcut=113250 exact_pops=70537 pushes=1336666

@@ -1,0 +1,75 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "uniform",
+  "method": "topdown",
+  "ready": 0.8244245,
+  "seconds": 9.034511700010626,
+  "requests": [
+    0.4282855625222829,
+    0.09034599256359813,
+    0.28474424900805695,
+    0.8652174242834398,
+    0.45546779824748895,
+    0.898282974018143,
+    0.31850666350618284,
+    0.5447008769953877,
+    0.1853168099363681
+  ],
+  "prefixes": [
+    1.582012200000463,
+    2.371591900009662,
+    3.173062799993204,
+    4.032039400015492,
+    5.071248599997489,
+    5.98229960000026,
+    6.982606000005035,
+    8.01460669998778,
+    9.00903620000463
+  ],
+  "internal_prefixes": [
+    1.5494977,
+    2.3377882,
+    3.1407138,
+    3.9996783,
+    5.0388829,
+    5.949944,
+    6.9502554,
+    7.9822272,
+    8.9766758
+  ],
+  "answer_seconds": [
+    0.7250361,
+    0.7882781,
+    0.8029111,
+    0.8589389,
+    1.0391782,
+    0.9110339,
+    1.0002836,
+    1.0319452,
+    0.9944225
+  ],
+  "refinements": [],
+  "answer_sha256": [
+    "06b1c43ecf165dbe635a86a46c2bf25484652abeb81d9a4663e45ce214081d87",
+    "b685ee2ebcb116e5cadebdc40fcca76e5a570b0257a4357742c26ac165f94a13",
+    "01ffbf2a355f2a83d5de76deba19ed3b41dba8e07c30c80b81bfbeb093a5aceb",
+    "9fe9b97ab3b92a0bf7efa9aeeeaeacda3a047b628f192261bb1c61001c26861f",
+    "c67361768a4f03e615d0c48b4c0afb6bc3943e937d21ad40042064e71aa181f9",
+    "ac0c6a15546d77f24baadafe90d1bbd0247bd268f2eb4c1c35855f972cde7efd",
+    "7f48457d7906aa2aaabe1ee57740573c6f3027e476334e0721b66de24b5be426",
+    "812676f1fcd251dd812f5e010fbdeb2357f349e65b76dff76408632d4c5abf51",
+    "154e701e35021393321c1abea4b3647052a3f82881fa17656d03e2bb4d1373f6"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\direct.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "24",
+    "6",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\uniform\\topdown\\ans",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\uniform.txt"
+  ],
+  "binary_sha256": "8bd2163ff1ddfddc46d09f7accb7eeed373645bfe70ecebfccfc59c093297245"
+}

@@ -1,0 +1,19 @@
+{
+  "input": "dblp_full",
+  "arm": "ucef",
+  "workers": 1,
+  "rep": 3,
+  "status": "ok",
+  "process_wall_s": 10.378113099985057,
+  "budget_s": 300,
+  "input_sha256": "c11998afab1f3f5a9349d64fc6313d0211e0b289f364030b8093954918b4f23e",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 3936555,
+  "max_abs": 9.975353876257032e-13,
+  "mae": 1.6183813652331002e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "f3d5c48793aa80b43d980349712f07a824921455291ce7805eae5c53b94cae33",
+  "output_bytes": 31494696
+}

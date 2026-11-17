@@ -1,0 +1,4 @@
+k=1 checked=280001 lower_deficit=8.67361738e-19 upper_excess=2.42860419e-13
+witness side=lower max_degree=280000 shortcuts=280001 insufficient=0 dp_calls=0 max_nonshortcut_degree=0 max_factors=0 max_cells=0 total_factors=0 total_cells=0
+witness side=upper max_degree=280000 shortcuts=0 insufficient=280000 dp_calls=1 max_nonshortcut_degree=280000 max_factors=280000 max_cells=280000 total_factors=280000 total_cells=280000
+certificate values=280001 max_lower_deficit=8.6736173798840374e-19 max_upper_excess=2.4286041928564138e-13 unique_rounding_6dp=280001

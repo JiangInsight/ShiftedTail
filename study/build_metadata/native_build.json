@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "uthr_study.cpp": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c",
+    "opti_threshold.cpp": "6b5a22eba3b6ff3d1edeec9e4f6cbe9c669748425359f245228cb6e5cf275f66",
+    "graph.hpp": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13",
+    "peel_queue.hpp": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596",
+    "build.bat": "f63079b07fdaaff0acd9bf63118ab774471599322210a7f191c8704dffa69bbe"
+  },
+  "binaries": {
+    "uthr_native.exe": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+    "opti_native.exe": "1bab0365812e3a83bf23f43c9dcb53d972563089a0dd587ea421695007e327a4"
+  },
+  "flags": "/arch:AVX2 /I\"D:\\papers\\VLDB\\paper2\\baselines\\boost_math\\include\""
+}

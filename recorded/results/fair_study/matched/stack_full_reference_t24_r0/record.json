@@ -1,0 +1,29 @@
+{
+  "input": "stack_full",
+  "arm": "reference",
+  "rep": 0,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 39.54527010000311,
+  "budget_s": 1800,
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "input_sha256": "798a833b985a429ded950697d3ea1f7fded75b7aa93114744fdebfcada39c200",
+  "host_peak_mib": 3325,
+  "fields": {
+    "method": "frontier",
+    "time": "37.03s",
+    "sweep": "5.13s",
+    "peel": "31.64s",
+    "thresholds": "28341100",
+    "theta_sum": "14392437.612875",
+    "hash": "748ef13527494890",
+    "evals": "46706901",
+    "cells": "2.232e+11",
+    "shortcut": "22249698",
+    "exact_pops": "6091402",
+    "pushes": "217801987"
+  },
+  "solver_s": 37.03,
+  "output_bytes": 226731176,
+  "output_sha256": "1d8bb6545e0697d5a5a0bb4bedf94fadb2ee3cd1f7cc920e25a3ae7ba3c39ede"
+}

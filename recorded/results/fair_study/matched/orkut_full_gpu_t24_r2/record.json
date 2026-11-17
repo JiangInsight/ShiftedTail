@@ -1,0 +1,21 @@
+{
+  "input": "orkut_full",
+  "arm": "gpu",
+  "rep": 2,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 383.167305400013,
+  "budget_s": 1800,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "e27d15f8479e389a7b124072ad739f284a00c14f341d53d9dc3b52e658f00a30",
+  "host_peak_mib": 5320,
+  "solver_s": 374.972,
+  "output_bytes": 954611084,
+  "output_sha256": "601fa3e1877f5ad7f7fc362862ed9bf2956e0caafcf64c62724e06bbe58fd1f1",
+  "values": 119326006,
+  "max_abs": 7.788175424711108e-07,
+  "mae": 1.6904522053291326e-07,
+  "match6": 0.97576689192128,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

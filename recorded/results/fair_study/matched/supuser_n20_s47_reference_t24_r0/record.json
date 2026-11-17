@@ -1,0 +1,29 @@
+{
+  "input": "supuser_n20_s47",
+  "arm": "reference",
+  "rep": 0,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 0.037340299983043224,
+  "budget_s": 300,
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "input_sha256": "489450e239ee609deabb8e9f3ff65d1333c28b2bd145461571edaaea1c45f7e8",
+  "host_peak_mib": 12,
+  "fields": {
+    "method": "frontier",
+    "time": "0.01s",
+    "sweep": "0.00s",
+    "peel": "0.01s",
+    "thresholds": "28436",
+    "theta_sum": "13832.881266",
+    "hash": "1f254daf6fefe252",
+    "evals": "20328",
+    "cells": "1.189e+06",
+    "shortcut": "26454",
+    "exact_pops": "1982",
+    "pushes": "52681"
+  },
+  "solver_s": 0.01,
+  "output_bytes": 227632,
+  "output_sha256": "4f8c1ac8447f35271dab20042b3bd92d891e028e71af31c5133778ad0853d8fa"
+}

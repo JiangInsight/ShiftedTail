@@ -1,0 +1,15 @@
+{
+  "seconds": 0.924755100015318,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\default_strict_verifier.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\prep_r2\\frontier.thr",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\prep_r2\\frontier.ord",
+    "24"
+  ],
+  "binary_sha256": "c1061ff07d7a8d13c3d2ddc3f8afdfd3f2c531dc7e818f5abe7b58d88054e8dc",
+  "extra_environment": {}
+}

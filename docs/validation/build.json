@@ -1,0 +1,17 @@
+{
+  "platform": "win32",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "compiler": "D:/papers/VLDB/paper1/tools/dl_winlibs/mingw64/bin/g++.exe",
+  "binaries": {
+    "study\\paper2\\code\\export_rank.exe": "dd6f35793e66dd08924f57ce752ed89e05dc449f3ecaf404c77c466aca382f91",
+    "study\\paper2\\code\\opti_native.exe": "0dc601c1a2cc6093e7fcf2f24e22b2c375c1cc2443c4a43e1e4e8cbcd69574b9",
+    "study\\paper2\\code\\uthr_native.exe": "d63b52e554a70b3e10fa5eae42fa756c519d64e2af9b0ebd1e9b54f586b3fa35",
+    "study\\paper2\\code\\verify_thresholds.exe": "ccaa96e1f52b025e0674ce8961f40bd169a421b964a059359585b5f3f68228c5",
+    "study\\paper2\\results\\review4_arithmetic\\boundary.exe": "46a52af84a94fd4183e872dc857ae59c39615d44591379f1b846605109bde545",
+    "study\\paper2\\results\\review4_arithmetic\\default_strict_verifier.exe": "ccaa96e1f52b025e0674ce8961f40bd169a421b964a059359585b5f3f68228c5",
+    "study\\paper2\\results\\review4_arithmetic\\fma.exe": "bbfd0910e15fcd449da5ae639c7f8ff27197540665913a39feb9167433baddd0",
+    "study\\paper2\\results\\review4_arithmetic\\pfma.exe": "ff2e95fea8b033a6124cc0a1e2415c4fb074807821b73c72c9f5ff0c6266fe2a",
+    "study\\paper2\\results\\review4_arithmetic\\portable.exe": "720fe93f289dcd9770512c66e30aeae9a11c8879fe6361c8576db7c8d4626df1",
+    "study\\paper2\\results\\review4_arithmetic\\pportable.exe": "1c4a4708005db8677aba19fbe07bbbdf727c85877236db195051bbccc6936b02"
+  }
+}

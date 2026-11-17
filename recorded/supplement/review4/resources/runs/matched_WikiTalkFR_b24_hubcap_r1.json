@@ -1,0 +1,18 @@
+{
+  "graph": "WikiTalkFR",
+  "method": "hubcap",
+  "matched_capacity": 24,
+  "rep": 1,
+  "status": "ok",
+  "wall_s": 1.1244788999902084,
+  "exe_sha256": "230a8bfe0e6d143f8a92aa43eb2a88d76956bd479cc72b30122f33f5b1483aff",
+  "input_sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a",
+  "values": 2279811,
+  "max_abs": 0.0,
+  "mae": 0.0,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "1cb29ba8eb43aead5a7546d48a7db472bc7efbb9f4700b5446a439e33b5e3806",
+  "host_peak_mib": 700
+}

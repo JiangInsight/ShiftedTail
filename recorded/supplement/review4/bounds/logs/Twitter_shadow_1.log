@@ -1,0 +1,75 @@
+graph=C:\vldb_paper2_fair\literature_coverage\Twitter\Twitter.bin n=21882 m=215895 dmax=1820 kmax=52 sum_core=229574 method=frontier pmodel=5 threads=1 L=23 load=0.00s prep=0.04s
+binomial seed rows=0 p=0.25
+  levels down to k=52 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=51 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=50 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=49 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=48 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=47 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=46 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=45 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=44 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=43 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=42 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=41 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=40 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=39 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=38 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=37 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=36 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=35 done: 0.2s (sweep 0.0s, peel 0.2s)
+  levels down to k=34 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=33 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=32 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=31 done: 0.4s (sweep 0.0s, peel 0.4s)
+  levels down to k=30 done: 0.4s (sweep 0.0s, peel 0.4s)
+  levels down to k=29 done: 0.4s (sweep 0.0s, peel 0.4s)
+  levels down to k=28 done: 0.5s (sweep 0.0s, peel 0.5s)
+  levels down to k=27 done: 0.5s (sweep 0.0s, peel 0.5s)
+  levels down to k=26 done: 0.6s (sweep 0.0s, peel 0.6s)
+  levels down to k=25 done: 0.6s (sweep 0.0s, peel 0.6s)
+  levels down to k=24 done: 0.7s (sweep 0.0s, peel 0.6s)
+  levels down to k=23 done: 0.7s (sweep 0.0s, peel 0.7s)
+  levels down to k=22 done: 0.8s (sweep 0.0s, peel 0.7s)
+  levels down to k=21 done: 0.8s (sweep 0.0s, peel 0.8s)
+  levels down to k=20 done: 0.9s (sweep 0.0s, peel 0.8s)
+  levels down to k=19 done: 0.9s (sweep 0.0s, peel 0.9s)
+  levels down to k=18 done: 1.0s (sweep 0.0s, peel 0.9s)
+  levels down to k=17 done: 1.0s (sweep 0.0s, peel 1.0s)
+  levels down to k=16 done: 1.1s (sweep 0.0s, peel 1.1s)
+  levels down to k=15 done: 1.2s (sweep 0.0s, peel 1.1s)
+  levels down to k=14 done: 1.2s (sweep 0.0s, peel 1.2s)
+  levels down to k=13 done: 1.3s (sweep 0.0s, peel 1.2s)
+  levels down to k=12 done: 1.4s (sweep 0.0s, peel 1.3s)
+  levels down to k=11 done: 1.4s (sweep 0.0s, peel 1.4s)
+  levels down to k=10 done: 1.5s (sweep 0.0s, peel 1.5s)
+  levels down to k=9 done: 1.6s (sweep 0.0s, peel 1.6s)
+  levels down to k=8 done: 1.7s (sweep 0.0s, peel 1.7s)
+  levels down to k=7 done: 1.9s (sweep 0.1s, peel 1.8s)
+  levels down to k=6 done: 2.0s (sweep 0.1s, peel 1.9s)
+  levels down to k=5 done: 2.1s (sweep 0.1s, peel 2.0s)
+  levels down to k=4 done: 2.2s (sweep 0.1s, peel 2.1s)
+  levels down to k=3 done: 2.3s (sweep 0.1s, peel 2.2s)
+  levels down to k=2 done: 2.5s (sweep 0.1s, peel 2.4s)
+  levels down to k=1 done: 2.7s (sweep 0.1s, peel 2.6s)
+work sweep_cells=23437927 sweep_factors=431790 peel_cells=755468071 repeat_calls=610357 repeated_vertex_levels=168288
+maintenance notices=4143440 ranked_probes=151053387 binomial_queries=4143440 binomial_misses=453401
+group bin=0 shift=72261 retained=32544 tie=0 only_shift_above_T=14473 only_retained_above_T=6358 both_above_T=34570
+group bin=1 shift=29820 retained=37595 tie=0 only_shift_above_T=6607 only_retained_above_T=13149 both_above_T=31370
+group bin=2 shift=1353 retained=13681 tie=0 only_shift_above_T=442 only_retained_above_T=9074 both_above_T=4673
+group bin=3 shift=65758 retained=5489 tie=0 only_shift_above_T=20556 only_retained_above_T=228 both_above_T=35172
+group bin=4 shift=97553 retained=33490 tie=0 only_shift_above_T=26629 only_retained_above_T=3259 both_above_T=85795
+group bin=5 shift=55415 retained=344524 tie=0 only_shift_above_T=10105 only_retained_above_T=105068 both_above_T=278168
+group bin=6 shift=122781 retained=9253 tie=0 only_shift_above_T=32701 only_retained_above_T=1030 both_above_T=46744
+group bin=7 shift=96562 retained=36014 tie=0 only_shift_above_T=26983 only_retained_above_T=7445 both_above_T=62405
+group bin=8 shift=10085 retained=32158 tie=0 only_shift_above_T=3141 only_retained_above_T=13119 both_above_T=20476
+group bin=9 shift=143954 retained=3554 tie=0 only_shift_above_T=48656 only_retained_above_T=1 both_above_T=74684
+group bin=10 shift=278673 retained=24199 tie=1 only_shift_above_T=80393 only_retained_above_T=1072 both_above_T=192548
+group bin=11 shift=316798 retained=732300 tie=1 only_shift_above_T=53435 only_retained_above_T=151925 both_above_T=819776
+group bin=12 shift=25735 retained=1065 tie=0 only_shift_above_T=7648 only_retained_above_T=95 both_above_T=8818
+group bin=13 shift=26461 retained=3579 tie=0 only_shift_above_T=8310 only_retained_above_T=860 both_above_T=11984
+group bin=14 shift=3577 retained=7149 tie=0 only_shift_above_T=842 only_retained_above_T=2588 both_above_T=5039
+group bin=15 shift=136332 retained=768 tie=0 only_shift_above_T=44816 only_retained_above_T=5 both_above_T=71490
+group bin=16 shift=286980 retained=5743 tie=0 only_shift_above_T=83340 only_retained_above_T=2054 both_above_T=182732
+group bin=17 shift=545313 retained=504920 tie=2 only_shift_above_T=75738 only_retained_above_T=42937 both_above_T=901579
+result method=frontier time=2.70s sweep=0.08s peel=2.61s thresholds=229574 theta_sum=76104.939437 hash=f704da812687192d evals=610357 cells=7.555e+08 shortcut=112667 exact_pops=116907 pushes=2295247

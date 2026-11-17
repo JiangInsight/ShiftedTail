@@ -1,0 +1,9 @@
+{
+  "vertices": 317080,
+  "edges": 1049866,
+  "ccas_source_sha256": "2f7549a61b11cc654049d6358e82087831ae353120f222bbc24f0efe58dba8b9",
+  "local_csr_sha256": "077301cd44875200c411162b35ad3d5f372ec3591dc3fec4e9db5d2980ddfdc0",
+  "same_labeled_edges": true,
+  "same_sorted_degree_sequence": true,
+  "matched_edges_with_current_ids": 1049866
+}

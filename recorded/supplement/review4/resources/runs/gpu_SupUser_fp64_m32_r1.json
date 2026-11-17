@@ -1,0 +1,20 @@
+{
+  "graph": "SupUser",
+  "prec": "fp64",
+  "multiply": 32,
+  "rep": 1,
+  "status": "ok",
+  "wall_s": 7.657768499979284,
+  "exe_sha256": "c6c81c42deed089153ba8056eeb5259369a65e920ca01930297917e6c3e4a71f",
+  "input_sha256": "6933e0f93d8829fd74d7938497be4ecee8b506324bc52df6cc9f4928eff1e97f",
+  "values": 726749,
+  "max_abs": 9.955369861813779e-13,
+  "mae": 1.6753512001556404e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "tight": true,
+  "coarse": true,
+  "host_peak_mib": 530,
+  "output_sha256": "42a3e188b4fb9c59874f3eed40d1af32e1fcc504f9950c97a7ed28afd3cd235e"
+}

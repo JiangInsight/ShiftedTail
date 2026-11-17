@@ -1,0 +1,12 @@
+k=180 checked=1654 lower_deficit=4.94065646e-324 upper_excess=1.12516381e-12
+k=160 checked=76201 lower_deficit=9.56561803e-13 upper_excess=1.51789799e-12
+k=140 checked=219281 lower_deficit=1.09558369e-12 upper_excess=1.81862061e-12
+k=120 checked=472311 lower_deficit=1.18199894e-12 upper_excess=1.81862061e-12
+k=100 checked=902883 lower_deficit=1.32438505e-12 upper_excess=1.81862061e-12
+k=80 checked=1641315 lower_deficit=1.56852309e-12 upper_excess=2.245093e-12
+k=60 checked=2954380 lower_deficit=2.38231657e-12 upper_excess=2.245093e-12
+k=40 checked=5556568 lower_deficit=4.30433467e-12 upper_excess=2.245093e-12
+k=20 checked=12934975 lower_deficit=6.26698693e-12 upper_excess=2.245093e-12
+k=1 checked=138505284 lower_deficit=6.26698693e-12 upper_excess=2.245093e-12
+certificate values=138505284 max_lower_deficit=6.2669869294040844e-12 max_upper_excess=2.245093000396992e-12 unique_rounding_6dp=138505216
+memcap: limit_mb=32768 peak_mb=5394 exit=0

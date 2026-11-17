@@ -1,0 +1,13 @@
+graph=C:\vldb_paper2_fair\matched\flickr_full\Flickr.bin n=24125 m=300836 dmax=546 kmax=225 sum_core=378659 method=ctd pmodel=5 threads=24 L=21 load=0.00s prep=0.01s
+  levels down to k=202 done: 0.3s (sweep 0.0s, peel 0.2s)
+  levels down to k=178 done: 0.6s (sweep 0.0s, peel 0.6s)
+  levels down to k=154 done: 1.0s (sweep 0.0s, peel 1.0s)
+  levels down to k=130 done: 1.5s (sweep 0.0s, peel 1.5s)
+  levels down to k=106 done: 2.2s (sweep 0.0s, peel 2.2s)
+  levels down to k=82 done: 3.0s (sweep 0.0s, peel 3.0s)
+  levels down to k=58 done: 4.1s (sweep 0.0s, peel 4.1s)
+  levels down to k=34 done: 5.0s (sweep 0.0s, peel 5.0s)
+  levels down to k=10 done: 6.4s (sweep 0.0s, peel 6.4s)
+  levels down to k=1 done: 6.8s (sweep 0.0s, peel 6.8s)
+result method=ctd time=6.81s sweep=0.04s peel=6.76s thresholds=378659 theta_sum=51529.346863 hash=0489a28fbcefb898 evals=23107727 cells=2.05e+11 shortcut=0 exact_pops=0 pushes=20218857
+memcap: limit_mb=32768 peak_mb=62 exit=0

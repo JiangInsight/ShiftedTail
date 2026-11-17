@@ -1,0 +1,78 @@
+--- a/kernel.cu
++++ b/kernel.cu
+@@ -147,11 +147,18 @@
+ 	return BLOCK_SIZE / WARP_SIZE * (2 * k * groups) * sizeof(Float);
+ }
+ 
++// The canonical file stores only eligible ranks, in stable support-core order.
++__global__ void packEligible(const int* rank,const Float* result,double* output,int n) {
++    int first=blockIdx.x*blockDim.x+threadIdx.x;
++    for (int i=first;i<n;i+=gridDim.x*blockDim.x) output[i]=static_cast<double>(result[rank[i]]);
++}
++
+ int main(int argc, char *argv[])
+ {
+ 	setvbuf(stdout, nullptr, _IONBF, 0);
+ 	static_assert(sizeof(ThresholdRecord) == 12, "ThresholdRecord layout must be 12 bytes");
+ 
++	const char* sparsePath=std::getenv("GATD_SPARSE_OUTPUT");
+ 	bool enableWriter = false;
+ 	int positionalIdx = 0;
+ 	std::string positionalArgs[3];
+@@ -217,6 +224,21 @@
+ 	}
+ 
+ 	graph.ComputeCore();
++    std::ofstream sparse;
++    std::vector<int> rank;
++    std::vector<double> row;
++    int* deviceRank=nullptr;
++    double* deviceRow=nullptr;
++    if (sparsePath) {
++        sparse.exceptions(std::ios::badbit | std::ios::failbit);
++        sparse.open(sparsePath,std::ios::binary);
++        rank.resize(graph.vertixNumber);
++        for (int i=0; i<graph.vertixNumber; ++i) rank[i]=i;
++        std::stable_sort(rank.begin(),rank.end(),[&](int a,int b){ return graph.cores[a]>graph.cores[b]; });
++        CUDA_CHECK(cudaMalloc(reinterpret_cast<void**>(&deviceRank),rank.size()*sizeof(int)));
++        CUDA_CHECK(cudaMalloc(reinterpret_cast<void**>(&deviceRow),rank.size()*sizeof(double)));
++        CUDA_CHECK(cudaMemcpy(deviceRank,rank.data(),rank.size()*sizeof(int),cudaMemcpyHostToDevice));
++    }
+ 	graph.SortCore();
+ 
+ 	GraphGpu graphGpu;
+@@ -328,12 +350,26 @@
+ 			}
+ 		}
+ 
++        if (sparsePath) {
++            uint64_t count=graphMetaGpu.num;
++            uint32_t level=k;
++            row.resize(count);
++            if (count) {
++                packEligible<<<std::min(4096,(static_cast<int>(count)+255)/256),256>>>(deviceRank,graphMetaGpu.result,deviceRow,static_cast<int>(count));
++                CUDA_CHECK(cudaGetLastError());
++                CUDA_CHECK(cudaMemcpy(row.data(),deviceRow,count*sizeof(double),cudaMemcpyDeviceToHost));
++            }
++            sparse.write(reinterpret_cast<const char*>(&level),sizeof(level));
++            sparse.write(reinterpret_cast<const char*>(&count),sizeof(count));
++            sparse.write(reinterpret_cast<const char*>(row.data()),count*sizeof(double));
++        }
+ 		temp = graphMetaGpu.lb;
+ 		graphMetaGpu.lb = graphMetaGpu.result;
+ 		graphMetaGpu.result = temp;
+ 	}
+ 
+ 	cudaDeviceSynchronize();
++	if(sparsePath) sparse.close();
+ 	auto t1 = clock::now();
+ 	printf("stop tick\n");
+ 	int us = std::chrono::duration_cast<std::chrono::microseconds>(t1 - t0).count() / 1e3;
+@@ -343,6 +379,7 @@
+ 		std::cout << "Threshold binary saved to " << thresholdOutFile << "\n";
+ 	}
+ 
++	if(sparsePath){ CUDA_CHECK(cudaFree(deviceRank));CUDA_CHECK(cudaFree(deviceRow)); }
+ 	FreeGraphGpu(graphGpu);
+ 	FreeGraphMetaGpu(graphMetaGpu);
+ 	FreeRefactor(graphMetaGpu.refactorBuffer, graphMetaGpu.storeBuffer, graphMetaGpu.indexTable);

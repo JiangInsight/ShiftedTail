@@ -1,0 +1,10 @@
+graph=C:\vldb_paper2_fair\matched\flickr_n60_s11\Flickr.bin n=14475 m=109237 dmax=326 kmax=131 sum_core=137884 method=frontier pmodel=5 threads=24 L=19 load=0.00s prep=0.01s
+binomial seed rows=0 p=1
+  levels down to k=108 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=84 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=60 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=36 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=12 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=1 done: 0.2s (sweep 0.0s, peel 0.2s)
+result method=frontier time=0.20s sweep=0.03s peel=0.16s thresholds=137884 theta_sum=19030.127788 hash=c1b19409a4df07d7 evals=424661 cells=1.009e+09 shortcut=105890 exact_pops=31994 pushes=1452292
+memcap: limit_mb=32768 peak_mb=20 exit=0

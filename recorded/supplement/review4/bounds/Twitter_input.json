@@ -1,0 +1,18 @@
+{
+  "graph": "Twitter",
+  "vertices": 21882,
+  "edges": 215895,
+  "maximum_degree": 1820,
+  "maximum_core": 52,
+  "values": 229574,
+  "p_min": 0.20192307233810425,
+  "p_max": 1.0,
+  "binary_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "source": "https://github.com/fgullo/uncertaincores/blob/370b2dbcaa02a3466a2afd10e24cd52019c3edb3/data/twitter.txt",
+  "input_sha256": "8fb6f798720ad7433e4350bc1b75f1f3119fb5e5422f5dff12d43b5b7f011e16",
+  "rule": "author Java loader overwrites both directions with last input probability",
+  "raw_rows": 372005,
+  "loops": 0,
+  "repeated_pairs": 142041,
+  "conflicting_pairs": 10986
+}

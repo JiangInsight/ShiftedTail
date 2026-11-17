@@ -1,0 +1,19 @@
+{
+  "input": "flickr_full",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 3,
+  "status": "ok",
+  "process_wall_s": 0.763058100012131,
+  "budget_s": 300,
+  "input_sha256": "b383e82a2cd3807fa6ca44d7dc91431758fcf1bd7320c305bcb70764b3396a7b",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 378659,
+  "max_abs": 9.95385576215097e-13,
+  "mae": 2.3232752800388156e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "b1a367794ac5866e4f4df4fdff96acf83b60117db07a65e5259fd67e1d6a1ba4",
+  "output_bytes": 3031972
+}

@@ -1,0 +1,23 @@
+graph=C:\vldb_paper2_fair\matched\biominedsaa_full\BiomineDSAA.bin n=1008201 m=6722503 dmax=139624 kmax=448 sum_core=7264786 method=frontier pmodel=5 threads=24 L=37 load=0.10s prep=0.29s
+binomial seed rows=0 p=0.89999997615814209
+  levels down to k=425 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=401 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=377 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=353 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=329 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=305 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=281 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=257 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=233 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=209 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=185 done: 0.1s (sweep 0.1s, peel 0.0s)
+  levels down to k=161 done: 0.1s (sweep 0.1s, peel 0.0s)
+  levels down to k=137 done: 0.2s (sweep 0.1s, peel 0.1s)
+  levels down to k=113 done: 0.4s (sweep 0.1s, peel 0.3s)
+  levels down to k=89 done: 0.7s (sweep 0.1s, peel 0.5s)
+  levels down to k=65 done: 1.2s (sweep 0.2s, peel 1.0s)
+  levels down to k=41 done: 2.2s (sweep 0.2s, peel 1.9s)
+  levels down to k=17 done: 5.0s (sweep 0.3s, peel 4.6s)
+  levels down to k=1 done: 17.0s (sweep 0.9s, peel 16.0s)
+result method=frontier time=16.98s sweep=0.87s peel=16.05s thresholds=7264786 theta_sum=1969784.605533 hash=16682861826188ba evals=15105077 cells=1.761e+11 shortcut=4816605 exact_pops=2448181 pushes=65000005
+memcap: limit_mb=32768 peak_mb=1414 exit=0

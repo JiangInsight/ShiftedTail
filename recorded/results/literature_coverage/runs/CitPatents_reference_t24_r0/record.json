@@ -1,0 +1,29 @@
+{
+  "input": "CitPatents",
+  "arm": "reference",
+  "rep": 0,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 33.447514200001024,
+  "budget_s": 300,
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "input_sha256": "f17f73bbf5ce2f20a87af5e017e671a3aff7630f204419544759ff53f669bfc2",
+  "host_peak_mib": 3544,
+  "fields": {
+    "method": "frontier",
+    "time": "31.21s",
+    "sweep": "1.59s",
+    "peel": "29.48s",
+    "thresholds": "17727752",
+    "theta_sum": "8960604.255060",
+    "hash": "f56a0d5fb2ff31bf",
+    "evals": "35934750",
+    "cells": "3.703e+09",
+    "shortcut": "9943305",
+    "exact_pops": "7784447",
+    "pushes": "94395636"
+  },
+  "solver_s": 31.21,
+  "output_bytes": 141822784,
+  "output_sha256": "e11bdab2fc9eac4620a00ef020006b78ed01649036c349dad6a83035c735a057"
+}

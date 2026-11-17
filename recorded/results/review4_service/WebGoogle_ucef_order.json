@@ -1,0 +1,15 @@
+{
+  "seconds": 0.7391872000007425,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\ucef_order.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\ucef.thr",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\ucef.ord",
+    "24"
+  ],
+  "binary_sha256": "f66ffec6fa648d09b444fbcd00c6822b952a885a1eee72aec0b61e6a233fcba5",
+  "extra_environment": {}
+}

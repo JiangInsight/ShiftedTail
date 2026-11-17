@@ -1,0 +1,6 @@
+graph=C:\vldb_paper2_fair\matched\supuser_n60_s47\SupUser.bin n=115445 m=238208 dmax=3201 kmax=34 sum_core=245028 method=frontier pmodel=5 threads=24 L=25 load=0.00s prep=0.02s
+binomial seed rows=3202 p=0.39346933364868164
+  levels down to k=11 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=1 done: 0.1s (sweep 0.0s, peel 0.1s)
+result method=frontier time=0.10s sweep=0.02s peel=0.06s thresholds=245028 theta_sum=119028.094010 hash=bdeba721b9e31c7c evals=243925 cells=8.01e+07 shortcut=216090 exact_pops=28938 pushes=784141
+memcap: limit_mb=32768 peak_mb=67 exit=0

@@ -1,0 +1,16 @@
+{
+  "graph": "Deli",
+  "vertices": 38289740,
+  "edges": 137240382,
+  "maximum_degree": 1057753,
+  "maximum_core": 180,
+  "values": 138505284,
+  "raw_rows": 301183605,
+  "loops": 0,
+  "p_min": 0.39346933364868164,
+  "p_max": 1.0,
+  "binary_sha256": "77984f083e250843e924c69ec2296c20b7583301452d574faefe89f22aae8e13",
+  "source": "https://networks.skewed.de/net/delicious/files/ti.csv.zip",
+  "input_sha256": "04cccfe8f21cf370caa8d6deb1c691de952ed0087efbd256c16a225ae623fec8",
+  "rule": "remove loops and isolated vertices, deduplicate unordered pairs and set p=1-exp(-event_count/2), rounded once to binary32"
+}

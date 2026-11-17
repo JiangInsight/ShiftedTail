@@ -1,0 +1,6 @@
+graph=C:\vldb_paper2_fair\matched\supuser_full\SupUser.bin n=192409 m=714570 dmax=14294 kmax=61 sum_core=726749 method=ctd pmodel=5 threads=24 L=29 load=0.01s prep=0.03s
+  levels down to k=38 done: 0.5s (sweep 0.0s, peel 0.5s)
+  levels down to k=14 done: 1.8s (sweep 0.0s, peel 1.7s)
+  levels down to k=1 done: 5.0s (sweep 0.1s, peel 4.9s)
+result method=ctd time=4.98s sweep=0.07s peel=4.90s thresholds=726749 theta_sum=355264.136453 hash=1b47888ad616eb55 evals=9867888 cells=3.71e+10 shortcut=0 exact_pops=0 pushes=3973767
+memcap: limit_mb=32768 peak_mb=84 exit=0

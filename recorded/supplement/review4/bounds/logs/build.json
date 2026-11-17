@@ -1,0 +1,19 @@
+{
+  "flags": "/arch:AVX2 /fp:strict /I\"D:\\papers\\VLDB\\paper2\\baselines\\boost_math\\include\"",
+  "build_driver": "build.bat",
+  "exact_test_cases": 164,
+  "maximum_binomial_slack": 1.5160648803094733e-13,
+  "source": {
+    "frontier.cpp": "471de035e56d859d01d2b4085e877c37e95c9e558fdbb7a7d0476bea2a7b85ef",
+    "verify_thresholds.cpp": "4a734d60ab183dc0f051bbb05ed664a6591b2fbf0082a4ae4ab4de5a57e333ed"
+  },
+  "headers": {
+    "graph.hpp": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13",
+    "peel_queue.hpp": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596",
+    "retained.hpp": "ee7743da80d9c650d765d6a85e0d1399f94324fd3e4126efcb90a67fbf909ffa"
+  },
+  "binaries": {
+    "frontier.exe": "88b62095dc326ae32d154f729e4cb994bba70ba12b5182dfa9d54065796bb242",
+    "verify_thresholds.exe": "1d4e976f0b1d7c72192dade3e6bc63afaa9106bc4ad4477a472303b3a2eef4e8"
+  }
+}

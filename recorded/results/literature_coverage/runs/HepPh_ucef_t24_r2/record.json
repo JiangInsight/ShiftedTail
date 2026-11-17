@@ -1,0 +1,19 @@
+{
+  "input": "HepPh",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 2,
+  "status": "ok",
+  "process_wall_s": 25.13617279997561,
+  "budget_s": 300,
+  "input_sha256": "ddc86597f4cb7f8ca0b2b17c0da2ab5fb8b243373bc3f1b751f975b840d7bf6d",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 3348855,
+  "max_abs": 9.985345883478658e-13,
+  "mae": 1.249361160558444e-13,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_bytes": 26795760,
+  "output_sha256": "ca419b37892ee37625813ed4003e42a3b43083b81c887af4181060d99818c77c"
+}

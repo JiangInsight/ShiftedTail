@@ -1,0 +1,68 @@
+[
+  {
+    "graph": "Flickr",
+    "source": "https://github.com/fgullo/uncertaincores/blob/370b2dbcaa02a3466a2afd10e24cd52019c3edb3/data/Flickr.txt",
+    "vertices": 24125,
+    "undirected_edges": 300836,
+    "maximum_degree": 546,
+    "maximum_core": 225,
+    "thresholds": 378659,
+    "bin_sha256": "03ffdd7f6f6ddaa4bc982ec049bd6c8d60bf2e369fe942d22e2abf695690e181",
+    "rank_sha256": "84d64d3dd23b370729c984a46d4293205dcfba4fa5824cb2b48e7b9c05269cf8"
+  },
+  {
+    "graph": "SupUser",
+    "source": "https://snap.stanford.edu/data/sx-superuser.html",
+    "vertices": 192409,
+    "undirected_edges": 714570,
+    "maximum_degree": 14294,
+    "maximum_core": 61,
+    "thresholds": 726749,
+    "bin_sha256": "e85fd3a94647d812a78c579e1be75197d09e357ced004c21e37c3c5f3efee8c0",
+    "rank_sha256": "02aad3d27727a30898f024c280935f5f4935e34288b1b4d057e30263e6b035d1"
+  },
+  {
+    "graph": "Stack",
+    "source": "https://snap.stanford.edu/data/sx-stackoverflow.html",
+    "vertices": 2584164,
+    "undirected_edges": 28183518,
+    "maximum_degree": 44065,
+    "maximum_core": 198,
+    "thresholds": 28341100,
+    "bin_sha256": "7ad8309781db9c6e857518f6b4c66b31f62a4f56a3a2310ae0ae392c47c03c37",
+    "rank_sha256": "053976534b00258181f16eff7d69ceacbd8c7fe5b39673604ca3626be4859974"
+  },
+  {
+    "graph": "Orkut",
+    "source": "https://snap.stanford.edu/data/com-Orkut.html",
+    "vertices": 3072441,
+    "undirected_edges": 117185083,
+    "maximum_degree": 33313,
+    "maximum_core": 253,
+    "thresholds": 119326006,
+    "bin_sha256": "d92ef276e3b83ec6f7954b012f922a3b1357af27520466853c62da8de1bf7baa",
+    "rank_sha256": "8f0138b371756ecb643af02fe6bb13d8e3bd4a17ec0d5e6ae6442dee87497889"
+  },
+  {
+    "graph": "BiomineDSAA",
+    "source": "https://github.com/toggled/uncertainty",
+    "vertices": 1008201,
+    "undirected_edges": 6722503,
+    "maximum_degree": 139624,
+    "maximum_core": 448,
+    "thresholds": 7264786,
+    "bin_sha256": "5d724957f472da920b83bb64b8bf88c8dcea37e836418896fbbde787bcc8d282",
+    "rank_sha256": "911a8c85fb35cf5c2dc0b4e3aef4cf55d3506d36aaf8b89d195e2a4cdbb34798"
+  },
+  {
+    "graph": "DBLP",
+    "source": "https://github.com/toggled/uncertainty",
+    "vertices": 618821,
+    "undirected_edges": 3301970,
+    "maximum_degree": 10614,
+    "maximum_core": 188,
+    "thresholds": 3936555,
+    "bin_sha256": "38713b389cb38f945c384c7c9b959537228d199544919cc9c77e4876bb3c623a",
+    "rank_sha256": "81a418d687f1eb4c716e7631855fa0976646d7397ca05e2af0e05bff06d64112"
+  }
+]

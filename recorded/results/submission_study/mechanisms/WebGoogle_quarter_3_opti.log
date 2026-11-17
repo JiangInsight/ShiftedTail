@@ -1,0 +1,4 @@
+graph=C:\vldb_paper2_fair\submission_study\WebGoogle_quarter\WebGoogle.bin n=218928 m=275071 dmax=1344 kmax=11 sum_core=355107 method=opti threads=1
+work opti_dp_cells=8259935 repeat_calls=207018 repeated_vertex_levels=116224
+result method=opti time=1.061s thresholds=355107 evals=562125 cells=8259935 shortcut=184589
+memcap: limit_mb=32768 peak_mb=50 exit=0

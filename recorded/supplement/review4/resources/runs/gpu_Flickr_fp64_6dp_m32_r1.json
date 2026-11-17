@@ -1,0 +1,20 @@
+{
+  "graph": "Flickr",
+  "prec": "fp64_6dp",
+  "multiply": 32,
+  "rep": 1,
+  "status": "ok",
+  "wall_s": 3.613877899973886,
+  "exe_sha256": "e03c49a22798525d95a021f8dd63f9aaddd8d473e6f52f173817642ae4e475ab",
+  "input_sha256": "b383e82a2cd3807fa6ca44d7dc91431758fcf1bd7320c305bcb70764b3396a7b",
+  "values": 378659,
+  "max_abs": 5.000000000143778e-07,
+  "mae": 1.0665771805400702e-07,
+  "match6": 0.9999022867540452,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "tight": false,
+  "coarse": true,
+  "host_peak_mib": 480,
+  "output_sha256": "a8daa9f98c9b1da25a73d5dc98de5e506cb5e37a990a0185ccd52fcc2d58b8ec"
+}

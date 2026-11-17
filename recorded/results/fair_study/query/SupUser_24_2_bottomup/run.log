@@ -1,0 +1,106 @@
+Reading graph ...
+Graph name: D:\papers\VLDB\paper2\data\study\SupUser.bin
+n = 192409, m = 714570, max_deg = 14294
+Reading time: 0.081000 s
+Thread nums: 24
+READY 0.14732
+Maximum upper bound: 61
+Upper bound time: 0.024000 s
+Init LB time: 0.004000 s
+Maximum init number: 61
+LB decomposition time: 0.037000 s
+Maximum lower bound: 19
+Parallel LB+UB time: 0.065000 s
+Parallel iterator time: 0.238000 s
+Parallel core decomposition time: 0.305000 s
+Max uncertain coreness: 36
+ANSWER 0 0.5 0.305262 0.4528564
+Maximum upper bound: 61
+Upper bound time: 0.021000 s
+Init LB time: 0.002000 s
+Maximum init number: 61
+LB decomposition time: 0.056000 s
+Maximum lower bound: 26
+Parallel LB+UB time: 0.083000 s
+Parallel iterator time: 0.201000 s
+Parallel core decomposition time: 0.285000 s
+Max uncertain coreness: 40
+ANSWER 1 0.1 0.2883709 0.7412688
+Maximum upper bound: 61
+Upper bound time: 0.022000 s
+Init LB time: 0.001000 s
+Maximum init number: 61
+LB decomposition time: 0.022000 s
+Maximum lower bound: 13
+Parallel LB+UB time: 0.048000 s
+Parallel iterator time: 0.225000 s
+Parallel core decomposition time: 0.274000 s
+Max uncertain coreness: 32
+ANSWER 2 0.9 0.277079 1.0195392
+Maximum upper bound: 61
+Upper bound time: 0.023000 s
+Init LB time: 0.002000 s
+Maximum init number: 61
+LB decomposition time: 0.042000 s
+Maximum lower bound: 22
+Parallel LB+UB time: 0.070000 s
+Parallel iterator time: 0.207000 s
+Parallel core decomposition time: 0.278000 s
+Max uncertain coreness: 38
+ANSWER 3 0.3 0.2801539 1.2997151
+Maximum upper bound: 61
+Upper bound time: 0.024000 s
+Init LB time: 0.001000 s
+Maximum init number: 61
+LB decomposition time: 0.029000 s
+Maximum lower bound: 16
+Parallel LB+UB time: 0.056000 s
+Parallel iterator time: 0.209000 s
+Parallel core decomposition time: 0.266000 s
+Max uncertain coreness: 35
+ANSWER 4 0.7 0.2699427 1.5696806
+Maximum upper bound: 61
+Upper bound time: 0.020000 s
+Init LB time: 0.002000 s
+Maximum init number: 61
+LB decomposition time: 0.043000 s
+Maximum lower bound: 24
+Parallel LB+UB time: 0.068000 s
+Parallel iterator time: 0.201000 s
+Parallel core decomposition time: 0.270000 s
+Max uncertain coreness: 39
+ANSWER 5 0.2 0.2728921 1.8425949
+Maximum upper bound: 61
+Upper bound time: 0.020000 s
+Init LB time: 0.001000 s
+Maximum init number: 61
+LB decomposition time: 0.025000 s
+Maximum lower bound: 15
+Parallel LB+UB time: 0.050000 s
+Parallel iterator time: 0.208000 s
+Parallel core decomposition time: 0.258000 s
+Max uncertain coreness: 34
+ANSWER 6 0.8 0.2609963 2.1036133
+Maximum upper bound: 61
+Upper bound time: 0.020000 s
+Init LB time: 0.001000 s
+Maximum init number: 61
+LB decomposition time: 0.039000 s
+Maximum lower bound: 20
+Parallel LB+UB time: 0.064000 s
+Parallel iterator time: 0.211000 s
+Parallel core decomposition time: 0.275000 s
+Max uncertain coreness: 37
+ANSWER 7 0.4 0.2785099 2.3821457
+Maximum upper bound: 61
+Upper bound time: 0.021000 s
+Init LB time: 0.001000 s
+Maximum init number: 61
+LB decomposition time: 0.035000 s
+Maximum lower bound: 18
+Parallel LB+UB time: 0.060000 s
+Parallel iterator time: 0.216000 s
+Parallel core decomposition time: 0.277000 s
+Max uncertain coreness: 36
+ANSWER 8 0.6 0.2796502 2.661819
+memcap: limit_mb=32768 peak_mb=135 exit=0

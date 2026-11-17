@@ -1,0 +1,75 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "boundary",
+  "method": "bottomup",
+  "ready": 0.7932106,
+  "seconds": 6.528002499981085,
+  "requests": [
+    0.5212742686271666,
+    0.5212742686271667,
+    0.5212742686271669,
+    0.5501224143422296,
+    0.5501224143422297,
+    0.5501224143422299,
+    0.39759478252042596,
+    0.397594782520426,
+    0.39759478252042607
+  ],
+  "prefixes": [
+    1.3083295999967959,
+    1.7528261999832466,
+    2.2017794999992475,
+    2.638200899993535,
+    3.143506399996113,
+    3.9199207999918144,
+    4.778289399982896,
+    5.621966299979249,
+    6.484572199988179
+  ],
+  "internal_prefixes": [
+    1.2749977,
+    1.7183639,
+    2.1686675,
+    2.6050197,
+    3.110373,
+    3.8867462,
+    4.7450628,
+    5.588742,
+    6.4513144
+  ],
+  "answer_seconds": [
+    0.4817299,
+    0.4433542,
+    0.450293,
+    0.4363401,
+    0.505337,
+    0.7763455,
+    0.8582873,
+    0.8436441,
+    0.862538
+  ],
+  "refinements": [],
+  "answer_sha256": [
+    "2787668b7b6337a943130d0dea4513aedce236d235c5a6270964cfe41ea30288",
+    "2787668b7b6337a943130d0dea4513aedce236d235c5a6270964cfe41ea30288",
+    "2787668b7b6337a943130d0dea4513aedce236d235c5a6270964cfe41ea30288",
+    "a8c816c2de705910fdd65717626a909e6b553f4e3954f46ea714ee4e527559bd",
+    "a8c816c2de705910fdd65717626a909e6b553f4e3954f46ea714ee4e527559bd",
+    "a8c816c2de705910fdd65717626a909e6b553f4e3954f46ea714ee4e527559bd",
+    "31bb8835483aa4a08eb48aec0ac99d8edf75f2cfcf520e9e80124ec5e35566ad",
+    "31bb8835483aa4a08eb48aec0ac99d8edf75f2cfcf520e9e80124ec5e35566ad",
+    "31bb8835483aa4a08eb48aec0ac99d8edf75f2cfcf520e9e80124ec5e35566ad"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\direct.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "24",
+    "4",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\boundary\\bottomup\\ans",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\boundary.txt"
+  ],
+  "binary_sha256": "8bd2163ff1ddfddc46d09f7accb7eeed373645bfe70ecebfccfc59c093297245"
+}

@@ -1,0 +1,21 @@
+{
+  "input": "WebGoogle",
+  "arm": "gpu",
+  "rep": 5,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 291.2739431000082,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "89eae2de55c9ceff4b76eb06f505e1cf7be9163b40ece30a17da1586f376ea77",
+  "host_peak_mib": 642,
+  "solver_s": 290.835,
+  "output_bytes": 41588560,
+  "output_sha256": "f4574709137f9b973c492cb1333282967b1eda350f0b7c3ddfc88e83b5314f84",
+  "values": 5198504,
+  "max_abs": 9.423000549590478e-07,
+  "mae": 2.4622325735736595e-07,
+  "match6": 0.9582229810730164,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

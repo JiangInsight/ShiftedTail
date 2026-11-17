@@ -1,0 +1,19 @@
+{
+  "input": "CN15kProjection",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 2,
+  "status": "ok",
+  "process_wall_s": 0.3100335999915842,
+  "budget_s": 300,
+  "input_sha256": "0e70349bd6c9d8252793d8510f084e2bfb8185833308cc91748093e205ebac6f",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 183787,
+  "max_abs": 9.9342756243459e-13,
+  "mae": 2.939359195960842e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_bytes": 1470692,
+  "output_sha256": "343b4cb1343079520d4f2c960818b779f44dfa163ccdedc046d714621f173226"
+}

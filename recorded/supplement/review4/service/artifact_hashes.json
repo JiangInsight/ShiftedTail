@@ -1,0 +1,18 @@
+{
+  "WebGoogle": {
+    "WebGoogle.bin": "89eae2de55c9ceff4b76eb06f505e1cf7be9163b40ece30a17da1586f376ea77",
+    "rank": "afe2e5079bae28b743e9d32a29ec8afc23a29fa934a4e446d4e677ffe9b276e3",
+    "ucef.thr": "618fbf8b0404b727bb58dca1639cdf49d14533b6a92555160cdee0edca6f0590",
+    "ucef.ord": "af8f188e6df9bd9aabd5d1da1ebb0f09ea2e3e41292ed14996dc26d55f3ebffc",
+    "frontier.thr": "18698c263ab19123d9c8dd2526000adc897015bf8e5be2e797b458107b221039",
+    "frontier.ord": "5f1588f27245c4dcacb2771f6c4b1b045767b0697c3a22ff30aa6d2b6a11a96e"
+  },
+  "Stack": {
+    "Stack.bin": "7ad8309781db9c6e857518f6b4c66b31f62a4f56a3a2310ae0ae392c47c03c37",
+    "rank": "053976534b00258181f16eff7d69ceacbd8c7fe5b39673604ca3626be4859974",
+    "ucef.thr": "72b9050ffc87245793aa25f16e1380fbe1e9ec747a292cd8a4f6d0cb4e950053",
+    "ucef.ord": "92d2725632ab1ce03121db549336a3d7564d10d12ad7ad53001b6600c795207e",
+    "frontier.thr": "0dc4a1eff9f06b990c865917a5b06172a1430cdebf73163a4177d1930d207b3e",
+    "frontier.ord": "3755facd809d51ca16f380aac8cb6eabc892d68de8371608729f6794ec0136d2"
+  }
+}

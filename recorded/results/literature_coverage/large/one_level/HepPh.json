@@ -1,0 +1,17 @@
+{
+  "graph": "HepPh",
+  "workers": 24,
+  "concurrent_levels": 1,
+  "status": "ok",
+  "wall_s": 92.28024169997661,
+  "budget_s": 7200,
+  "input_sha256": "ddc86597f4cb7f8ca0b2b17c0da2ab5fb8b243373bc3f1b751f975b840d7bf6d",
+  "exe_sha256": "dd504fa36a3502fb81dd371e5731e96abb3c168b8c3a7de0fbac666dfb7628c5",
+  "base_source_sha256": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c",
+  "diagnostic_source_sha256": "de7a68d00d1ae9c3c6bada3cc1008ff37849aa99977ef2b1d76c39d231440c8f",
+  "check": "ok",
+  "verify_wall_s": 3.2960543999797665,
+  "output_sha256": "0a6838b0a4b512dcce0ef551d7ff956da483853ae47395ae601fca31d752ecb4",
+  "output_bytes": 26795760,
+  "identical_to_frozen_reference": true
+}

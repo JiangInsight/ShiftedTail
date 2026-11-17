@@ -1,0 +1,76 @@
+{
+  "graph": "Flickr",
+  "workers": 24,
+  "rep": 2,
+  "method": "index",
+  "cmd": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\index_queries.exe",
+    "D:\\papers\\VLDB\\paper2\\results\\study\\flickr_native_cert\\values.thr",
+    "24",
+    "D:\\papers\\VLDB\\paper2\\data\\study\\Flickr.rank",
+    "C:\\vldb_paper2_fair\\answers\\Flickr_24_2_index\\result"
+  ],
+  "exe_sha256": "5cf0b7eee9c1820989dacbe927e58370c271608ff7e0d2ac6686921eab8adc8e",
+  "exit": 0,
+  "process_s": 0.02203439999721013,
+  "seconds": [
+    0.0016379,
+    0.0016188,
+    0.0003316,
+    0.0004279,
+    0.0004267,
+    0.0004163,
+    0.0004167,
+    0.0003453,
+    0.0004657
+  ],
+  "prefix_s": [
+    0.0038301,
+    0.0054647,
+    0.0058096,
+    0.0062488,
+    0.0066881,
+    0.0071159,
+    0.0075445,
+    0.0079015,
+    0.0083788
+  ],
+  "status": "ok",
+  "outside_enclosure": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambiguous_vertices": [
+    202,
+    98,
+    40,
+    131,
+    14,
+    121,
+    38,
+    36,
+    186
+  ],
+  "answer_sha256": [
+    "adc71430a454e47251cbda1fad1698f912a9cec0679107cd3242486a0d7d2a09",
+    "032dce61e8732d44854290ec80e7bec6abce2ad44f3e5180e8553c8f0097511a",
+    "29219ba786f3d50b5628b07d3913d857e5884fb035388b645a8df8488029cb5d",
+    "74e30fb618be6ac948c695083df0308ad92fa51e1624c4565e1313170e2ef6d8",
+    "0f3c733878540cdae4c8be4720eb280021713a15f88ba5dbf335462160174539",
+    "0ecb117457e323aa4a0966881006e7d10e4844660a3fc4ccb74786e86da6c93e",
+    "c57164b000ed0623f6a33b9a3694c2b09d2e50cf113c4956fd7a1761e47a5ad0",
+    "b4d0fe8058769aee581c58bba48786c97fbcfc7d5ee47f7b4a80fd0c15ac889e",
+    "1d4fbb3078599582f6f79c7ac83d500c29f1c46816af3450e1cbd119d65ed78d"
+  ],
+  "rank_build_s": 0.016984199988655746,
+  "full_construction_s": 0.7181052999803796
+}

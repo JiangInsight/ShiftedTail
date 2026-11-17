@@ -1,0 +1,12 @@
+graph=C:\vldb_paper2_fair\matched\dblp_full\DBLP.bin n=618821 m=3301970 dmax=10614 kmax=188 sum_core=3936555 method=frontier pmodel=5 threads=24 L=29 load=0.06s prep=0.12s
+binomial seed rows=4097 p=0.39346933364868164
+  levels down to k=165 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=141 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=117 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=93 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=69 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=45 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=21 done: 0.2s (sweep 0.1s, peel 0.1s)
+  levels down to k=1 done: 1.4s (sweep 0.3s, peel 1.1s)
+result method=frontier time=1.39s sweep=0.29s peel=1.07s thresholds=3936555 theta_sum=1754687.538489 hash=9d399abf4d1222d9 evals=4549531 cells=1.228e+09 shortcut=3760851 exact_pops=175704 pushes=15699442
+memcap: limit_mb=32768 peak_mb=827 exit=0

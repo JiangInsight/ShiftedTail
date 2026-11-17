@@ -1,0 +1,5 @@
+graph,witness,verifier_exit,values,max_lower_deficit,max_upper_excess,unique_rounding_6dp
+WebGoogle,threshold / rank order,3,5198504,9.9812213171330335e-13,0.99999906407095729,151
+WebGoogle,tie-aware postprocessor,0,5198504,9.9812213171330335e-13,2.0338031259115044e-10,5197723
+Stack,threshold / rank order,3,28341100,9.9999425456256518e-13,1.0000000000000002,0
+Stack,tie-aware postprocessor,0,28341100,9.9999425456256518e-13,2.0957007288900577e-10,28335512

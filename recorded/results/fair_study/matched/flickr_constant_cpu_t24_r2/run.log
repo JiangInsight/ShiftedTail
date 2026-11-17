@@ -1,0 +1,3 @@
+graph=C:\vldb_paper2_fair\matched\flickr_constant\Flickr.bin n=24125 m=300836 dmax=546 kmax=225 sum_core=378659 method=frontier pmodel=5 threads=24 L=21 load=0.00s prep=0.01s
+result method=frontier time=0.00s sweep=0.00s peel=0.00s thresholds=378659 theta_sum=51115.716975 hash=a9537a23dc47d360 evals=0 cells=0 shortcut=0 exact_pops=0 pushes=0
+memcap: limit_mb=32768 peak_mb=17 exit=0

@@ -1,0 +1,16 @@
+graph=C:\vldb_paper2_fair\submission_study\WebGoogle_quarter\WebGoogle.bin n=218928 m=275071 dmax=1344 kmax=11 sum_core=355107 method=frontier pmodel=5 threads=1 L=23 load=0.00s prep=0.02s
+binomial seed rows=0 p=0.77323228120803833
+  levels down to k=11 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=10 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=9 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=8 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=7 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=6 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=5 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=4 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=3 done: 0.2s (sweep 0.0s, peel 0.1s)
+  levels down to k=2 done: 0.3s (sweep 0.0s, peel 0.3s)
+  levels down to k=1 done: 0.6s (sweep 0.1s, peel 0.6s)
+work sweep_cells=29072569 sweep_factors=1753230 peel_cells=15459387 repeat_calls=297804 repeated_vertex_levels=157082
+result method=frontier time=0.64s sweep=0.07s peel=0.56s thresholds=355107 theta_sum=172063.390924 hash=60a0053ee2409185 evals=297804 cells=1.546e+07 shortcut=155971 exact_pops=199136 pushes=588831
+memcap: limit_mb=32768 peak_mb=50 exit=0

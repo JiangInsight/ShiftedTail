@@ -1,0 +1,8 @@
+{
+  "binary_p": 0.13499142229557037,
+  "values": 378659,
+  "levels": 225,
+  "max_abs_upper": 5.641214337357968e-16,
+  "within_1e9": true
+}
+memcap: limit_mb=32768 peak_mb=802 exit=0

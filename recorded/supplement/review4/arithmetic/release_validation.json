@@ -1,0 +1,17 @@
+{
+  "msvc_sources": {
+    "build.bat": "3255ea70aac402156e1e084ff650b610174a20601ea8df15279198d3d6e0b0ae",
+    "verify_thresholds.cpp": "a35b72425ff0f6a8a6dab2de164e0e825f75725d59f50c8c66b70e02d549cbc7",
+    "verified_tail.hpp": "32e36c646296809ddbc44bf968a798c913f922ed738f2d15b2902be7f514e5e5"
+  },
+  "msvc_binary_sha256": "c1061ff07d7a8d13c3d2ddc3f8afdfd3f2c531dc7e818f5abe7b58d88054e8dc",
+  "wiki_status": 0,
+  "windows": "Windows-11-10.0.26200-SP0",
+  "retry_positive_star": 0,
+  "portable_positive_star": 0,
+  "bad_input": 1,
+  "fma_fused_instructions": [
+    "vfmadd231sd"
+  ],
+  "portable_fused_instructions": []
+}

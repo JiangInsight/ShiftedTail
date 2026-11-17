@@ -1,0 +1,125 @@
+{
+  "graph": "SupUser",
+  "workers": 1,
+  "rep": 2,
+  "method": "refined",
+  "stages": {
+    "build": 1.9027861999929883,
+    "verify": 0.5548588999954518,
+    "rank": 0.0361931000079494,
+    "query": 0.04920860001584515
+  },
+  "status": "ok",
+  "prefix_s": [
+    0.007405,
+    0.0101036,
+    0.0143181,
+    0.0170678,
+    0.0198903,
+    0.0226264,
+    0.0253641,
+    0.0283249,
+    0.0312324
+  ],
+  "refinements": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "build_s": 2.4938381999963894,
+  "answer_sha256": [
+    "d25ca08f56b70b694623ab36d048f80ade8bb6ba083f90a67da6e681456a667f",
+    "34480a4b31ca464ec989e16f2f313752ad8dc40e4c99b868e7dfcb0b51cdc902",
+    "46336c77bebf200acf123131b7b5bbcb5071a268624d9c865bf1338bf9b69e45",
+    "4ab07ce6af69ea62a44fd494e24247f2cff1ea50c4461a03935e5a1b7753c6da",
+    "3a766474a2c2fd53fb4f1099a75be0511ec978ad4ee2db754bd6c0d3a452a711",
+    "5531d6e8a417de2aa92f392c3830cb5f906f95990474a910893d48119069a1b7",
+    "26c6543c900441df68b4f6cad5dc55dac208efee53643875d84f6201c530d8ae",
+    "175fab1fe1262c07e054de9090c2e1a83ee557ef320077f571a44a5bc91ae806",
+    "75fa9fcfa8dbcdf46effa36533e14dc9b14dcd9f8715bba35b5be4378c80eb45"
+  ],
+  "disagreements": {
+    "topdown": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bottomup": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "binary_sha256": "e85fd3a94647d812a78c579e1be75197d09e357ced004c21e37c3c5f3efee8c0",
+  "exec_sha256": {
+    "build": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+    "verify": "222a3a118f0814fa71f958a3688dc6ecb469dccb44f6f9d00adf956ebe877c5d",
+    "rank": "1dc460cd10478744558b3c88a4222b58385ca29d62db5ebb7b11778285da1b56",
+    "query": "97341085afa0381dd9684c340a2b4adb3240d0b5fd31e3879b3852e8d6d6b366"
+  }
+}

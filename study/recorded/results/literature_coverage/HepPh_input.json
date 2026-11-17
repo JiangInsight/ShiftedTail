@@ -1,0 +1,16 @@
+{
+  "graph": "HepPh",
+  "vertices": 28093,
+  "edges": 3148447,
+  "maximum_degree": 4909,
+  "maximum_core": 410,
+  "values": 3348855,
+  "p_min": 0.39346933364868164,
+  "p_max": 1.0,
+  "binary_sha256": "ddc86597f4cb7f8ca0b2b17c0da2ab5fb8b243373bc3f1b751f975b840d7bf6d",
+  "source": "https://nrvis.com/download/data/dynamic/ca-cit-HepPh.zip",
+  "input_sha256": "79f9bc88cdd026a920094feddd7099e252665dd3ef402b904457f23cc8ffec69",
+  "rule": "1-exp(-multiplicity/2)",
+  "raw_rows": 4596803,
+  "loops": 0
+}

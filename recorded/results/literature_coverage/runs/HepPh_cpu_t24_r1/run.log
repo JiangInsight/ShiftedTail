@@ -1,0 +1,22 @@
+graph=C:\vldb_paper2_fair\literature_coverage\HepPh\HepPh.bin n=28093 m=3148447 dmax=4909 kmax=410 sum_core=3348855 method=frontier pmodel=5 threads=24 L=27 load=0.04s prep=0.09s
+binomial seed rows=4097 p=0.39346933364868164
+  levels down to k=387 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=363 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=339 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=315 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=291 done: 0.1s (sweep 0.0s, peel 0.0s)
+  levels down to k=267 done: 0.2s (sweep 0.1s, peel 0.1s)
+  levels down to k=243 done: 0.4s (sweep 0.1s, peel 0.3s)
+  levels down to k=219 done: 0.7s (sweep 0.2s, peel 0.5s)
+  levels down to k=195 done: 0.9s (sweep 0.2s, peel 0.7s)
+  levels down to k=171 done: 1.2s (sweep 0.2s, peel 1.0s)
+  levels down to k=147 done: 1.6s (sweep 0.2s, peel 1.4s)
+  levels down to k=123 done: 2.1s (sweep 0.3s, peel 1.8s)
+  levels down to k=99 done: 2.8s (sweep 0.3s, peel 2.4s)
+  levels down to k=75 done: 3.4s (sweep 0.4s, peel 3.0s)
+  levels down to k=51 done: 3.9s (sweep 0.4s, peel 3.5s)
+  levels down to k=27 done: 4.3s (sweep 0.4s, peel 3.8s)
+  levels down to k=3 done: 4.5s (sweep 0.5s, peel 4.0s)
+  levels down to k=1 done: 4.5s (sweep 0.5s, peel 4.0s)
+result method=frontier time=4.55s sweep=0.48s peel=4.02s thresholds=3348855 theta_sum=1472388.996468 hash=3ff59c7b418073a1 evals=7640177 cells=6.936e+10 shortcut=2916118 exact_pops=432737 pushes=47360285
+memcap: limit_mb=32768 peak_mb=260 exit=0

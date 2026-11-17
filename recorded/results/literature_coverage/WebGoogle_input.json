@@ -1,0 +1,15 @@
+{
+  "graph": "WebGoogle",
+  "vertices": 875713,
+  "edges": 4322051,
+  "maximum_degree": 6332,
+  "maximum_core": 44,
+  "values": 5198504,
+  "p_min": 1.1918763220819528e-07,
+  "p_max": 0.9999998807907104,
+  "binary_sha256": "89eae2de55c9ceff4b76eb06f505e1cf7be9163b40ece30a17da1586f376ea77",
+  "source": "https://snap.stanford.edu/data/web-Google.html",
+  "input_sha256": "c68613b324afdb1c4c506317478abf196c532e1d18d39b58f1f7f61157a1313b",
+  "seed": 20261106,
+  "rule": "Uniform weights once per unordered edge in ascending endpoint order"
+}

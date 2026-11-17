@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.patch text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.md text eol=lf
+*.bin binary
+*.thr binary
+*.pdf binary
+*.png binary
+recorded/**/*.log -whitespace
+*.patch -whitespace
+docs/validation/*.log -whitespace

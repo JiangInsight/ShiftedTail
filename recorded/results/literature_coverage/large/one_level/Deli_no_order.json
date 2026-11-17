@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "wall_s": 1751.3807952999778,
+  "workers": 24,
+  "concurrent_levels": 1,
+  "budget_s": 7200,
+  "input_sha256": "77984f083e250843e924c69ec2296c20b7583301452d574faefe89f22aae8e13",
+  "exe_sha256": "dd504fa36a3502fb81dd371e5731e96abb3c168b8c3a7de0fbac666dfb7628c5",
+  "output_sha256": "57b2a03d9a84b96dd1a737567f7609e38b19519061e76544687a071034ca7fe5",
+  "identical_to_verified_file": true
+}

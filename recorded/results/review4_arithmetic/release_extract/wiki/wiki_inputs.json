@@ -1,0 +1,14 @@
+{
+  "WikiTalkFR.bin": {
+    "bytes": 60049412,
+    "sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a"
+  },
+  "reference.thr": {
+    "bytes": 18239928,
+    "sha256": "1cb29ba8eb43aead5a7546d48a7db472bc7efbb9f4700b5446a439e33b5e3806"
+  },
+  "removals.bin": {
+    "bytes": 9120684,
+    "sha256": "c959ae15424f9f5d36305e50b24dc0ba01b29463a5d334e7f9c70a7cec25c31d"
+  }
+}

@@ -1,0 +1,38 @@
+# Certified deployment of two threshold producers
+
+This experiment starts UCEF from the probabilistic CSR graph. The binary is the in-memory reconstruction of Yang et al./Wen et al. used for the paper's construction benchmark. Its fixed-point rows are written to `ucef.thr`. A new deterministic postprocessor reads only this table and the graph. At each support-core level it orders increasing candidate thresholds, grouping a sorted run within `1e-11` of the run's first candidate. A singleton is emitted directly. Within each run it removes vertices whose current residual upper-tail estimate is at most their proposed threshold plus `2e-10`, revisiting failed neighbors after a removal. Generating an order is allowed to fail. The heuristic's local slack and clipped recurrence supply no certificate.
+
+A fresh verifier checks the full lower-superlevel and upper-suffix inequalities. Its global `1e-9` gate must pass before the shared inclusive query binary can read a table. Frontier emits its own order during construction. Both services pay for rank export, verification, input reads, materialization, lazy loading on the first ambiguous request, and writing and closing every dense answer. No table, order, or answer from Frontier participates in UCEF construction, witness generation, or certification. Boundary **requests** are fixed from the previously archived Frontier fixture, which is shared by all services as an independent source of query workloads.
+
+## Reproduce
+
+In a complete paper2 workspace, place these files in `code/revisions/review4_service/`. Use the study's input preparation for original-precision Stack and Web-Google. The reference paths, executable paths and environment variables are enumerated in `study.py`; set `PAPER2_ROOT` and `PAPER2_WORK` to override the checkout and scratch locations. On Windows use the same MSVC, MinGW-w64, GMP, GSL, Dai author source and memory-cap launcher as the main artifact. The frozen author's direct-source commit is `315dee85ff5aae487c296a99fb600304bbee0f24` in [qq-dai/UncertainCore](https://github.com/qq-dai/UncertainCore). Use a fresh results/scratch directory for each measured reproduction (completed stages are cached). Commands below use one exclusive timing slot.
+
+```powershell
+python code/revisions/review4_service/study.py setup
+python code/revisions/review4_service/build.py
+python code/revisions/review4_service/study.py certify
+python code/revisions/review4_service/study.py manifest
+python code/revisions/review4_service/test_witness.py
+python code/revisions/review4_service/study.py repeat_prep
+python code/revisions/review4_service/study.py strict_verify
+python code/revisions/review4_service/study.py queries
+python code/revisions/review4_service/check_value_sort.py
+python code/revisions/review4_service/report.py
+```
+
+The original request driver differs only in parsing a request file, iterating the specified horizon, and printing binary64 values at round-trip precision. Both index producers call exactly the same executable with the same fixed service radius. The direct driver links the author routines. Datasets, rank, threshold, permutation, executable and answer SHA-256 digests are recorded. For each producer and graph, three preparations run to completion with byte-identical values and orders. We apply the median total preparation cost to each fresh query session and report crossings under each of the three observed charges. Rank export is charged in full to either deployment. Stage medians may sum to a value slightly different from the median total. These are independent process starts on a machine with ordinary OS file caching. The parent records external wall time through each flushed response, so startup time contributes to the first response. Successive full-session invocations rotate the method order. All timing data uses 24 configured threads and a 32-GiB Windows job-object cap. Each distinct workload has one timed replay per listed method.
+
+`crossings.csv` uses a strict comparison of cumulative elapsed seconds. First means the first cheaper prefix. Sustained means the first cheaper prefix that stays cheaper through the measured horizon. An empty field means no such prefix. At boundary requests the author methods can give different answers from both certified producers. Their timings there are comparisons with an approximate direct answer whenever the associated disagreement counts are positive. Both historical direct methods are checked against every vector for three original-sequence repetitions.
+
+## Files
+
+The deployed MSVC strict-FP checker has SHA-256 `c1061ff07d7a8d13c3d2ddc3f8afdfd3f2c531dc7e818f5abe7b58d88054e8dc`. Separate processes checked all twelve table/order pairs produced by the two builders on the two graphs over three repetitions. Only these strict-check wall times enter the reported preparation charges. The original, first permutation and boundary response replays preceded the strict release's recheck of the same immutable files. The remaining request sessions started after the strict gate passed. `verifier_versions.csv` retains the earlier checker's measurements and endpoints under a separate label.
+
+- `stages.csv` gives median build, order, verification, rank and total preparation seconds, three-run total minima/maxima, first-run Windows peak process commit (whole MiB), and both independent certificate bounds. Frontier's zero standalone order time means the builder wrote its order during its measured build.
+- `prefixes.csv` includes every fresh external-clock prefix and the three-run preparation range. `prep_repetitions.csv` contains all twelve producer/graph/repetition measurements. `crossings.csv` also gives each preparation repetition's implied crossing. A direct solver has zero index preparation and pays for graph input/sort in the query driver. The interval around an index prefix varies the observed preparation time only.
+- `crossover_distribution.csv` counts the observed first and sustained crossings against the graph's faster historical direct method, with explicit noncrossings and an all-responses-equal subset. These are frequencies across the specified finite set of stress workloads.
+- `direct_validation.csv` counts differing vertex answers per fresh direct response. `degree_one_disagreements.json` gives independently decidable leaf examples when a difference involves degree one. A leaf connected by an edge of probability p has core number one exactly for positive confidence at most p.
+- `archived_original_validation.csv` checks original direct answer digests from three earlier repetitions of each method/graph. `archived_original_comparison.csv` uses those direct prefix medians and the new index preparations under the earlier common internal-query clock. `raw_records.zip` includes the original author-method logs alongside the new per-stage logs/commands, external timings and full-vector digests.
+- `reproduction.zip` includes the local study sources, the unchanged reconstructed UCEF builder source/executable, measured Frontier/verification/rank executables and their source, the generated query driver, preparation scripts, the memory-cap launcher, and prior direct digests. Place `scratch_base/ucef.exe` in `PAPER2_WORK`. Supply the cited author checkout, GMP/GSL and compiler runtimes there. Set `PAPER2_GCC` or `PAPER2_CAP` when their locations differ. The measured Python, NumPy and compiler versions and DLL digests are in `environment.json`.
+- On an unpacked supplement, `python <path-to-audit.py> <service-directory>` checks the small source ZIP, all timing crossover arithmetic, SHA-256 correspondences, both producers' output agreement, and the historical direct traces using only the Python standard library.

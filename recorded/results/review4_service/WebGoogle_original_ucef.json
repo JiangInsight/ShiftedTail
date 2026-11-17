@@ -1,0 +1,122 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "original",
+  "method": "ucef",
+  "ready": 0.0468757,
+  "seconds": 0.2106655000243336,
+  "requests": [
+    0.5,
+    0.1,
+    0.9,
+    0.3,
+    0.7,
+    0.2,
+    0.8,
+    0.4,
+    0.6
+  ],
+  "prefixes": [
+    0.14620610000565648,
+    0.1540629000228364,
+    0.1610260000161361,
+    0.1698880000039935,
+    0.17682750002131797,
+    0.18327120001777075,
+    0.19067410001298413,
+    0.19683970001642592,
+    0.20339740000781603
+  ],
+  "internal_prefixes": [
+    0.0579495,
+    0.0658102,
+    0.0727774,
+    0.081644,
+    0.0885977,
+    0.0950289,
+    0.1024223,
+    0.1086059,
+    0.115146
+  ],
+  "answer_seconds": [
+    0.0102688,
+    0.0078467,
+    0.0069532,
+    0.0088528,
+    0.0069392,
+    0.0064182,
+    0.0073796,
+    0.0061683,
+    0.0065274
+  ],
+  "refinements": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "answer_sha256": [
+    "49a072f41e4baff30b389df3a2c0b9b5ecfe48ad90aad4c49acec8d75d0e5810",
+    "66e720a76b464a794c69782de4c65c8d20b20965c2f1326313a9000d4b5096e9",
+    "20b89e49db63e277d108e56b19577e53d0c49928d299d607923b481759effb6c",
+    "6f3c016db7e9b88668075aba429df5afcb7377729eb14ffd57ec48b2a3296380",
+    "a739536c104a4b4100e95da87c649b655d3048a61951600659676eef4e93c23c",
+    "7cb6d29c13e34e347cdbe10c4f2621d604fb9ce73e01e28f6bf71ee0ca66401f",
+    "3b07827cef440e03d440bc12cd0b22c3b61c591c9302ce5b25d229967a38d27e",
+    "661514222a7ff971074a481c57d008d8a5a68cee788321451c3d9ea8cb6ce276",
+    "155081103703bd81979936d2df527990ac980668124ab0bdb900accd2daa8810"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\index.exe",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\ucef.thr",
+    "24",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\rank",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\original\\ucef\\ans",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\original.txt"
+  ],
+  "binary_sha256": "3cb42aea5e5c023ca2aa48945b28800870b8213cd046d35bbf75f9acc4cc682b"
+}

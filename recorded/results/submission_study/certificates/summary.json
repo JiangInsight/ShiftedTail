@@ -1,0 +1,83 @@
+[
+  {
+    "graph": "Stack",
+    "values": 28341100,
+    "table_bytes": 226731176,
+    "extra_witness_bytes": 113366776,
+    "values_sha256": "0dc4a1eff9f06b990c865917a5b06172a1430cdebf73163a4177d1930d207b3e",
+    "witness_sha256": "3755facd809d51ca16f380aac8cb6eabc892d68de8371608729f6794ec0136d2",
+    "build_s": [
+      38.21132930001477,
+      38.63082259998191,
+      38.64129169998341
+    ],
+    "verify_s": [
+      10.996000899991486,
+      11.767955599993002,
+      11.837165999982972
+    ],
+    "build_peak_mib": [
+      3324,
+      3327,
+      3324
+    ],
+    "verify_peak_mib": [
+      808,
+      810,
+      808
+    ],
+    "lower_deficit": 2.727151837689235e-12,
+    "upper_excess": 1.7713608357894375e-12,
+    "unique_six_decimal": 28341086
+  },
+  {
+    "graph": "Wiki-Pe",
+    "values": 2279811,
+    "table_bytes": 18239928,
+    "extra_witness_bytes": 9120684,
+    "values_sha256": "1cb29ba8eb43aead5a7546d48a7db472bc7efbb9f4700b5446a439e33b5e3806",
+    "witness_sha256": "c959ae15424f9f5d36305e50b24dc0ba01b29463a5d334e7f9c70a7cec25c31d",
+    "build_s": [
+      65.24535219999962
+    ],
+    "verify_s": [
+      0.6062251999974251,
+      0.4912446000089403,
+      0.5166453999991063
+    ],
+    "build_peak_mib": [
+      708
+    ],
+    "verify_peak_mib": [
+      138,
+      139,
+      138
+    ],
+    "lower_deficit": 9.96616355439872e-13,
+    "upper_excess": 1.5545342790801444e-12,
+    "unique_six_decimal": 2279810
+  },
+  {
+    "graph": "Deli, one level in flight",
+    "values": 138505284,
+    "table_bytes": 1108044432,
+    "extra_witness_bytes": 554023296,
+    "values_sha256": "57b2a03d9a84b96dd1a737567f7609e38b19519061e76544687a071034ca7fe5",
+    "witness_sha256": "3c0c735cb9da987f8c6c8a4200b64e998523404c6fa3f0519513d5f8a44204d1",
+    "build_s": [
+      1733.0598878000164
+    ],
+    "verify_s": [
+      88.35803419997683
+    ],
+    "build_peak_mib": [
+      16820
+    ],
+    "verify_peak_mib": [
+      5394
+    ],
+    "lower_deficit": 6.2669869294040844e-12,
+    "upper_excess": 2.245093000396992e-12,
+    "unique_six_decimal": 138505216
+  }
+]

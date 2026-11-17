@@ -1,0 +1,32 @@
+{
+  "graph": "Flickr",
+  "csr_vertex_ids": [
+    1986,
+    1987
+  ],
+  "degrees": [
+    1,
+    1
+  ],
+  "eta": 0.5,
+  "edge_probability": 0.5,
+  "inclusive_truth": [
+    1,
+    1
+  ],
+  "actual_answers": {
+    "point": [
+      0,
+      0
+    ],
+    "refined": [
+      1,
+      1
+    ],
+    "dai_topdown": [
+      1,
+      1
+    ]
+  },
+  "input_sha256": "03ffdd7f6f6ddaa4bc982ec049bd6c8d60bf2e369fe942d22e2abf695690e181"
+}

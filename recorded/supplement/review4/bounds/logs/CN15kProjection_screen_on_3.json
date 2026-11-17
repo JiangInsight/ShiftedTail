@@ -1,0 +1,40 @@
+{
+  "graph": "CN15kProjection",
+  "arm": "screen_on",
+  "rep": 3,
+  "status": 0,
+  "wall_s": 0.6872261000098661,
+  "graph_sha256": "0e70349bd6c9d8252793d8510f084e2bfb8185833308cc91748093e205ebac6f",
+  "binary_sha256": "88b62095dc326ae32d154f729e4cb994bba70ba12b5182dfa9d54065796bb242",
+  "flags": {
+    "OMP_NUM_THREADS": "1",
+    "UTHR_TOL": "1e-12",
+    "UTHR_GROUP_BASE": "1",
+    "UTHR_INDEXED": "1",
+    "UTHR_COALESCE": "1",
+    "UTHR_CERT_ORDER": "C:\\vldb_paper2_fair\\review4_bounds\\CN15kProjection_screen_on_3.ord",
+    "REV_BOUND": "shift",
+    "UTHR_TAIL_SCREEN": "1"
+  },
+  "work": {
+    "sweep_cells": 15164496,
+    "sweep_factors": 355400,
+    "peel_cells": 177978290,
+    "repeat_calls": 366963,
+    "repeated_vertex_levels": 140198
+  },
+  "maintenance": {
+    "notices": 0,
+    "ranked_probes": 0,
+    "binomial_queries": 0,
+    "binomial_misses": 0
+  },
+  "theta_sha256": "761969519e5de6ee7551c977da47dfa90edcbb291e1559ea10d95530eece9555",
+  "order_sha256": "b4a8e0a155c59bf0052a499165f1824c4a8676b4028b57464cc42b3fe9ae2a83",
+  "ladder_length": 23,
+  "verify_status": 0,
+  "verify_s": 0.19335980000323616,
+  "values": 183787,
+  "Dminus": 2.8710367416806553e-13,
+  "Dplus": 1.172284491701703e-12
+}

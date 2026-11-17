@@ -1,0 +1,21 @@
+{
+  "input": "biominedsaa_full",
+  "arm": "gpu",
+  "rep": 2,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 296.0830500999873,
+  "budget_s": 1800,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "599a6dfd24f770fa098d6f4439dbf50f1de0740013fc6625571ee6d4c868de10",
+  "host_peak_mib": 735,
+  "solver_s": 295.411,
+  "output_bytes": 58123664,
+  "output_sha256": "c8457ddd9a9a76b6e7b0921c569512a8539a158ed6b29fa1ce07263dd9426f81",
+  "values": 7264786,
+  "max_abs": 2.1439864724949248e-05,
+  "mae": 2.5941557767524225e-07,
+  "match6": 0.935755850206737,
+  "above_1e5": 89,
+  "above_1e6": 163053
+}

@@ -1,0 +1,75 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "high",
+  "method": "topdown",
+  "ready": 0.8120876,
+  "seconds": 8.233763900003396,
+  "requests": [
+    0.6249109470223493,
+    0.9415061338253546,
+    0.7902861234749231,
+    0.9231801019510019,
+    0.7369723436366711,
+    0.9667034623671827,
+    0.8819071562847262,
+    0.8614953074873182,
+    0.846842081274488
+  ],
+  "prefixes": [
+    1.6011389000050258,
+    2.221818499994697,
+    2.8950089999998454,
+    3.659354400006123,
+    4.543623800011119,
+    5.389819700008957,
+    6.311419700010447,
+    7.256424299994251,
+    8.203089400019962
+  ],
+  "internal_prefixes": [
+    1.5673837,
+    2.1869242,
+    2.8614435,
+    3.6258405,
+    4.5100128,
+    5.3561624,
+    6.2778069,
+    7.2228116,
+    8.1694854
+  ],
+  "answer_seconds": [
+    0.7552371,
+    0.6195286,
+    0.6745084,
+    0.7643822,
+    0.884151,
+    0.8461195,
+    0.9216122,
+    0.9449749,
+    0.9466469
+  ],
+  "refinements": [],
+  "answer_sha256": [
+    "46e4f83e94398afa3c7522f27424cf4cf7ad504a9825934dae59c616ef7c9313",
+    "175cdbf5132393348ed6c46b50eabcea629d1edb438303beecaf0783c16bd30f",
+    "4829e40ca4399e4ba9b017b7a4160bc985fca898667baf1303428cccb0974a2f",
+    "6994b7d4d5bfaa41c8633e7075a366f2603289252731311b7925b3375709d9c5",
+    "ae25c65ff35bb5831e0af5d8c8fe60c1e62b0bf3fa97f94ed61c1cf59ffb17a4",
+    "b5a4c715819494d7a48a94a69e4abe17c434f0a2306699062f9637d8fd48764d",
+    "5804cfff47aec4f68de2a69962a93c542c6140f68d004d8cfb29e50709f1f0fb",
+    "bd0d4577fb8733ddf871dc0997dd5a21bcb98f35cef1412d349d2dabd5c372d0",
+    "d0c465034de763e7ed876cb6fd7f0213a8be5c1f2538df1d8257f67cfc30721d"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\direct.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "24",
+    "6",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\high\\topdown\\ans",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\high.txt"
+  ],
+  "binary_sha256": "8bd2163ff1ddfddc46d09f7accb7eeed373645bfe70ecebfccfc59c093297245"
+}

@@ -1,0 +1,26 @@
+{
+  "graph": "Twitter",
+  "arm": "no_shift",
+  "rep": 2,
+  "status": "ok",
+  "seconds": 8.052891900006216,
+  "budget_s": 300,
+  "workers": 1,
+  "exe_sha256": "75db41bf7fddb9c7849c55e010697528c507fd6b9574df22a78fc1cb987b03a3",
+  "input_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "values": 229574,
+  "max_abs": 0.0,
+  "mae": 0.0,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "work": {
+    "sweep_cells": 23437927,
+    "sweep_factors": 431790,
+    "peel_cells": 14218623468,
+    "repeat_calls": 2585230,
+    "repeated_vertex_levels": 169762
+  },
+  "host_peak_mib": 14,
+  "output_sha256": "ae89349fe91e26ad3c2e2f63b6a04b1039ecaac85c9c696ad7e9b5249bfaa417"
+}

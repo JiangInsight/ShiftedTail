@@ -1,0 +1,74 @@
+{
+  "graph": "SupUser",
+  "workers": 24,
+  "rep": 1,
+  "method": "bottomup",
+  "cmd": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\dai_queries.exe",
+    "D:\\papers\\VLDB\\paper2\\data\\study\\SupUser.bin",
+    "24",
+    "4",
+    "C:\\vldb_paper2_fair\\answers\\SupUser_24_1_bottomup\\result"
+  ],
+  "exe_sha256": "f54ac143d9dffcf333fb773e9f82491d485cf1e65436775a990b459ed77e4a7c",
+  "exit": 0,
+  "process_s": 2.7206897999858484,
+  "seconds": [
+    0.3183902,
+    0.2708299,
+    0.2799007,
+    0.2835157,
+    0.2725177,
+    0.269242,
+    0.2806619,
+    0.2900183,
+    0.3028741
+  ],
+  "prefix_s": [
+    0.4479768,
+    0.7188499,
+    0.9999946,
+    1.2835328,
+    1.5560806,
+    1.8253459,
+    2.1060289,
+    2.3960626,
+    2.6989597
+  ],
+  "status": "ok",
+  "outside_enclosure": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ambiguous_vertices": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "answer_sha256": [
+    "d25ca08f56b70b694623ab36d048f80ade8bb6ba083f90a67da6e681456a667f",
+    "34480a4b31ca464ec989e16f2f313752ad8dc40e4c99b868e7dfcb0b51cdc902",
+    "46336c77bebf200acf123131b7b5bbcb5071a268624d9c865bf1338bf9b69e45",
+    "4ab07ce6af69ea62a44fd494e24247f2cff1ea50c4461a03935e5a1b7753c6da",
+    "3a766474a2c2fd53fb4f1099a75be0511ec978ad4ee2db754bd6c0d3a452a711",
+    "5531d6e8a417de2aa92f392c3830cb5f906f95990474a910893d48119069a1b7",
+    "26c6543c900441df68b4f6cad5dc55dac208efee53643875d84f6201c530d8ae",
+    "175fab1fe1262c07e054de9090c2e1a83ee557ef320077f571a44a5bc91ae806",
+    "75fa9fcfa8dbcdf46effa36533e14dc9b14dcd9f8715bba35b5be4378c80eb45"
+  ]
+}

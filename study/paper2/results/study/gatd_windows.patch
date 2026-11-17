@@ -1,0 +1,211 @@
+--- a/src/kernel.cu
++++ b/src/kernel.cu
+@@ -5,6 +5,8 @@
+ #include <fstream>
+ #include <string>
+ #include <sys/stat.h>
++#include <direct.h>
++#define S_ISDIR(m) (((m) & _S_IFMT) == _S_IFDIR)
+ #include <cerrno>
+ #include <cstring>
+ 
+@@ -53,7 +55,7 @@
+ 		return S_ISDIR(st.st_mode);
+ 	}
+ 
+-	if (mkdir(dirPath, 0755) == 0)
++	if (_mkdir(dirPath) == 0)
+ 	{
+ 		return true;
+ 	}
+@@ -124,6 +126,7 @@
+ 
+ int getGroups(const int k)
+ {
++	if (std::getenv("GATD_FULL_WARP")) return 1;
+ 	if (k > WARP_SIZE / 2)
+ 		return 1;
+ 	if (WARP_SIZE / 4 < k && k <= WARP_SIZE / 2)
+@@ -146,6 +149,7 @@
+ 
+ int main(int argc, char *argv[])
+ {
++	setvbuf(stdout, nullptr, _IONBF, 0);
+ 	static_assert(sizeof(ThresholdRecord) == 12, "ThresholdRecord layout must be 12 bytes");
+ 
+ 	bool enableWriter = false;
+@@ -240,8 +244,8 @@
+ 	{
+ 		printf("current k=%d\n", k);
+ 
++		groups = getGroups(k);
+ 		sharedDynamicSize = getSharedDynamicSize(k);
+-		groups = getGroups(k);
+ 		splitSize = k * multiply;
+ 
+ 		ClearGraphMetaGpu(graphMetaGpu, graph);
+--- a/src/refactor.cu
++++ b/src/refactor.cu
+@@ -143,6 +143,7 @@
+ 
+     const int groups = (coreDegs[node] + size - 1) / size;
+     const int remainder = coreDegs[node] % groups;
++    size = coreDegs[node] / groups;
+ 
+     int left = offsets[node];
+     int begin, end;
+--- a/src/uco.cu
++++ b/src/uco.cu
+@@ -73,8 +73,8 @@
+ 		}
+ 	}
+ 	__syncthreads();
+-	dp1 = sharedDp + k * 2 * groups;
+-	dp2 = sharedDp + k * 6 * groups;
++	dp1 = sharedDp + k;
++	dp2 = sharedDp + k * (4 * groups + 1);
+ 	temp = sharedDp;
+ 	for (int i = threadIdx.x; i < k; i += blockDim.x)
+ 	{
+@@ -93,36 +93,21 @@
+ }
+ __device__ void warpMergeKprob(int k, Float *warpSharedDp, int groups)
+ {
+-
+-	const int laneId = threadIdx.x % WARP_SIZE;
+-
+-	Float *dp1, *dp2, *temp;
+-
+-	int taskGroupId, taskIdx;
+-
+-	for (int s = WARP_SIZE / groups; s < WARP_SIZE; s *= 2)
+-	{
+-		taskGroupId = laneId / s;
+-		taskIdx = laneId % s;
+-		if (taskGroupId < WARP_SIZE / s)
+-		{
+-			dp1 = warpSharedDp + taskGroupId * 2 * k;
+-			dp2 = dp1 + WARP_SIZE / s * k;
+-			temp = dp1 + k;
+-			if (taskIdx < k)
+-			{
+-				temp[taskIdx] = F_ZERO;
+-				for (int k2 = 0; k2 < k - taskIdx; ++k2)
+-				{
+-					atomicAdd(&temp[taskIdx + k2], dp1[taskIdx] * dp2[k2]);
+-				}
+-				dp1[taskIdx] = temp[taskIdx];
+-			}
+-		}
+-	}
+-	__syncwarp();
++    const int lane = threadIdx.x % WARP_SIZE;
++    for (int stride = 1; stride < groups; stride *= 2) {
++        const int width = WARP_SIZE / (groups / (2 * stride));
++        Float *a = warpSharedDp + (lane / width) * 4 * stride * k;
++        Float *b = a + 2 * stride * k;
++        for (int d = lane % width; d < k; d += width) {
++            Float sum = 0;
++            for (int t = 0; t <= d; ++t) sum = Fma(a[t], b[d-t], sum);
++            a[k+d] = sum;
++        }
++        __syncwarp();
++        for (int d = lane % width; d < k; d += width) a[d] = a[k+d];
++        __syncwarp();
++    }
+ }
+-
+ __device__ Float computeKprob(int u, int k,
+ 							  int *__restrict__ adj,
+ 							  int *__restrict__ offs,
+@@ -207,6 +192,7 @@
+ 	const int laneId = threadIdx.x % WARP_SIZE;
+ 	const int warpId = threadIdx.x / WARP_SIZE;
+ 	const int groupSize = WARP_SIZE / groups;
++	const unsigned subgroup = (0xffffffffu >> (32-groupSize)) << ((laneId/groupSize)*groupSize);
+ 
+ 	const int workId = laneId % groupSize;
+ 	const int groupId = laneId / groupSize;
+@@ -236,6 +222,7 @@
+ 	{
+ 		if (!deleted[adj[off + i]])
+ 		{
++			__syncwarp(subgroup);
+ 			p = probs[off + i];
+ 			pl = F_ONE - p;
+ 			right = min(i + 1, k - 1);
+@@ -247,6 +234,7 @@
+ 			{
+ 				dp2[0] = dp1[0] * pl;
+ 			}
++			__syncwarp(subgroup);
+ 
+ 			temp = dp1;
+ 			dp1 = dp2;
+@@ -378,6 +366,7 @@
+ 	const int warpId = threadIdx.x / WARP_SIZE;
+ 
+ 	const int groupSize = WARP_SIZE / groups;
++	const unsigned subgroup = (0xffffffffu >> (32-groupSize)) << ((laneId/groupSize)*groupSize);
+ 
+ 	const int workId = threadIdx.x % groupSize;
+ 	const int groupId = threadIdx.x / groupSize;
+@@ -402,6 +391,7 @@
+ 	{
+ 		if (!deleted[adj[off + i]])
+ 		{
++			__syncwarp(subgroup);
+ 			p = probs[off + i];
+ 			pl = F_ONE - p;
+ 			right = min(i + 1, k - 1);
+@@ -413,6 +403,7 @@
+ 			{
+ 				dp2[0] = dp1[0] * pl;
+ 			}
++			__syncwarp(subgroup);
+ 
+ 			temp = dp1;
+ 			dp1 = dp2;
+@@ -608,11 +599,12 @@
+ 	Float *dp2 = dp1 + k;
+ 	Float *temp;
+ 
+-	int index = indexTable.indexes[indexTable.offsets[u] + warpId];
++	int first = indexTable.offsets[u] + warpId;
++	int index = first < indexTable.offsets[u+1] ? indexTable.indexes[first] : 0;
+ 	Float *data = storeBuffer.buffer + index * k;
+ 	for (int i = laneId; i < k; i += WARP_SIZE)
+ 	{
+-		dp1[i] = data[i];
++		dp1[i] = first < indexTable.offsets[u+1] ? data[i] : (i==0 ? F_ONE : F_ZERO);
+ 	}
+ 	__syncwarp();
+ 
+@@ -911,10 +903,11 @@
+ 			__syncthreads();
+ 			while (*flag != 0)
+ 			{
+-				while (GetGlobalBufferSize(currentBuffer) > 0)
++				while (true)
+ 				{
+ 					valNum = GlobalBufferPop(currentBuffer, &value, globalWarpNum);
+-					if (valNum > 0 && !deleted[value])
++					if (valNum == 0) break;
++					if (__shfl_sync(SHFL_MASK, int(!deleted[value]), 0))
+ 					{
+ 						u = value;
+ 						if (laneId == 0)
+@@ -1291,10 +1284,11 @@
+ 			__syncthreads();
+ 			while (*flag != 0)
+ 			{
+-				while (GetGlobalBufferSize(currentBuffer) > 0)
++				while (true)
+ 				{
+ 					valNum = GlobalBufferPop(currentBuffer, &value, globalWarpNum);
+-					if (valNum > 0 && !deleted[value])
++					if (valNum == 0) break;
++					if (__shfl_sync(SHFL_MASK, int(!deleted[value]), 0))
+ 					{
+ 						u = value;
+ 						if (laneId == 0)

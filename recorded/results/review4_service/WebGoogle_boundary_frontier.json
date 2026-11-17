@@ -1,0 +1,122 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "boundary",
+  "method": "frontier",
+  "ready": 0.0486449,
+  "seconds": 0.25358950000372715,
+  "requests": [
+    0.5212742686271666,
+    0.5212742686271667,
+    0.5212742686271669,
+    0.5501224143422296,
+    0.5501224143422297,
+    0.5501224143422299,
+    0.39759478252042596,
+    0.397594782520426,
+    0.39759478252042607
+  ],
+  "prefixes": [
+    0.17539170000236481,
+    0.18365089999861084,
+    0.1914497000107076,
+    0.1993073000048753,
+    0.2069744000036735,
+    0.21445450000464916,
+    0.2245839000097476,
+    0.23238850000780076,
+    0.23970209999242797
+  ],
+  "internal_prefixes": [
+    0.1354307,
+    0.1438089,
+    0.1515055,
+    0.159323,
+    0.1669474,
+    0.1744488,
+    0.1845405,
+    0.1925158,
+    0.1997301
+  ],
+  "answer_seconds": [
+    0.0867255,
+    0.0083654,
+    0.0076832,
+    0.0078042,
+    0.0076108,
+    0.0074863,
+    0.0100776,
+    0.0079603,
+    0.0071979
+  ],
+  "refinements": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "answer_sha256": [
+    "2787668b7b6337a943130d0dea4513aedce236d235c5a6270964cfe41ea30288",
+    "2787668b7b6337a943130d0dea4513aedce236d235c5a6270964cfe41ea30288",
+    "daaddd6d459fde586ba380b3208f358d8557d07a02ad28a3536d233175d768bd",
+    "a8c816c2de705910fdd65717626a909e6b553f4e3954f46ea714ee4e527559bd",
+    "a8c816c2de705910fdd65717626a909e6b553f4e3954f46ea714ee4e527559bd",
+    "019b6fd68eccb2463d3b5abc55294056543b80f06eca786ee19b90dcd3fa0c33",
+    "31bb8835483aa4a08eb48aec0ac99d8edf75f2cfcf520e9e80124ec5e35566ad",
+    "31bb8835483aa4a08eb48aec0ac99d8edf75f2cfcf520e9e80124ec5e35566ad",
+    "a5c2e04fd5c8472d2bc93dd97a4ac34a01871bb03ceda3be6761d31d1a1094ac"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\index.exe",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\frontier.thr",
+    "24",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\rank",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\boundary\\frontier\\ans",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\boundary.txt"
+  ],
+  "binary_sha256": "3cb42aea5e5c023ca2aa48945b28800870b8213cd046d35bbf75f9acc4cc682b"
+}

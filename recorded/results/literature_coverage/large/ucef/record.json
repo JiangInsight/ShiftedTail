@@ -1,0 +1,10 @@
+{
+  "arm": "ucef",
+  "status": "unverified",
+  "process_wall_s": 112.38063569998485,
+  "budget_s": 7200,
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "input_sha256": "77984f083e250843e924c69ec2296c20b7583301452d574faefe89f22aae8e13",
+  "output_bytes": 1108044432,
+  "output_sha256": "81e7994912fd4f188af35e08718a20a92d23f91a589847952ce38c46b8bffb8c"
+}

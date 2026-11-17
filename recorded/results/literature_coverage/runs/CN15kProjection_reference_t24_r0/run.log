@@ -1,0 +1,6 @@
+graph=C:\vldb_paper2_fair\literature_coverage\CN15kProjection\CN15kProjection.bin n=15000 m=177700 dmax=1252 kmax=33 sum_core=183787 method=frontier pmodel=5 threads=24 L=23 load=0.00s prep=0.01s
+binomial seed rows=1253 p=0.70929324626922607
+  levels down to k=10 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=1 done: 0.2s (sweep 0.0s, peel 0.2s)
+result method=frontier time=0.22s sweep=0.02s peel=0.20s thresholds=183787 theta_sum=115786.310621 hash=2c508a10826221d4 evals=364959 cells=2.021e+08 shortcut=113250 exact_pops=70537 pushes=1336666
+memcap: limit_mb=32768 peak_mb=34 exit=0

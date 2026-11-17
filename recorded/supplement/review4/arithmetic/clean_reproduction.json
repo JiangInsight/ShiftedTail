@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "1e7f052bd241117180ca59c7aa57fc8fdc948eef072cede40c2307691c632f91",
+  "source_archive_files": 16,
+  "graph_sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a",
+  "byte_identical_endpoint_csv": true,
+  "witness_nontiming_fields_identical": true,
+  "all_14_answer_vectors_compared_to_exact": true
+}

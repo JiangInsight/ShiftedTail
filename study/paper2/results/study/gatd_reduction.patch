@@ -1,0 +1,52 @@
+--- a/src/uco.cu
++++ b/src/uco.cu
+@@ -349,6 +349,7 @@
+ 			sum = F_ZERO;
+ 		sum = roundf(sum * 1e6f) / 1e6f;
+ 	}
++	__syncthreads(); // all warps must finish the reduction before shared rows are reused
+ 	return sum;
+ }
+ 
+@@ -438,6 +439,7 @@
+ 			sum = F_ZERO;
+ 		sum = roundf(sum * 1e6f) / 1e6f;
+ 	}
++	__syncthreads(); // all warps must finish the reduction before shared rows are reused
+ 	return sum;
+ }
+ 
+@@ -798,6 +800,7 @@
+ InitGlobalBuffer(&globalBuffer1);
+ 		InitPartitionedBuffer(&globalBuffer2);
+ 			}
++			grid.sync(); // publish the reset before any block reduces its minimum
+ 
+ 			for (int i = warpLeft + laneId; i < warpRight; i += WARP_SIZE)
+ 			{
+@@ -858,7 +861,7 @@
+ 				{
+ 					kprobs[u] = temp;
+ 					dirty[u] = false;
+-					minCurthresBlock = min(*minCurthres, temp);
++					minCurthresBlock = min(minCurthresBlock, temp);
+ 				}
+ 			}
+ 			grid.sync();
+@@ -1179,6 +1182,7 @@
+ InitGlobalBuffer(&globalBuffer1);
+ 		InitPartitionedBuffer(&globalBuffer2);
+ 			}
++			grid.sync(); // publish the reset before any block reduces its minimum
+ 
+ 			for (int i = warpLeft + laneId; i < warpRight; i += WARP_SIZE)
+ 			{
+@@ -1239,7 +1243,7 @@
+ 				{
+ 					kprobs[u] = temp;
+ 					dirty[u] = false;
+-					minCurthresBlock = min(*minCurthres, temp);
++					minCurthresBlock = min(minCurthresBlock, temp);
+ 				}
+ 			}
+ 			grid.sync();

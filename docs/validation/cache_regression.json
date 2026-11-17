@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rejected": [
+    "changed builder output",
+    "changed graph",
+    "changed strictly checked witness",
+    "changed request sequence",
+    "missing cached answer"
+  ],
+  "unchanged_stage_reused": true,
+  "unchanged_query_reused": true
+}

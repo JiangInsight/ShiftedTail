@@ -1,0 +1,9 @@
+graph,index,direct,first,sustained,index_last_s,direct_last_s,clock
+WebGoogle,ucef,topdown,4,4,3.867180200006165,8.3148204,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+WebGoogle,frontier,topdown,,,9.754169600015572,8.3148204,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+WebGoogle,ucef,bottomup,7,7,3.867180200006165,5.6816322,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+WebGoogle,frontier,bottomup,,,9.754169600015572,5.6816322,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+Stack,ucef,topdown,,,99.36761660004409,68.6204449,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+Stack,frontier,topdown,16,16,58.5611412999576,68.6204449,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+Stack,ucef,bottomup,3,3,99.36761660004409,624.2213413,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)
+Stack,frontier,bottomup,2,2,58.5611412999576,624.2213413,query driver entry; preparatory stages external; historical direct prefixwise median (three runs)

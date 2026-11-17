@@ -1,0 +1,29 @@
+{
+  "input": "biominedsaa_full",
+  "arm": "reference",
+  "rep": 0,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 17.482671399979154,
+  "budget_s": 1800,
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "input_sha256": "599a6dfd24f770fa098d6f4439dbf50f1de0740013fc6625571ee6d4c868de10",
+  "host_peak_mib": 1414,
+  "fields": {
+    "method": "frontier",
+    "time": "16.98s",
+    "sweep": "0.87s",
+    "peel": "16.05s",
+    "thresholds": "7264786",
+    "theta_sum": "1969784.605533",
+    "hash": "16682861826188ba",
+    "evals": "15105077",
+    "cells": "1.761e+11",
+    "shortcut": "4816605",
+    "exact_pops": "2448181",
+    "pushes": "65000005"
+  },
+  "solver_s": 16.98,
+  "output_bytes": 58123664,
+  "output_sha256": "654be9bde539c5a66229727a06527de312cfc4fac00d2b57f50e3a8e72de72d5"
+}

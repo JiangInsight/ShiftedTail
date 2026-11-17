@@ -1,0 +1,116 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-11-17T20:59:49.540259+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "source_build": "Export of staged repository files into a new source directory; compiler, GMP/GSL and Python installation are provisioned external tools.",
+  "fresh_full_inputs": [
+    {
+      "graph": "BiomineDSAA",
+      "vertices": "1008201",
+      "edges": "6722503",
+      "source": "https://github.com/toggled/uncertainty",
+      "rule": "Distributed DSAA snapshot, final occurrence per unordered pair; omit loops",
+      "seed": "",
+      "p_min": "0.019071999937295914",
+      "p_max": "1.0",
+      "original_file_sha256": "5d724957f472da920b83bb64b8bf88c8dcea37e836418896fbbde787bcc8d282",
+      "matched_file_sha256": "599a6dfd24f770fa098d6f4439dbf50f1de0740013fc6625571ee6d4c868de10"
+    },
+    {
+      "graph": "DBLP",
+      "vertices": "618821",
+      "edges": "3301970",
+      "source": "https://github.com/toggled/uncertainty",
+      "rule": "Distributed DSAA snapshot, supplied edge probabilities",
+      "seed": "",
+      "p_min": "0.39346933364868164",
+      "p_max": "1.0",
+      "original_file_sha256": "38713b389cb38f945c384c7c9b959537228d199544919cc9c77e4876bb3c623a",
+      "matched_file_sha256": "c11998afab1f3f5a9349d64fc6313d0211e0b289f364030b8093954918b4f23e"
+    },
+    {
+      "graph": "Flickr",
+      "vertices": "24125",
+      "edges": "300836",
+      "source": "https://github.com/fgullo/uncertaincores/blob/370b2dbcaa02a3466a2afd10e24cd52019c3edb3/data/Flickr.txt",
+      "rule": "Input edge probabilities from the released uncertain network",
+      "seed": "",
+      "p_min": "0.05000000074505806",
+      "p_max": "1.0",
+      "original_file_sha256": "03ffdd7f6f6ddaa4bc982ec049bd6c8d60bf2e369fe942d22e2abf695690e181",
+      "matched_file_sha256": "b383e82a2cd3807fa6ca44d7dc91431758fcf1bd7320c305bcb70764b3396a7b"
+    },
+    {
+      "graph": "SupUser",
+      "vertices": "192409",
+      "edges": "714570",
+      "source": "https://snap.stanford.edu/data/sx-superuser.html",
+      "rule": "Drop loops; count unordered event pairs; p=-expm1(-w/2)",
+      "seed": "",
+      "p_min": "0.39346933364868164",
+      "p_max": "1.0",
+      "original_file_sha256": "e85fd3a94647d812a78c579e1be75197d09e357ced004c21e37c3c5f3efee8c0",
+      "matched_file_sha256": "6933e0f93d8829fd74d7938497be4ecee8b506324bc52df6cc9f4928eff1e97f"
+    },
+    {
+      "graph": "CN15kProjection",
+      "vertices": "15000",
+      "edges": "177700",
+      "source": "https://github.com/stasl0217/UKGE/tree/5049b84501657abc44c36dd7d2db5f8519e5ee8f/data/cn15k",
+      "rule": "max observed confidence over relations and directions; drop loops",
+      "seed": "",
+      "p_min": "0.10000000149011612",
+      "p_max": "1.0",
+      "original_file_sha256": "{\"test.tsv\": \"4f875542716964109b32ddf7c5cccb5c540408202c69538dc7267f72cf60eb77\", \"train.tsv\": \"c21fe1092d9b944b7966ef3ad136efde46293e4ce9ea818724e6697c035b74e4\", \"val.tsv\": \"5b161efbf0db6a483e303347e751d67fa51b2977fbdc644d8dcec240e2f703cd\"}",
+      "matched_file_sha256": "0e70349bd6c9d8252793d8510f084e2bfb8185833308cc91748093e205ebac6f"
+    },
+    {
+      "graph": "Twitter",
+      "vertices": "21882",
+      "edges": "215895",
+      "source": "https://github.com/fgullo/uncertaincores/blob/370b2dbcaa02a3466a2afd10e24cd52019c3edb3/data/twitter.txt",
+      "rule": "author Java loader overwrites both directions with last input probability",
+      "seed": "",
+      "p_min": "0.20192307233810425",
+      "p_max": "1.0",
+      "original_file_sha256": "8fb6f798720ad7433e4350bc1b75f1f3119fb5e5422f5dff12d43b5b7f011e16",
+      "matched_file_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e"
+    },
+    {
+      "graph": "WikiTalkFR",
+      "vertices": "1409666",
+      "edges": "2267114",
+      "source": "https://networks.skewed.de/net/wiki_talk/files/fr.csv.zip",
+      "rule": "remove loops and isolated vertices, deduplicate unordered pairs and set p=1-exp(-event_count/2), rounded once to binary32",
+      "seed": "",
+      "p_min": "0.39346933364868164",
+      "p_max": "1.0",
+      "original_file_sha256": "ea7c61caae34a2413922c1cd7882607aae9bca47996105b38b8c9b8f5310d9b2",
+      "matched_file_sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a"
+    }
+  ],
+  "cpu_runs": 14,
+  "cpu_thresholds_per_run": 229574,
+  "cpu_max_abs": 9.923523909801896e-13,
+  "gpu_max_abs": 1.4013086065894288e-06,
+  "gpu_scope": "Numerical comparison with the paper tolerance, not strict certification.",
+  "checks": [
+    "10 exhaustive uncertain graphs, 9 inclusive confidences each",
+    "UCEF at 1 and 3 workers, OptiUCF, direct author solvers, rank export",
+    "FMA and non-FMA checkers",
+    "988 exact-rational endpoint enclosures",
+    "14 exact boundary refinement queries",
+    "UCEF witness mutation and stale-cache rejection",
+    "Author Java DP/LB: 100 answers each against exhaustive component oracle",
+    "Resource scheduler and matched-bound binaries built; exact binomial lower-bound tests passed",
+    "Paper figures regenerated from recorded observations; fresh CPU comparison plot generated"
+  ],
+  "not_rerun": "All 13-graph timing repetitions, the giant Deli/Orkut sweeps, the full two-graph multi-sequence service, and all GPU precision variants. Their drivers and recorded evidence are released.",
+  "wiki_certificate": {
+    "values": 2279811,
+    "FMA": "accepted",
+    "non_FMA": "accepted",
+    "star_controls": "Both 280001-vertex fixtures: FMA declined (3), non-FMA accepted (0)"
+  }
+}

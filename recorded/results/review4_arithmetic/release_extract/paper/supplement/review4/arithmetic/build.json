@@ -1,0 +1,97 @@
+{
+  "compiler": "g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 16.2.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "executables": [
+    {
+      "name": "fma",
+      "args": [
+        "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+        "-O2",
+        "-std=c++17",
+        "-fopenmp",
+        "-fno-fast-math",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-mfma",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\code\\verify_thresholds.cpp",
+        "-o",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\results\\review4_arithmetic\\fma.exe"
+      ],
+      "binary_sha256": "8d8552d3685a04bd3e0a0b97bda99ef206a673ae45e4c48f0dae5fcdc93643b1"
+    },
+    {
+      "name": "portable",
+      "args": [
+        "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+        "-O2",
+        "-std=c++17",
+        "-fopenmp",
+        "-fno-fast-math",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-mno-fma",
+        "-DUCORE_NO_FMA",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\code\\verify_thresholds.cpp",
+        "-o",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\results\\review4_arithmetic\\portable.exe"
+      ],
+      "binary_sha256": "b124b2587f7e0f8c153cb23a6366140fe012928d7463d64f16997899941d6087"
+    },
+    {
+      "name": "pfma",
+      "args": [
+        "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+        "-O2",
+        "-std=c++17",
+        "-fopenmp",
+        "-fno-fast-math",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-mfma",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\code\\review4_arithmetic\\endpoint_probe.cpp",
+        "-o",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\results\\review4_arithmetic\\pfma.exe"
+      ],
+      "binary_sha256": "c09ab4cf2c06d494b19c472fb3010dc055ce2da52f3ceee7a2db7e757e91a977"
+    },
+    {
+      "name": "pportable",
+      "args": [
+        "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+        "-O2",
+        "-std=c++17",
+        "-fopenmp",
+        "-fno-fast-math",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-mno-fma",
+        "-DUCORE_NO_FMA",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\code\\review4_arithmetic\\endpoint_probe.cpp",
+        "-o",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\results\\review4_arithmetic\\pportable.exe"
+      ],
+      "binary_sha256": "ed52a0e1133838bb32ef06917da0ca4f0a6a551166fdc4262637255404c9bf36"
+    },
+    {
+      "name": "boundary",
+      "args": [
+        "D:\\papers\\VLDB\\paper1\\tools\\dl_winlibs\\mingw64\\bin\\g++.exe",
+        "-O2",
+        "-std=c++17",
+        "-fopenmp",
+        "-fno-fast-math",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-mno-fma",
+        "-DUCORE_BOUNDARY_STATS",
+        "-IC:\\vldb_paper2_fair\\deps\\ucrt64\\include",
+        "-LC:\\vldb_paper2_fair\\deps\\ucrt64\\lib",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\code\\review4_arithmetic\\boundary_probe.cpp",
+        "-o",
+        "D:\\papers\\VLDB\\paper2\\results\\review4_arithmetic\\release_extract\\results\\review4_arithmetic\\boundary.exe",
+        "-lgmpxx",
+        "-lgmp"
+      ],
+      "binary_sha256": "be3a32099e290a62d57c98da4ede673aa93820976d3da305fa07468eef903ab4"
+    }
+  ]
+}

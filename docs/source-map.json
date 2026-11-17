@@ -1,0 +1,470 @@
+[
+  {
+    "path": "study/paper1/code/memcap.cpp",
+    "research_sha256": "630ad44ec7575eddfd1ffc4ae63afb754b5116195a0880578660a570cc39fd90"
+  },
+  {
+    "path": "study/paper1/code/prep.py",
+    "research_sha256": "a1d959f31d0a10d9b9bc31cf02c283837a26d4de781bbc1321324e0aeac27bbd"
+  },
+  {
+    "path": "study/paper1/code/prep_big.cpp",
+    "research_sha256": "a0f6e9e228a582b46a5d40c1a956b6f9f6effcf2d4e75c204ed964bc25dd3d39"
+  },
+  {
+    "path": "study/paper1/code/prep_events.cpp",
+    "research_sha256": "ffbb811a255618dfc8355bb046f2086f45f234cecfb6a9cd37f86625bffcbc98"
+  },
+  {
+    "path": "study/paper1/code/prep_temporal.py",
+    "research_sha256": "f350a1b5e325af9aaab02ac33eca22421f1da2d32db30a00bbce1e1103f12f53"
+  },
+  {
+    "path": "study/paper2/baselines/gatd_win/build_windows.bat",
+    "research_sha256": "d163a8339f8875d589411a1b1dc956ef2b768b3c630c0c87e450eded98c98f65"
+  },
+  {
+    "path": "study/paper2/baselines/gatd_win_matched/build_windows.bat",
+    "research_sha256": "d163a8339f8875d589411a1b1dc956ef2b768b3c630c0c87e450eded98c98f65"
+  },
+  {
+    "path": "study/paper2/baselines/gatd_win_reduction/build_windows.bat",
+    "research_sha256": "d163a8339f8875d589411a1b1dc956ef2b768b3c630c0c87e450eded98c98f65"
+  },
+  {
+    "path": "study/paper2/code/audit_final_study.py",
+    "research_sha256": "1debe2eb05e54d98241a7a049afcc88c720f20375185222c7173a997cb2b9cad"
+  },
+  {
+    "path": "study/paper2/code/build.bat",
+    "research_sha256": "3255ea70aac402156e1e084ff650b610174a20601ea8df15279198d3d6e0b0ae"
+  },
+  {
+    "path": "study/paper2/code/check_gpu.py",
+    "research_sha256": "218bc8acac1945b08071eca580fd409dfd59e2859f3e07899b7a11b4ad735e3b"
+  },
+  {
+    "path": "study/paper2/code/check_gpu_reduction.py",
+    "research_sha256": "a1943aa27c476041ecc498fb7c4886a5edd88a8a914e5c7039ecd3fed70a5eda"
+  },
+  {
+    "path": "study/paper2/code/check_study_certificate.py",
+    "research_sha256": "653052e9990202f3ae43f1011856fa5d0d9dbb3c5e25d434149d1383f1783fca"
+  },
+  {
+    "path": "study/paper2/code/check_uniform.py",
+    "research_sha256": "ec6897a38e99bd2f76db0cccdd6ba4c26ba50d56f0396f38e17d31ece969472a"
+  },
+  {
+    "path": "study/paper2/code/export_rank.cpp",
+    "research_sha256": "5f710985131a0516ddc4d8f98b8b4a7811edc7c2c697c6899d26417c6ba5a2c4"
+  },
+  {
+    "path": "study/paper2/code/fair_study/BonchiBoundOutput.java",
+    "research_sha256": "db5ff43d6604c4112feeb7d2f068eba84d75b5e2d6ba5f6e6ec8ebaa9b89856d"
+  },
+  {
+    "path": "study/paper2/code/fair_study/boundary_query.hpp",
+    "research_sha256": "1faaf2277c58a8529c9dc4e70763ee62388dce0e8078adea2eef209ab681fa1f"
+  },
+  {
+    "path": "study/paper2/code/fair_study/build_cpu_baselines.ps1",
+    "research_sha256": "87d478de0b0326cbd2bd61f2c50302b781c9c83cf43d3bde1490b951e22cbb3b"
+  },
+  {
+    "path": "study/paper2/code/fair_study/deli_memory.py",
+    "research_sha256": "64a3aa2d03f24c2e1ace81dd317ff2afc9db1bffd3b6fe05305087db3bffd81c"
+  },
+  {
+    "path": "study/paper2/code/fair_study/extended_caps.py",
+    "research_sha256": "5758f0e6075c04a06fa47e346663c0b0a40bf762203d74d5c2d107aca27b7606"
+  },
+  {
+    "path": "study/paper2/code/fair_study/gpu_sparse.patch",
+    "research_sha256": "4a836368c6754c720f48b309a025179ce3f0d7eec1228f4bc552fc06347b4caf"
+  },
+  {
+    "path": "study/paper2/code/fair_study/large_literature.py",
+    "research_sha256": "0a253dfcac7b1b25af771750edcd55854f8d8cf2f33e9fb1fed6d19fea4648d5"
+  },
+  {
+    "path": "study/paper2/code/fair_study/literature_coverage.py",
+    "research_sha256": "a2b5f76e69b4caf2f3490e68e479287b20f202bf519c565c8160e2cdedd42770"
+  },
+  {
+    "path": "study/paper2/code/fair_study/literature_queries.py",
+    "research_sha256": "16007ddd10739087e717c28f1efb33052dc7517b9535250f624771e13fbc0a87"
+  },
+  {
+    "path": "study/paper2/code/fair_study/literature_report.py",
+    "research_sha256": "8bd366f5f7a6626397816b681fcf07f81983e50232566ec14db470a3047e6fd3"
+  },
+  {
+    "path": "study/paper2/code/fair_study/opti_threshold.cpp.patch",
+    "research_sha256": "ac3b70ebfc134af2c51df61ce00024ac02a00fbd94981832b7b9b24bb6bc2ce2"
+  },
+  {
+    "path": "study/paper2/code/fair_study/query_workload.cpp",
+    "research_sha256": "d37ee0650677c2b7de57254084f9232b1cb44f0df1bd1a769ec417e1a835e9f2"
+  },
+  {
+    "path": "study/paper2/code/fair_study/run_extension.py",
+    "research_sha256": "99dad0847eeaf7b766990bac915719a434cfeeee833f0f8b420902e2da4069dc"
+  },
+  {
+    "path": "study/paper2/code/fair_study/run_matched.py",
+    "research_sha256": "aa9232757b892af34be9ab0cb0a7628125d7b6dd947dec35b78d8cc6c90c68dd"
+  },
+  {
+    "path": "study/paper2/code/fair_study/run_queries.py",
+    "research_sha256": "e539d9b20b35f50ac312a182ad32847030f4809b6905d314edd7980eb848e374"
+  },
+  {
+    "path": "study/paper2/code/fair_study/submission_certificates.py",
+    "research_sha256": "a351c2a1480c17b4732c0aed92ef87dbf7ed47e20002e4c8ce12c623b1ee1ef8"
+  },
+  {
+    "path": "study/paper2/code/fair_study/submission_mechanisms.py",
+    "research_sha256": "17a0d098cc46c8048c0a37c9178d0fcbc97776d9e29e857285686ed6c867e8b3"
+  },
+  {
+    "path": "study/paper2/code/fair_study/submission_queries.py",
+    "research_sha256": "ea3ef2d3cac9175a802fd336253912f880dec2102238f2cd249c3fce5f1cf085"
+  },
+  {
+    "path": "study/paper2/code/fair_study/submission_report.py",
+    "research_sha256": "fcfd27af5b358e9211d1087101b5b8bc5630b708e0ceca78d8514b88369021ad"
+  },
+  {
+    "path": "study/paper2/code/fair_study/summarize.py",
+    "research_sha256": "3062393339e3d4de0430b3f58b6a5e4d0e3fd2af29150e25bebcedbebc11c49d"
+  },
+  {
+    "path": "study/paper2/code/fair_study/test_boundary.py",
+    "research_sha256": "0b568821ce02254aba38379bf5b2ec88491b1ac88b0dd6b04e0dffdc61bf1951"
+  },
+  {
+    "path": "study/paper2/code/fair_study/ucef.cpp",
+    "research_sha256": "4287924b2c86c21828202feb1e47540f50e9768f7c357297ef3c32d731610fc2"
+  },
+  {
+    "path": "study/paper2/code/fair_study/uthr_study.cpp.patch",
+    "research_sha256": "0f060b49d9346251090f23e30bd5090a5440cea31f68dd143e3e045edc3b6dff"
+  },
+  {
+    "path": "study/paper2/code/graph.hpp",
+    "research_sha256": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13"
+  },
+  {
+    "path": "study/paper2/code/opti_threshold.cpp",
+    "research_sha256": "6b5a22eba3b6ff3d1edeec9e4f6cbe9c669748425359f245228cb6e5cf275f66"
+  },
+  {
+    "path": "study/paper2/code/peel_queue.hpp",
+    "research_sha256": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596"
+  },
+  {
+    "path": "study/paper2/code/prep_wbin.py",
+    "research_sha256": "15e53a196722a41026d6882be426bce324308de376966b9e2c09d380f9aa0103"
+  },
+  {
+    "path": "study/paper2/code/prepare_study_inputs.py",
+    "research_sha256": "fe2631928dc7dfb21926154b250c7cad0887e277f4208a153a1edd0e482aab57"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/boundary_probe.cpp",
+    "research_sha256": "2ed82c53f1afc359c9263163199f7c97acde15fb4800aad00ba412b2ed7d2617"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/bundle.py",
+    "research_sha256": "3728bfc39e55838b8ff4db4098d7f3a9796f793cae3054f8d219e175bfc9a412"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/endpoint_probe.cpp",
+    "research_sha256": "c75658743e97e8c44a8c29bc65755e6104aefefe99c24410e74a1cd95f7641e7"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/finalize.py",
+    "research_sha256": "4d979961648b40ab02dbe0e473c96b9fd06e0856ef20f4bf13a60aa6050cf3e9"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/prepare_wiki.py",
+    "research_sha256": "cc07273cb50ba1456b3ec1c801c3df9d2c3cb79e5bd230a30dcb70be33386488"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/release_qa.py",
+    "research_sha256": "a193c45e093750bc06c5f3f3e30290a3c6f1b8811b6654c7248d0d28c696d52c"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/run.py",
+    "research_sha256": "d5788868f22602c5787de057484c9fcf84faa55249393e3dee90f636389b034d"
+  },
+  {
+    "path": "study/paper2/code/review4_arithmetic/verify_checked.py",
+    "research_sha256": "88864fd71eed8de3bbb603d110d5f254c39395b5160171ddc6fe326604b8dcaa"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/README.md",
+    "research_sha256": "a72a2b271e5bd3db4e7c8d8415ab381de13b41f2fa0961aea354825ad38dd913"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/audit.py",
+    "research_sha256": "17f7e73e40bd3b190d0167819a2f14e02c76b58e20a0ddc0a69759b3506d8f20"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/boundary_query.hpp",
+    "research_sha256": "1faaf2277c58a8529c9dc4e70763ee62388dce0e8078adea2eef209ab681fa1f"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/build.py",
+    "research_sha256": "4891349274975ff76e3791e58a482d87cb3b195722c00f137b66993da6bb5cbd"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/check_value_sort.py",
+    "research_sha256": "7d2c733e535eb2bbd8b196bef583c5b6836c426735571a5f98f40afe961ae0ea"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/package.py",
+    "research_sha256": "6e8a8091d4af2a90a5f86bc0111714d5a8c6b29416948f7e2b70961cdcf372ca"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/report.py",
+    "research_sha256": "db6e335c25309097ef3d8bb87b09b0fc96acf7b54cccf939d92251642e764a7d"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/study.py",
+    "research_sha256": "cfb56989b0de0caf79b2b2202a3ac40d87ea1e1b1d87c16891a5a2ef21be661a"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/test_witness.py",
+    "research_sha256": "86ef1f625a8b22c47ee0aa52ed66ab08428e1a3118028f86e74a227506a4b1b8"
+  },
+  {
+    "path": "study/paper2/code/revisions/review4_service/ucef_order.cpp",
+    "research_sha256": "5affd1460ec1011abfbf009a201dd451409e86500f145c37a89d1ed7c5620b1c"
+  },
+  {
+    "path": "study/paper2/code/run_consistent_gpu.py",
+    "research_sha256": "c869b74ea39562b8ee5d300bd978b0e59ee20c9f4c536e39a250a61ad4af3575"
+  },
+  {
+    "path": "study/paper2/code/run_grouped_study.py",
+    "research_sha256": "5ace1f429bcdd7da56db12abcded84d3c62a6fc97f73be72fd9ecdda712e14c2"
+  },
+  {
+    "path": "study/paper2/code/run_native_study.py",
+    "research_sha256": "87857385346faa3e25850547842cd883b9493f9fc4c37dd366814f70e2762e25"
+  },
+  {
+    "path": "study/paper2/code/run_study.py",
+    "research_sha256": "5e347be0d976981e10cc053c0acc3d4af5ea50147b942d39c176952a3f4b86fb"
+  },
+  {
+    "path": "study/paper2/code/run_threshold_gate.py",
+    "research_sha256": "4e3d92f33b55100a7796b57fb4d886ca1cc8d21a43619d8891162c7265aec419"
+  },
+  {
+    "path": "study/paper2/code/study_cpu.py",
+    "research_sha256": "7a326dba43b8a133e54246ee581d7337c4743e2e7f87794e07da829b97fed69c"
+  },
+  {
+    "path": "study/paper2/code/study_gpu.py",
+    "research_sha256": "e5689c536d9b5f5317ecf35be5f062147c76a6f80614e6e33214ae65d058c0ba"
+  },
+  {
+    "path": "study/paper2/code/study_real_inputs.py",
+    "research_sha256": "6eccbccd044d076656b118269db16c97b033300e406377b8ce65d8a4c34faf5e"
+  },
+  {
+    "path": "study/paper2/code/summarize_study.py",
+    "research_sha256": "36b6a924d894bfb82d85e963cefbcaacf503282ff60932d3efc75f3fbeaea942"
+  },
+  {
+    "path": "study/paper2/code/ucore.cpp",
+    "research_sha256": "8e3b6b26e51708365ff54a16f81b83c1817651beb5ba20e8e25cbcc507ea47a9"
+  },
+  {
+    "path": "study/paper2/code/uthr.cpp",
+    "research_sha256": "5edc87bd565234b907d14c9661747f420565335ece263096c9420b31a0ba9e75"
+  },
+  {
+    "path": "study/paper2/code/uthr_study.cpp",
+    "research_sha256": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c"
+  },
+  {
+    "path": "study/paper2/code/verified_tail.hpp",
+    "research_sha256": "32e36c646296809ddbc44bf968a798c913f922ed738f2d15b2902be7f514e5e5"
+  },
+  {
+    "path": "study/paper2/code/verify_thresholds.cpp",
+    "research_sha256": "a35b72425ff0f6a8a6dab2de164e0e825f75725d59f50c8c66b70e02d549cbc7"
+  },
+  {
+    "path": "study/paper2/paper/make_figures.py",
+    "research_sha256": "42b5d65111c069d08332812011cdd5427375362f7fa1d293c34b72a547229768"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/README.md",
+    "research_sha256": "af3d3a42b587eca694b2bae9db023644d97c7aa0be2ba82290d5b9a954d294f5"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/arithmetic/README.md",
+    "research_sha256": "ce501e24bbbe9280a78d23ad4908f9648e0982a7e8e63a414d27dd9fa5d6dd28"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/README.md",
+    "research_sha256": "fff11d3f544bc681167146833f8b9d0455e62c0b31436d56bf9b636c714ea3eb"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/artifact.py",
+    "research_sha256": "86e0508631e79d88e5c870142996376bd345dab92389fc1c039cb52b4cfcd1eb"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/clean_build.json",
+    "research_sha256": "3753a67d850ea4a30f7f54fe3f1d623c506e29fffb3db4b7105980d731728012"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/cuda_hashes.json",
+    "research_sha256": "3b7b4ae2a8b6ed79430f68c0fb7fd8af31ef1a8a2dde877221bc9141dd229c0d"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/prepare.py",
+    "research_sha256": "52b0a55dec08209f0f40f584491733542b0e1721844d0fe2c2ddd265c73a9dae"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/artifact/release_smoke.py",
+    "research_sha256": "42e1f2080beb4a49a5098e0f36901a74e955f5ddd6a3a404d618877ed9661f2d"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/README.md",
+    "research_sha256": "e7f625999b5ccaf1986bbdf911fbe1afcd29a56508122fc55c17a4d99c17690a"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/build.bat",
+    "research_sha256": "f63079b07fdaaff0acd9bf63118ab774471599322210a7f191c8704dffa69bbe"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/frontier.cpp",
+    "research_sha256": "471de035e56d859d01d2b4085e877c37e95c9e558fdbb7a7d0476bea2a7b85ef"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/graph.hpp",
+    "research_sha256": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/peel_queue.hpp",
+    "research_sha256": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/retained.hpp",
+    "research_sha256": "ee7743da80d9c650d765d6a85e0d1399f94324fd3e4126efcb90a67fbf909ffa"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/run.py",
+    "research_sha256": "c9834d58ea068a0dd8dd487ea862a8f44de20b0e63e9d2f5a6e638ecc5f517f8"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/bounds/verify_thresholds.cpp",
+    "research_sha256": "4a734d60ab183dc0f051bbb05ed664a6591b2fbf0082a4ae4ab4de5a57e333ed"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/figures.py",
+    "research_sha256": "5c58b29c993bb92749b767a778f62716d4de5e1fbf0f7de0e0e662d3e3aaa2fb"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/inputs.csv",
+    "research_sha256": "acc534b74e5e2b1ee0f879115e69185f6983c42affde16d59d4666532b8c1ba2"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/make_manifest.py",
+    "research_sha256": "fe599be97051f3c483c6920171c73f14433ae88fa78e9fa80220c557812f0dc5"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/resources/README.md",
+    "research_sha256": "86916a569fd760ca21d7fc50750d33d2edc3337f68ab6f3c3475c58740124d02"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/resources/build.py",
+    "research_sha256": "2b71496715f9ad31afec65ebbf6e6552cdcf996fa99a7728757bd7a735e94afc"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/resources/run.py",
+    "research_sha256": "70b0a4f006f4a7de125bb89426247c298395933c26a327ff2b6cf874e19f52d1"
+  },
+  {
+    "path": "study/paper2/paper/supplement/review4/service/README.md",
+    "research_sha256": "a72a2b271e5bd3db4e7c8d8415ab381de13b41f2fa0961aea354825ad38dd913"
+  },
+  {
+    "path": "study/paper2/paper/verify_example.py",
+    "research_sha256": "130f6a71f226cd82dab55a11b5d8617d32c077f7884b740eb81ef120a6abb58a"
+  },
+  {
+    "path": "study/paper2/results/study/gatd_reduction.patch",
+    "research_sha256": "ec85eda37edad91954bb5302348fefbf3913b1d2819a3ca2770f6ccd05ea6460"
+  },
+  {
+    "path": "study/paper2/results/study/gatd_windows.patch",
+    "research_sha256": "d686f77eefe43b7a9684cc57083d749a9961d5d67170e927572e59496be8b0d9"
+  },
+  {
+    "path": "study/paper2/results/study/uthr_audit_source.cpp",
+    "research_sha256": "c18a73060d7efcecadd628160edde93503dba89f9f5ba560d7d8385996ed5c49"
+  },
+  {
+    "path": "study/paper2/results/study/uthr_grouped_source.cpp",
+    "research_sha256": "88be0dc3f2e6d324729003c653f73487d94ef52bdb3bdeb39b8cdb44e7068679"
+  },
+  {
+    "path": "study/paper2/results/study/uthr_screen_source.cpp",
+    "research_sha256": "ee7e48bc765d565bc36f3334363f8e302c8690ad577baea83451a73e9f499d17"
+  },
+  {
+    "path": "study/recorded/results/fair_study/REPRODUCE.md",
+    "research_sha256": "159b91b65521bc77b4c122bdee5f1809d96312e13c0787299593fc50c03ae320"
+  },
+  {
+    "path": "study/recorded/results/fair_study/matched_inputs.json",
+    "research_sha256": "4e17849b766d8e7e2fb2bfcdad07001ff2c51acc7ad1f678820573ec589db55b"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/CN15kProjection_input.json",
+    "research_sha256": "2104f4ec9f23dcc6260493a1654ecc79aff6f69493b57a17ade3e8a767b45826"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/CitPatents_input.json",
+    "research_sha256": "ca90c8db49dd0e0436873cbc5f74e322a8979955f296043453777f81638a7831"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/Deli_input.json",
+    "research_sha256": "e3235695d2e0c90d5ec91e5083f8b7366d58856b19373fe231aefacdf25499ee"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/HepPh_input.json",
+    "research_sha256": "95db472f144cc4bde2df936f77713cf65efdb0fe15b76b3a95b6b846bc64a3a2"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/REPRODUCE.md",
+    "research_sha256": "7a7fc05af0a787037ef38a1ea13e8a4e4ae5823fc509c98759ae715578940d9c"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/Twitter_input.json",
+    "research_sha256": "2554d9c858b270c49c6b55048bce493b2b42b6459d6593352bb4107a0737d596"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/WebGoogle_input.json",
+    "research_sha256": "0bd493e7f857e746469562ddc6194d6f57e43d294dd8d6a707675db9c7628117"
+  },
+  {
+    "path": "study/recorded/results/literature_coverage/WikiTalkFR_input.json",
+    "research_sha256": "935affe0b20c0b3f6b17f080d061da9a1e81ceba75fad87c6972708abec2ac35"
+  },
+  {
+    "path": "study/recorded/results/study/input_manifest.json",
+    "research_sha256": "a567ce75aaf401291776494904a60601a23b2bb854056903093e6ea11579c209"
+  },
+  {
+    "path": "study/recorded/results/study/native_build.json",
+    "research_sha256": "5d1ed91a9d7190effccd67afbfbe838c447da57818487c07d6711ed445a88e46"
+  }
+]

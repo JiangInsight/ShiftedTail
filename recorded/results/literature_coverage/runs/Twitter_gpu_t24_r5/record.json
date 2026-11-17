@@ -1,0 +1,21 @@
+{
+  "input": "Twitter",
+  "arm": "gpu",
+  "rep": 5,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 3.5966485000099055,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "host_peak_mib": 463,
+  "solver_s": 3.395,
+  "output_bytes": 1837216,
+  "output_sha256": "c6c4ae0e8ca794abd0617f1d5b0fd7ccd0a754653f8d1473de6ffc1ba8e53329",
+  "values": 229574,
+  "max_abs": 1.4013086065894288e-06,
+  "mae": 2.2882607315688846e-07,
+  "match6": 0.9337250733968132,
+  "above_1e5": 0,
+  "above_1e6": 56
+}

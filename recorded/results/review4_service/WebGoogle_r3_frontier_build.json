@@ -1,0 +1,19 @@
+{
+  "seconds": 8.125787099997979,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "D:\\papers\\VLDB\\paper2\\code\\uthr_native.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "frontier",
+    "5",
+    "24",
+    "1",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\prep_r3\\frontier.thr"
+  ],
+  "binary_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "extra_environment": {
+    "UTHR_CERT_ORDER": "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\prep_r3\\frontier.ord"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "graph": "HepPh",
+  "prec": "fp64",
+  "multiply": 32,
+  "rep": 2,
+  "status": "ok",
+  "wall_s": 101.97478700001375,
+  "exe_sha256": "c6c81c42deed089153ba8056eeb5259369a65e920ca01930297917e6c3e4a71f",
+  "input_sha256": "ddc86597f4cb7f8ca0b2b17c0da2ab5fb8b243373bc3f1b751f975b840d7bf6d",
+  "values": 3348855,
+  "max_abs": 9.985345883478658e-13,
+  "mae": 1.2503769046523489e-13,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "tight": true,
+  "coarse": true,
+  "host_peak_mib": 660,
+  "output_sha256": "a16f4259d4fb59c4932b734963fe5512f19aebf9c18143f5e88e98e1a35dc9b2"
+}

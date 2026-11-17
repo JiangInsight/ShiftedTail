@@ -1,0 +1,2 @@
+query id=0 eta=4.9406564584124654e-324 candidates=128 checks=128 revisits=0 exact=128 retained=128 min_answer=1 max_answer=1 observed_denominator_bits=1075 comparison_bits=1075 exact_factors=1 exact_s=0.000198500 load_s=0.000973800 service_s=0.001334300 answer_hash=3883948799886632741
+query id=1 eta=9.8813129168249309e-324 candidates=128 checks=128 revisits=0 exact=64 retained=0 min_answer=0 max_answer=0 observed_denominator_bits=1075 comparison_bits=1075 exact_factors=1 exact_s=0.000089500 load_s=0.000000000 service_s=0.000149300 answer_hash=9052592289448545061

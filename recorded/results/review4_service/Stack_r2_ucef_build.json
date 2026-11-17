@@ -1,0 +1,14 @@
+{
+  "seconds": 73.56978590000654,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\ucef.exe",
+    "D:\\papers\\VLDB\\paper2\\data\\study\\Stack.bin",
+    "24",
+    "C:\\vldb_paper2_fair\\review4_service\\Stack\\prep_r2\\ucef.thr"
+  ],
+  "binary_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "extra_environment": {}
+}

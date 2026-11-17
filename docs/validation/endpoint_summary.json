@@ -1,0 +1,7 @@
+{
+  "seed": 7112026,
+  "cases_per_kernel": 494,
+  "oracle": "full integer coefficient convolution",
+  "exact_enclosures": 988,
+  "max_exact_denom_bits": 12889
+}

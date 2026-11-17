@@ -1,0 +1,13 @@
+graph=C:\vldb_paper2_fair\matched\stack_full\Stack.bin n=2584164 m=28183518 dmax=44065 kmax=198 sum_core=28341100 method=frontier pmodel=5 threads=24 L=33 load=0.38s prep=1.52s
+binomial seed rows=4097 p=0.39346933364868164
+  levels down to k=175 done: 0.3s (sweep 0.0s, peel 0.2s)
+  levels down to k=151 done: 0.9s (sweep 0.1s, peel 0.7s)
+  levels down to k=127 done: 2.1s (sweep 0.2s, peel 1.8s)
+  levels down to k=103 done: 4.1s (sweep 0.5s, peel 3.6s)
+  levels down to k=79 done: 7.1s (sweep 0.8s, peel 6.3s)
+  levels down to k=55 done: 11.7s (sweep 1.3s, peel 10.3s)
+  levels down to k=31 done: 18.9s (sweep 2.1s, peel 16.7s)
+  levels down to k=7 done: 30.0s (sweep 4.2s, peel 25.6s)
+  levels down to k=1 done: 36.5s (sweep 5.7s, peel 30.6s)
+result method=frontier time=36.56s sweep=5.69s peel=30.58s thresholds=28341100 theta_sum=14392437.612875 hash=748ef13527494890 evals=46706901 cells=2.232e+11 shortcut=22249698 exact_pops=6091402 pushes=217801987
+memcap: limit_mb=32768 peak_mb=3283 exit=0

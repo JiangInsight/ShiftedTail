@@ -1,0 +1,7 @@
+graph=C:\vldb_paper2_fair\literature_coverage\CitPatents\CitPatents.bin n=3774768 m=16518947 dmax=793 kmax=64 sum_core=17727752 method=frontier pmodel=5 threads=24 L=21 load=0.23s prep=1.70s
+binomial seed rows=0 p=0.014779017306864262
+  levels down to k=41 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=17 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=1 done: 32.1s (sweep 1.6s, peel 30.3s)
+result method=frontier time=32.08s sweep=1.57s peel=30.35s thresholds=17727752 theta_sum=8960604.255060 hash=f56a0d5fb2ff31bf evals=35934750 cells=3.703e+09 shortcut=9943305 exact_pops=7784447 pushes=94395636
+memcap: limit_mb=32768 peak_mb=3476 exit=0

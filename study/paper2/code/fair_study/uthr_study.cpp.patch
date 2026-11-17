@@ -1,0 +1,72 @@
+--- a/uthr_study.cpp
++++ b/uthr_study.cpp
+@@ -165,9 +165,11 @@
+ }
+ 
+ struct Stats {
++  u64 distinct_reevaluated = 0;
+   u64 evals = 0, cells = 0, shortcut = 0, exact_pops = 0, pushes = 0, removals = 0, screened = 0;
+   void add(const Stats& o) {
+     evals += o.evals; cells += o.cells; shortcut += o.shortcut; exact_pops += o.exact_pops; pushes += o.pushes;
++    distinct_reevaluated += o.distinct_reevaluated;
+     removals += o.removals; screened += o.screened;
+   }
+ };
+@@ -358,6 +360,7 @@
+   const u64 n = S.n;
+   const int L = C.L;
+   const bool core_floor = frontier && !std::getenv("UTHR_NOCOREFLOOR");
++  std::vector<uint8_t> reevaluated(n, 0);
+   std::vector<double> permanent_lb(core_floor ? n : 0);
+   if (core_floor) for (u32 i=0; i<n; ++i) {
+     const u32 c=C.core[C.order[i]];
+@@ -432,6 +435,7 @@
+       T = std::max(T, key[i]);
+       if (std::getenv("UTHR_TRACE") && st.removals < 2000) std::printf("lazy pop i=%u key=%.6e T=%.6e\n", i, key[i], T);
+     } else {
++      if (!reevaluated[i]) { reevaluated[i] = 1; ++st.distinct_reevaluated; }
+ 
+       ++st.evals;
+       W.ps.clear();
+@@ -627,6 +631,8 @@
+         C.core_tail[d][t]=floor_p*C.core_tail[d-1][t-1]+(t<d?(1-floor_p)*C.core_tail[d-1][t]:0.);
+     }
+   }
++  const bool reset_level = std::getenv("UTHR_RESET_LEVEL") != nullptr;
++  u64 sweep_cells = 0, sweep_factors = 0;
+   double t_sweep = 0, t_peel = 0;
+   Stats total;
+   double theta_sum = 0;
+@@ -660,11 +666,12 @@
+     for (u32 c = 0; c < chunk && k >= 1; ++c, --k) {
+       const u32 kk = static_cast<u32>(k);
+       const u64 nk = C.nk[kk];
+-#pragma omp parallel for schedule(dynamic, 256)
++#pragma omp parallel for schedule(dynamic, 256) reduction(+:sweep_cells,sweep_factors)
+       for (long long i = 0; i < static_cast<long long>(nk); ++i) {
+         const u32 u = C.order[i];
+         double* S = pool.data() + base[u];
+-        if (!active[u]) {
++        if (reset_level) { ptr[u] = C.G.off[u]; err[u] = 0.; }
++        if (reset_level || !active[u]) {
+           active[u] = 1;
+           lo[u] = 0; hi[u] = 0; S[0] = 1.0;
+         }
+@@ -675,6 +682,8 @@
+         for (; a < e && C.core[C.G.adj[a]] >= kk; ++a) {
+           const double p = C.G.p[a], q = 1.0 - p;
+ 
++          sweep_cells += static_cast<u64>(h - l + 2);
++          ++sweep_factors;
+           S[h + 1] = p * S[h];
+           for (int t = h; t > l; --t) S[t] = q * S[t] + p * S[t - 1];
+           S[l] = q * S[l] + p * 1.0;
+@@ -749,6 +758,8 @@
+   if (fo) std::fclose(fo);
+   if (audit && std::fclose(audit)) return 2;
+   if (std::getenv("UTHR_TAIL_SCREEN")) std::printf("hoeffding_resolved=%llu\n",total.screened);
++  std::printf("work sweep_cells=%llu sweep_factors=%llu peel_cells=%llu repeat_calls=%llu repeated_vertex_levels=%llu\n",
++              sweep_cells, sweep_factors, total.cells, total.evals, total.distinct_reevaluated);
+   u64 hall = 1469598103934665603ULL;
+   for (u64 h : level_hash) hall = (hall ^ h) * 1099511628211ULL;
+   std::printf("result method=%s time=%.2fs sweep=%.2fs peel=%.2fs thresholds=%llu theta_sum=%.6f hash=%016llx evals=%llu "

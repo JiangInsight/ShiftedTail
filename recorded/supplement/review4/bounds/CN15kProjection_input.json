@@ -1,0 +1,20 @@
+{
+  "graph": "CN15kProjection",
+  "vertices": 15000,
+  "edges": 177700,
+  "maximum_degree": 1252,
+  "maximum_core": 33,
+  "values": 183787,
+  "p_min": 0.10000000149011612,
+  "p_max": 1.0,
+  "binary_sha256": "0e70349bd6c9d8252793d8510f084e2bfb8185833308cc91748093e205ebac6f",
+  "source": "https://github.com/stasl0217/UKGE/tree/5049b84501657abc44c36dd7d2db5f8519e5ee8f/data/cn15k",
+  "input_sha256": {
+    "train.tsv": "c21fe1092d9b944b7966ef3ad136efde46293e4ce9ea818724e6697c035b74e4",
+    "val.tsv": "5b161efbf0db6a483e303347e751d67fa51b2977fbdc644d8dcec240e2f703cd",
+    "test.tsv": "4f875542716964109b32ddf7c5cccb5c540408202c69538dc7267f72cf60eb77"
+  },
+  "rule": "max observed confidence over relations and directions; drop loops",
+  "raw_rows": 241158,
+  "loops": 8206
+}

@@ -1,0 +1,13 @@
+graph=D:\papers\VLDB\paper2\data\study\Stack.bin n=2584164 m=28183518 dmax=44065 kmax=198 sum_core=28341100 method=frontier pmodel=5 threads=24 L=33 load=0.43s prep=1.63s
+binomial seed rows=4097 p=0.39346934028736663
+  levels down to k=175 done: 0.3s (sweep 0.0s, peel 0.2s)
+  levels down to k=151 done: 0.8s (sweep 0.1s, peel 0.7s)
+  levels down to k=127 done: 1.9s (sweep 0.2s, peel 1.6s)
+  levels down to k=103 done: 3.6s (sweep 0.4s, peel 3.2s)
+  levels down to k=79 done: 7.0s (sweep 0.7s, peel 6.2s)
+  levels down to k=55 done: 11.7s (sweep 1.2s, peel 10.3s)
+  levels down to k=31 done: 19.2s (sweep 2.2s, peel 16.9s)
+  levels down to k=7 done: 30.7s (sweep 4.2s, peel 26.3s)
+  levels down to k=1 done: 37.2s (sweep 5.6s, peel 31.3s)
+result method=frontier time=37.25s sweep=5.64s peel=31.25s thresholds=28341100 theta_sum=14392437.785583 hash=23687b50035c228c evals=46717095 cells=2.234e+11 shortcut=22251404 exact_pops=6089696 pushes=215129283
+memcap: limit_mb=32768 peak_mb=3326 exit=0

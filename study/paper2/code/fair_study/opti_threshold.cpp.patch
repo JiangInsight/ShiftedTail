@@ -1,0 +1,38 @@
+--- a/opti_threshold.cpp
++++ b/opti_threshold.cpp
+@@ -46,11 +46,13 @@
+   FILE* output=std::fopen(argv[6],"wb");if(!output)return 2;
+   std::vector<double> previous(graph.n),theta(graph.n);
+   Timer timer; Work work; u64 evals=0,cells=0,shortcuts=0;
++  u64 repeat_calls=0, repeated_vertex_levels=0;
+   for(int k=kmax;k>=1;--k){
+     std::vector<u32> next;
+     for(auto v:order){if(core[v]<(u32)k)break;next.push_back(v);}
+     const u64 cnt=next.size();
+     std::sort(next.begin(),next.end(),[&](u32 a,u32 b){return previous[a]<previous[b];});
++    std::vector<uint8_t> reevaluated(graph.n,0);
+     std::vector<uint8_t> deleted(graph.n),active(graph.n),dirty(graph.n);
+     std::vector<int> degree(graph.n);std::vector<double> key(graph.n),upper(graph.n,1.);
+     using Entry=std::pair<double,u32>;
+@@ -90,7 +92,11 @@
+       }
+       if(heap.empty())throw std::runtime_error("no peel candidate");
+       auto [q,v]=heap.top();heap.pop();
+-      if(dirty[v]){evaluate(v);continue;}
++      if(dirty[v]){
++        ++repeat_calls;
++        if(!reevaluated[v]){reevaluated[v]=1;++repeated_vertex_levels;}
++        evaluate(v);continue;
++      }
+       T=std::max(T,q);theta[v]=T;deleted[v]=1;++peeled;
+       for(u64 a=graph.off[v];a<graph.off[v+1];++a){auto u=graph.adj[a];if(active[u] && !deleted[u])refresh_bounds(u);}
+     }
+@@ -99,5 +105,8 @@
+     u32 level=k;std::fwrite(&level,4,1,output);std::fwrite(&cnt,8,1,output);std::fwrite(row.data(),8,cnt,output);
+   }
+   if(std::fclose(output))return 2;
++  if(evals != sum_core + repeat_calls) return 3;
++  std::printf("work opti_dp_cells=%llu repeat_calls=%llu repeated_vertex_levels=%llu\n",
++              cells,repeat_calls,repeated_vertex_levels);
+   std::printf("result method=opti time=%.3fs thresholds=%llu evals=%llu cells=%llu shortcut=%llu\n",timer.sec(),sum_core,evals,cells,shortcuts);
+ }

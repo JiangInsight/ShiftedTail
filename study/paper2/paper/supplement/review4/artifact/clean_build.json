@@ -1,0 +1,53 @@
+{
+  "exhaustive_graphs": 10,
+  "confidences_per_graph": 9,
+  "ucef_worker_counts": [
+    1,
+    3
+  ],
+  "opti_max_abs": 0.0,
+  "direct_algorithm_ids": [
+    4,
+    6
+  ],
+  "strict": true,
+  "source_package_sha256": "8076359aa0ce8b693f5a18c7bdc650ab8004f4024291ee55963cc8dd23eedc03",
+  "utc": "2026-11-07T15:20:53.553412+00:00",
+  "clean_extraction": true,
+  "executables": {
+    "dai_queries.exe": "bab8e10f93ae2578c73f3e19910ffb8b9d9ba1b44e2367a9564f2cb9f00f9801",
+    "index_queries.exe": "86f7b974baebc504854aba8059445e2b0d3f560c22481fb996b035b6aed1fbca",
+    "index_refined.exe": "a80a7bec9c6532756cbcc7b89321df3084184d5237539a34a126f8fc0b4edf08",
+    "ucef.exe": "343d7859f827eb57ee276f3d20513e003bac08626498857e8b3cc29dc8a525f9",
+    "export_rank.exe": "f5e4c5caaeece40200c6cc2ee914d36341fe96258c6f861947201990f704b9b0",
+    "opti_native.exe": "0528c94ff0e07832a2bb12fe16eb756c4860743e16a50fbaa161097fd6a74bf6",
+    "uthr_native.exe": "4602a1cf3127ff3d5939998f1801d0e08d81dfc213de169f02a3b761abdef23f",
+    "verify_thresholds.exe": "ac75c700958ae2c0cedd7c953bc3a97d52d5755b32d065fd290d72d51d8385b8",
+    "fma.exe": "7edc7e0b2afc110c1cf26185a3973b4b236585f018f96012a30b71e03e504c19",
+    "outward.exe": "f30b9dd5c59c74ce826d1e9e02d6bb266cd39ae9ee87dde6890a5cdca09e171c",
+    "memcap2.exe": "f10ab883b17ae71f0bd6ea7a9e91cffc22ce4a360d50cee0fcb113146d9297f3"
+  },
+  "steps": [
+    "artifact.py cpu-build --work <scratch>",
+    "release_smoke.py --strict --work <scratch>"
+  ],
+  "tested_source_files": {
+    "paper2/code/build.bat": "3255ea70aac402156e1e084ff650b610174a20601ea8df15279198d3d6e0b0ae",
+    "paper2/code/uthr_study.cpp": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c",
+    "paper2/code/opti_threshold.cpp": "6b5a22eba3b6ff3d1edeec9e4f6cbe9c669748425359f245228cb6e5cf275f66",
+    "paper2/code/export_rank.cpp": "5f710985131a0516ddc4d8f98b8b4a7811edc7c2c697c6899d26417c6ba5a2c4",
+    "paper2/code/graph.hpp": "a31eb410a8fa3f96823d70a7b74f2cb75353f82d0e6e4b419848dafb234c9e13",
+    "paper2/code/peel_queue.hpp": "aaecf71b32ef1ca231f1183d4476d65bfb1dab6dc7b6a302c05d6ee4358b3596",
+    "paper2/code/fair_study/ucef.cpp": "4287924b2c86c21828202feb1e47540f50e9768f7c357297ef3c32d731610fc2",
+    "paper2/code/fair_study/query_workload.cpp": "d37ee0650677c2b7de57254084f9232b1cb44f0df1bd1a769ec417e1a835e9f2",
+    "paper2/code/fair_study/boundary_query.hpp": "1faaf2277c58a8529c9dc4e70763ee62388dce0e8078adea2eef209ab681fa1f",
+    "paper2/code/fair_study/test_boundary.py": "0b568821ce02254aba38379bf5b2ec88491b1ac88b0dd6b04e0dffdc61bf1951",
+    "paper2/code/verify_thresholds.cpp": "a35b72425ff0f6a8a6dab2de164e0e825f75725d59f50c8c66b70e02d549cbc7",
+    "paper2/code/verified_tail.hpp": "32e36c646296809ddbc44bf968a798c913f922ed738f2d15b2902be7f514e5e5",
+    "paper2/paper/supplement/review4/bounds/verify_thresholds.cpp": "4a734d60ab183dc0f051bbb05ed664a6591b2fbf0082a4ae4ab4de5a57e333ed",
+    "paper2/paper/verify_example.py": "130f6a71f226cd82dab55a11b5d8617d32c077f7884b740eb81ef120a6abb58a",
+    "paper2/paper/supplement/review4/artifact/artifact.py": "86e0508631e79d88e5c870142996376bd345dab92389fc1c039cb52b4cfcd1eb",
+    "paper2/paper/supplement/review4/artifact/release_smoke.py": "42e1f2080beb4a49a5098e0f36901a74e955f5ddd6a3a404d618877ed9661f2d",
+    "paper1/code/memcap.cpp": "630ad44ec7575eddfd1ffc4ae63afb754b5116195a0880578660a570cc39fd90"
+  }
+}

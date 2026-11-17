@@ -1,0 +1,6 @@
+graph=C:\vldb_paper2_fair\literature_coverage\WebGoogle\WebGoogle.bin n=875713 m=4322051 dmax=6332 kmax=44 sum_core=5198504 method=frontier pmodel=5 threads=24 L=27 load=0.05s prep=0.20s
+binomial seed rows=0 p=0.014762251637876034
+  levels down to k=21 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=1 done: 6.1s (sweep 0.4s, peel 5.6s)
+result method=frontier time=6.06s sweep=0.41s peel=5.61s thresholds=5198504 theta_sum=2499413.627019 hash=63b184de722e08ae evals=7831637 cells=2.23e+09 shortcut=2726904 exact_pops=2471600 pushes=21609788
+memcap: limit_mb=32768 peak_mb=1111 exit=0

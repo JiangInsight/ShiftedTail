@@ -1,0 +1,18 @@
+{
+  "graph": "Deli",
+  "method": "hubcap",
+  "matched_capacity": 4,
+  "rep": 1,
+  "status": "ok",
+  "wall_s": 197.30133099999512,
+  "exe_sha256": "230a8bfe0e6d143f8a92aa43eb2a88d76956bd479cc72b30122f33f5b1483aff",
+  "input_sha256": "77984f083e250843e924c69ec2296c20b7583301452d574faefe89f22aae8e13",
+  "values": 138505284,
+  "max_abs": 1.5690782007027337e-12,
+  "mae": 8.777881931251926e-20,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "fd3a38233972ffd0777c3c29f2c9c722b6c478b2d3334b684b4cec0c03caf231",
+  "host_peak_mib": 28337
+}

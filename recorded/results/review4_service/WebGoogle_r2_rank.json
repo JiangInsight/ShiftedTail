@@ -1,0 +1,13 @@
+{
+  "seconds": 0.2774736999999732,
+  "rc": 0,
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "D:\\papers\\VLDB\\paper2\\code\\export_rank.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\prep_r2\\rank"
+  ],
+  "binary_sha256": "1dc460cd10478744558b3c88a4222b58385ca29d62db5ebb7b11778285da1b56",
+  "extra_environment": {}
+}

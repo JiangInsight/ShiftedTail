@@ -1,0 +1,36 @@
+{
+  "graph": "Deli",
+  "workers": 24,
+  "concurrent_levels": 1,
+  "status": "ok",
+  "wall_s": 1733.0598878000164,
+  "budget_s": 7200,
+  "input_sha256": "77984f083e250843e924c69ec2296c20b7583301452d574faefe89f22aae8e13",
+  "exe_sha256": "dd504fa36a3502fb81dd371e5731e96abb3c168b8c3a7de0fbac666dfb7628c5",
+  "base_source_sha256": "7f09a17867401c7e92ed43c551ffe8dd2a302b9e5742910161bcee27a1179d1c",
+  "diagnostic_source_sha256": "de7a68d00d1ae9c3c6bada3cc1008ff37849aa99977ef2b1d76c39d231440c8f",
+  "check": "ok",
+  "verify_wall_s": 88.35803419997683,
+  "output_sha256": "57b2a03d9a84b96dd1a737567f7609e38b19519061e76544687a071034ca7fe5",
+  "output_bytes": 1108044432,
+  "retrospective": {
+    "ucef": {
+      "values": 138505284,
+      "max_abs": 5.699107852308316e-12,
+      "mae": 2.7596092213825602e-14,
+      "match6": 1.0,
+      "above_1e5": 0,
+      "above_1e6": 0,
+      "validated": true
+    },
+    "gpu": {
+      "values": 138505284,
+      "max_abs": 1.1696488363102973e-06,
+      "mae": 2.3141941758126296e-07,
+      "match6": 0.9839296600409845,
+      "above_1e5": 0,
+      "above_1e6": 63,
+      "validated": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "graph": "WebGoogle_quarter",
+  "arm": "no_shift",
+  "rep": 3,
+  "status": "ok",
+  "seconds": 2.474250999977812,
+  "budget_s": 300,
+  "workers": 1,
+  "exe_sha256": "75db41bf7fddb9c7849c55e010697528c507fd6b9574df22a78fc1cb987b03a3",
+  "input_sha256": "a99c6a796012b928db1b4c442ba85420dacd9af86bad7a6837feb38c70a28a39",
+  "values": 355107,
+  "max_abs": 0.0,
+  "mae": 0.0,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "work": {
+    "sweep_cells": 11573048,
+    "sweep_factors": 550142,
+    "peel_cells": 2736923115,
+    "repeat_calls": 645546,
+    "repeated_vertex_levels": 163668
+  },
+  "host_peak_mib": 50,
+  "output_sha256": "85a50f072160dfb170e9a03b591f61b160349cf45ae14d42c9fb4ebcd07547b4"
+}

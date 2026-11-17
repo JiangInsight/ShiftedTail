@@ -1,0 +1,15 @@
+{
+  "graph": "Flickr",
+  "method": "DP",
+  "rep": 1,
+  "eta": 0.5,
+  "wall_s": 21.398691599984886,
+  "status": "ok",
+  "budget_s": 300,
+  "input_sha256": "634412019fdeebe4998b1a221aba37e53f364078318139480e52d0f114f74dfc",
+  "author_source_sha256": "6cb390f228f14a5c42146ac1383b4a555aaf462339745a10030eb6ef571ae206",
+  "values": 24125,
+  "answer_sha256": "0f4dd2d5f91059bc98c712efbf555294c36a5d94ae6ee7ee4f1ea45cbb06ee9d",
+  "disagree_with_inclusive": 170,
+  "outside_enclosure": 0
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "graph": "WebGoogle",
+    "sequence": "boundary",
+    "method": "topdown",
+    "query": 3,
+    "eta": "0x1.0ae4760000001p-1",
+    "vertex": 794864,
+    "neighbor": 791334,
+    "probability": "0x1.0ae4760000000p-1",
+    "inclusive": 0,
+    "direct": 1,
+    "differing_degree_one_vertices": 1
+  },
+  {
+    "graph": "WebGoogle",
+    "sequence": "boundary",
+    "method": "bottomup",
+    "query": 3,
+    "eta": "0x1.0ae4760000001p-1",
+    "vertex": 794864,
+    "neighbor": 791334,
+    "probability": "0x1.0ae4760000000p-1",
+    "inclusive": 0,
+    "direct": 1,
+    "differing_degree_one_vertices": 1
+  },
+  {
+    "graph": "Stack",
+    "sequence": "boundary",
+    "method": "topdown",
+    "query": 2,
+    "eta": "0x1.43a54e4e98865p-1",
+    "vertex": 689,
+    "neighbor": 12612,
+    "probability": "0x1.43a54e4e98864p-1",
+    "inclusive": 0,
+    "direct": 1,
+    "differing_degree_one_vertices": 120005
+  },
+  {
+    "graph": "Stack",
+    "sequence": "boundary",
+    "method": "topdown",
+    "query": 3,
+    "eta": "0x1.43a54e4e98866p-1",
+    "vertex": 689,
+    "neighbor": 12612,
+    "probability": "0x1.43a54e4e98864p-1",
+    "inclusive": 0,
+    "direct": 1,
+    "differing_degree_one_vertices": 120005
+  }
+]

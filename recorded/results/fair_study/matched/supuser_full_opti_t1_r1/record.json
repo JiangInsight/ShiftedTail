@@ -1,0 +1,29 @@
+{
+  "input": "supuser_full",
+  "arm": "opti",
+  "rep": 1,
+  "workers": 1,
+  "status": "ok",
+  "process_wall_s": 4.801678099989658,
+  "budget_s": 300,
+  "exe_sha256": "1bab0365812e3a83bf23f43c9dcb53d972563089a0dd587ea421695007e327a4",
+  "input_sha256": "6933e0f93d8829fd74d7938497be4ecee8b506324bc52df6cc9f4928eff1e97f",
+  "host_peak_mib": 50,
+  "fields": {
+    "method": "opti",
+    "time": "4.724s",
+    "thresholds": "726749",
+    "evals": "1420195",
+    "cells": "615361749",
+    "shortcut": "91462"
+  },
+  "solver_s": 4.724,
+  "output_bytes": 5814724,
+  "output_sha256": "b383fee33dae061acd526bfc882c3113959046125a5d48ae44ff2cdb05734254",
+  "values": 726749,
+  "max_abs": 9.955369861813779e-13,
+  "mae": 1.6734671702931628e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

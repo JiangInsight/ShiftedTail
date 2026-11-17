@@ -1,0 +1,75 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "perm31721",
+  "method": "bottomup",
+  "ready": 0.8314844,
+  "seconds": 6.295514799974626,
+  "requests": [
+    0.2,
+    0.3,
+    0.1,
+    0.5,
+    0.8,
+    0.9,
+    0.4,
+    0.7,
+    0.6
+  ],
+  "prefixes": [
+    1.3312090999970678,
+    1.780758299981244,
+    2.264410899981158,
+    2.6986619999806862,
+    3.19918559998041,
+    3.885341999994125,
+    4.7113745999813545,
+    5.477963599987561,
+    6.258757699979469
+  ],
+  "internal_prefixes": [
+    1.2967353,
+    1.745167,
+    2.2300345,
+    2.6642938,
+    3.16486,
+    3.851021,
+    4.6770656,
+    5.44364,
+    6.2243789
+  ],
+  "answer_seconds": [
+    0.4651932,
+    0.4484132,
+    0.4848564,
+    0.4342406,
+    0.5005463,
+    0.6861292,
+    0.8260131,
+    0.7665453,
+    0.7807062
+  ],
+  "refinements": [],
+  "answer_sha256": [
+    "7cb6d29c13e34e347cdbe10c4f2621d604fb9ce73e01e28f6bf71ee0ca66401f",
+    "6f3c016db7e9b88668075aba429df5afcb7377729eb14ffd57ec48b2a3296380",
+    "66e720a76b464a794c69782de4c65c8d20b20965c2f1326313a9000d4b5096e9",
+    "49a072f41e4baff30b389df3a2c0b9b5ecfe48ad90aad4c49acec8d75d0e5810",
+    "3b07827cef440e03d440bc12cd0b22c3b61c591c9302ce5b25d229967a38d27e",
+    "20b89e49db63e277d108e56b19577e53d0c49928d299d607923b481759effb6c",
+    "661514222a7ff971074a481c57d008d8a5a68cee788321451c3d9ea8cb6ce276",
+    "a739536c104a4b4100e95da87c649b655d3048a61951600659676eef4e93c23c",
+    "155081103703bd81979936d2df527990ac980668124ab0bdb900accd2daa8810"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\direct.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "24",
+    "4",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\perm31721\\bottomup\\ans",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\perm31721.txt"
+  ],
+  "binary_sha256": "8bd2163ff1ddfddc46d09f7accb7eeed373645bfe70ecebfccfc59c093297245"
+}

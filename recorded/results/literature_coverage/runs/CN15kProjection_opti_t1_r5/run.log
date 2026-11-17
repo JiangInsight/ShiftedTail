@@ -1,0 +1,3 @@
+graph=C:\vldb_paper2_fair\literature_coverage\CN15kProjection\CN15kProjection.bin n=15000 m=177700 dmax=1252 kmax=33 sum_core=183787 method=opti threads=1
+result method=opti time=1.043s thresholds=183787 evals=776353 cells=312571621 shortcut=76770
+memcap: limit_mb=32768 peak_mb=11 exit=0

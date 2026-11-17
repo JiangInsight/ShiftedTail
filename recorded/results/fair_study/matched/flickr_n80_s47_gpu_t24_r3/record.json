@@ -1,0 +1,21 @@
+{
+  "input": "flickr_n80_s47",
+  "arm": "gpu",
+  "rep": 3,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 2.713705600006506,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "51df3d2b6161b70e390068841084f33b893dfb38aebaa707c55dd803d6b3e67e",
+  "host_peak_mib": 461,
+  "solver_s": 2.566,
+  "output_bytes": 1954304,
+  "output_sha256": "20bcd48439f7c48f929549573ca34f201d2c50414854766f714cb753869d53c5",
+  "values": 244024,
+  "max_abs": 1.1529100535957737e-06,
+  "mae": 1.212780360678592e-07,
+  "match6": 0.9638396223322296,
+  "above_1e5": 0,
+  "above_1e6": 10
+}

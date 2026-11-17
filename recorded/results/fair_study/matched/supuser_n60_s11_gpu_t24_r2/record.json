@@ -1,0 +1,21 @@
+{
+  "input": "supuser_n60_s11",
+  "arm": "gpu",
+  "rep": 2,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 1.8947346000059042,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "5b76d95b77c2fa364e32694d88f486696c0f2ae257dbe4f0f656309524054f1a",
+  "host_peak_mib": 477,
+  "solver_s": 1.748,
+  "output_bytes": 1994012,
+  "output_sha256": "6f0e0208572ac54716bbd5eec9335a5d50bcfab367699f51d15e5ddcc51a13d2",
+  "values": 249202,
+  "max_abs": 7.179961423383976e-07,
+  "mae": 2.563897546633925e-07,
+  "match6": 0.9767818877858123,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

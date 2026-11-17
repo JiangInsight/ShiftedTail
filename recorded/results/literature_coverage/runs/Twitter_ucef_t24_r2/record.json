@@ -1,0 +1,19 @@
+{
+  "input": "Twitter",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 2,
+  "status": "ok",
+  "process_wall_s": 0.27196069998899475,
+  "budget_s": 300,
+  "input_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 229574,
+  "max_abs": 9.923523909801888e-13,
+  "mae": 1.3433158586182933e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_bytes": 1837216,
+  "output_sha256": "4395e2fcc57808cdab4798f3e0c5d39f435581dfaff71e7f7c353b7372c6ece8"
+}

@@ -1,0 +1,15 @@
+{
+  "graph": "CitPatents",
+  "vertices": 3774768,
+  "edges": 16518947,
+  "maximum_degree": 793,
+  "maximum_core": 64,
+  "values": 17727752,
+  "p_min": 2.5839652195713825e-08,
+  "p_max": 1.0,
+  "binary_sha256": "f17f73bbf5ce2f20a87af5e017e671a3aff7630f204419544759ff53f669bfc2",
+  "source": "https://snap.stanford.edu/data/cit-Patents.html",
+  "input_sha256": "833dc866a9a2e3bc2d379a2d8827a11b126b118d9f863f760cf83da5fa4c094f",
+  "seed": 20261106,
+  "rule": "Uniform weights once per unordered edge in ascending endpoint order"
+}

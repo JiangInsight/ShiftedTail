@@ -1,0 +1,9 @@
+graph=C:\vldb_paper2_fair\literature_coverage\WikiTalkFR\WikiTalkFR.bin n=1409666 m=2267114 dmax=1095589 kmax=120 sum_core=2279811 method=frontier pmodel=5 threads=24 L=43 load=0.03s prep=0.14s
+binomial seed rows=4097 p=0.39346933364868164
+  levels down to k=97 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=73 done: 0.1s (sweep 0.0s, peel 0.1s)
+  levels down to k=49 done: 0.2s (sweep 0.0s, peel 0.1s)
+  levels down to k=25 done: 0.3s (sweep 0.0s, peel 0.2s)
+  levels down to k=1 done: 66.8s (sweep 66.2s, peel 0.6s)
+result method=frontier time=66.77s sweep=66.17s peel=0.56s thresholds=2279811 theta_sum=1046898.303034 hash=45f1648662f29de9 evals=436374 cells=1.658e+09 shortcut=2117264 exact_pops=162547 pushes=1957634
+memcap: limit_mb=32768 peak_mb=701 exit=0

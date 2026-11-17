@@ -1,0 +1,10 @@
+k=120 checked=353 lower_deficit=4.94065646e-324 upper_excess=2.27234054e-13
+k=100 checked=11768 lower_deficit=9.96616355e-13 upper_excess=9.44837837e-13
+k=80 checked=30232 lower_deficit=9.96616355e-13 upper_excess=9.71837858e-13
+k=60 checked=56868 lower_deficit=9.96616355e-13 upper_excess=9.77514166e-13
+k=40 checked=95555 lower_deficit=9.96616355e-13 upper_excess=9.77682397e-13
+k=20 checked=158667 lower_deficit=9.96616355e-13 upper_excess=9.78661596e-13
+k=1 checked=2279811 lower_deficit=9.96616355e-13 upper_excess=9.95759031e-13
+witness side=lower max_degree=2258 shortcuts=10510 insufficient=0 dp_calls=2269301 max_nonshortcut_degree=2258 max_factors=2258 max_cells=33855 total_factors=28103962 total_cells=703758247
+witness side=upper max_degree=2237 shortcuts=70030 insufficient=13184 dp_calls=2196597 max_nonshortcut_degree=235 max_factors=235 max_cells=12665 total_factors=15214923 total_cells=377825413
+certificate values=2279811 max_lower_deficit=9.9661635543987208e-13 max_upper_excess=9.957590307863031e-13 unique_rounding_6dp=2279811

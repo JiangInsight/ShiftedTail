@@ -1,0 +1,4 @@
+graph=C:\vldb_paper2_fair\submission_study\HepPh_quarter\HepPh.bin n=7023 m=195172 dmax=1079 kmax=106 sum_core=208671 method=opti threads=1
+work opti_dp_cells=1167471675 repeat_calls=652970 repeated_vertex_levels=139753
+result method=opti time=2.148s thresholds=208671 evals=861641 cells=1167471675 shortcut=480008
+memcap: limit_mb=32768 peak_mb=10 exit=0

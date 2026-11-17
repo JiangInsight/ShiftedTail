@@ -1,0 +1,40 @@
+{
+  "graph": "Twitter",
+  "arm": "screen_on",
+  "rep": 2,
+  "status": 0,
+  "wall_s": 0.9082660000131,
+  "graph_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "binary_sha256": "88b62095dc326ae32d154f729e4cb994bba70ba12b5182dfa9d54065796bb242",
+  "flags": {
+    "OMP_NUM_THREADS": "1",
+    "UTHR_TOL": "1e-12",
+    "UTHR_GROUP_BASE": "1",
+    "UTHR_INDEXED": "1",
+    "UTHR_COALESCE": "1",
+    "UTHR_CERT_ORDER": "C:\\vldb_paper2_fair\\review4_bounds\\Twitter_screen_on_2.ord",
+    "REV_BOUND": "shift",
+    "UTHR_TAIL_SCREEN": "1"
+  },
+  "work": {
+    "sweep_cells": 23437927,
+    "sweep_factors": 431790,
+    "peel_cells": 695384490,
+    "repeat_calls": 610957,
+    "repeated_vertex_levels": 168288
+  },
+  "maintenance": {
+    "notices": 0,
+    "ranked_probes": 0,
+    "binomial_queries": 0,
+    "binomial_misses": 0
+  },
+  "theta_sha256": "ae89349fe91e26ad3c2e2f63b6a04b1039ecaac85c9c696ad7e9b5249bfaa417",
+  "order_sha256": "1c3f16a72369641fda3496056f78f2ac45ae669aa44b324459c20146be173aef",
+  "ladder_length": 23,
+  "verify_status": 0,
+  "verify_s": 0.20491689999471419,
+  "values": 229574,
+  "Dminus": 9.976437260111323e-13,
+  "Dplus": 1.157484988704227e-12
+}

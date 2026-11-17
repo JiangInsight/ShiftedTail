@@ -1,0 +1,3 @@
+graph=C:\vldb_paper2_fair\matched\orkut_full\Orkut.bin n=3072441 m=117185083 dmax=33313 kmax=253 sum_core=119326006 method=frontier pmodel=5 threads=24 L=33 load=1.79s prep=6.74s
+result method=frontier time=2.46s sweep=0.00s peel=0.00s thresholds=119326006 theta_sum=46951124.068602 hash=a8b34b32f2275353 evals=0 cells=0 shortcut=0 exact_pops=0 pushes=0
+memcap: limit_mb=32768 peak_mb=4739 exit=0

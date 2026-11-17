@@ -1,0 +1,75 @@
+{
+  "rc": 0,
+  "graph": "WebGoogle",
+  "tag": "perm84673",
+  "method": "bottomup",
+  "ready": 0.9110449,
+  "seconds": 6.603066099982243,
+  "requests": [
+    0.7,
+    0.9,
+    0.5,
+    0.2,
+    0.6,
+    0.4,
+    0.8,
+    0.1,
+    0.3
+  ],
+  "prefixes": [
+    1.3790957999881357,
+    1.7600033999769948,
+    2.1987667999928817,
+    2.654493999987608,
+    3.138410399988061,
+    3.976894799998263,
+    4.721204100002069,
+    5.6954919999989215,
+    6.565593899984378
+  ],
+  "internal_prefixes": [
+    1.3500849,
+    1.7297266,
+    2.1699975,
+    2.6256678,
+    3.1096283,
+    3.9481164,
+    4.6924459,
+    5.666714,
+    6.5368272
+  ],
+  "answer_seconds": [
+    0.4389828,
+    0.3796241,
+    0.4402544,
+    0.4556542,
+    0.4839422,
+    0.8384561,
+    0.7442994,
+    0.9742376,
+    0.8700806
+  ],
+  "refinements": [],
+  "answer_sha256": [
+    "a739536c104a4b4100e95da87c649b655d3048a61951600659676eef4e93c23c",
+    "20b89e49db63e277d108e56b19577e53d0c49928d299d607923b481759effb6c",
+    "49a072f41e4baff30b389df3a2c0b9b5ecfe48ad90aad4c49acec8d75d0e5810",
+    "7cb6d29c13e34e347cdbe10c4f2621d604fb9ce73e01e28f6bf71ee0ca66401f",
+    "155081103703bd81979936d2df527990ac980668124ab0bdb900accd2daa8810",
+    "661514222a7ff971074a481c57d008d8a5a68cee788321451c3d9ea8cb6ce276",
+    "3b07827cef440e03d440bc12cd0b22c3b61c591c9302ce5b25d229967a38d27e",
+    "66e720a76b464a794c69782de4c65c8d20b20965c2f1326313a9000d4b5096e9",
+    "6f3c016db7e9b88668075aba429df5afcb7377729eb14ffd57ec48b2a3296380"
+  ],
+  "command": [
+    "D:\\papers\\VLDB\\paper1\\code\\memcap2.exe",
+    "32768",
+    "C:\\vldb_paper2_fair\\review4_service\\direct.exe",
+    "C:\\vldb_paper2_fair\\literature_coverage\\WebGoogle\\WebGoogle.bin",
+    "24",
+    "4",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\perm84673\\bottomup\\ans",
+    "C:\\vldb_paper2_fair\\review4_service\\WebGoogle\\perm84673.txt"
+  ],
+  "binary_sha256": "8bd2163ff1ddfddc46d09f7accb7eeed373645bfe70ecebfccfc59c093297245"
+}

@@ -1,0 +1,20 @@
+{
+  "graph": "WikiTalkFR",
+  "prec": "fp64",
+  "multiply": 32,
+  "rep": 2,
+  "status": "ok",
+  "wall_s": 18.962994100002106,
+  "exe_sha256": "c6c81c42deed089153ba8056eeb5259369a65e920ca01930297917e6c3e4a71f",
+  "input_sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a",
+  "values": 2279811,
+  "max_abs": 9.952039192739903e-13,
+  "mae": 1.5193184495860062e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "tight": true,
+  "coarse": true,
+  "host_peak_mib": 791,
+  "output_sha256": "a325614b16c5d0ae132212e800ef1067844ff0570d40e6d9a771ad5f40061f6d"
+}

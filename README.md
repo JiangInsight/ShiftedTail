@@ -4,7 +4,28 @@
 
 The C++ builder computes a core threshold for each eligible vertex and degree. A separate verifier reads the thresholds and the removal order.
 
-## Build and verify
+![Construction, independent certification, and inclusive confidence queries.](figures/method.png)
+
+## Reproduce
+
+The [reproduction guide](docs/REPRODUCE.md) covers the full datasets, CPU/GPU baselines, ablations, strict checking, exact queries, and paper figures. It includes the original study drivers and recorded observations. The [source attribution](docs/BASELINES.md) distinguishes author implementations from reconstructed comparison kernels.
+
+With the C++/GMP toolchains configured as in that guide:
+
+```powershell
+python -m pip install -r requirements.txt
+python reproduce.py dependencies boost dai
+python reproduce.py build
+python reproduce.py smoke
+python reproduce.py fetch-data Twitter CN15kProjection Flickr SupUser
+python reproduce.py prepare Twitter CN15kProjection Flickr SupUser
+python reproduce.py benchmark work/literature_coverage/Twitter/Twitter.bin outputs/twitter --rounds 5
+python reproduce.py figures
+```
+
+Fresh measurements are kept separate from the paper's recorded results. See the [executed release checks](docs/validation/README.md).
+
+## Minimal example
 
 Requires x64 Windows, an AVX2 processor, Visual Studio C++ Build Tools with LLVM OpenMP, and Python 3.10 or later.
 

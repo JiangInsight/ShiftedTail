@@ -1,0 +1,16 @@
+{
+  "graph": "CitPatents",
+  "method": "cpu",
+  "status": "ok",
+  "wall_s": 39.90900509999483,
+  "budget_s": 1800,
+  "input_sha256": "f17f73bbf5ce2f20a87af5e017e671a3aff7630f204419544759ff53f669bfc2",
+  "exe_sha256": "fdb7a61bb6723193573183e00ea272f7ff2a7c61ba0c52f2bca9c591fc307a0a",
+  "values": 17727752,
+  "max_abs": 0.0,
+  "mae": 0.0,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "e11bdab2fc9eac4620a00ef020006b78ed01649036c349dad6a83035c735a057"
+}

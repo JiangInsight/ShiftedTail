@@ -1,0 +1,19 @@
+{
+  "input": "supuser_full",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 1,
+  "status": "ok",
+  "process_wall_s": 0.36056709999684244,
+  "budget_s": 300,
+  "input_sha256": "6933e0f93d8829fd74d7938497be4ecee8b506324bc52df6cc9f4928eff1e97f",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 726749,
+  "max_abs": 9.954259638789154e-13,
+  "mae": 1.6733527363925824e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "294f3e058b4adefe2d2cc587f3e984719f677d54efae3d0b3af2cad9b57ba6c3",
+  "output_bytes": 5814724
+}

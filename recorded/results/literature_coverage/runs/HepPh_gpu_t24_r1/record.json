@@ -1,0 +1,21 @@
+{
+  "input": "HepPh",
+  "arm": "gpu",
+  "rep": 1,
+  "workers": 24,
+  "status": "ok",
+  "process_wall_s": 41.833575500000734,
+  "budget_s": 300,
+  "exe_sha256": "6dca4205605c77acd5c6d322be2567c2756f528d1b82e59761ae0e7a537256a2",
+  "input_sha256": "ddc86597f4cb7f8ca0b2b17c0da2ab5fb8b243373bc3f1b751f975b840d7bf6d",
+  "host_peak_mib": 587,
+  "solver_s": 41.422000000000004,
+  "output_bytes": 26795760,
+  "output_sha256": "0ab909532a78d617e87ff478f8617affbf6de0dd9e01c25ab3cee89cebf5aa66",
+  "values": 3348855,
+  "max_abs": 1.0266853879385696e-06,
+  "mae": 1.020782677940161e-07,
+  "match6": 0.9746316278250328,
+  "above_1e5": 0,
+  "above_1e6": 1
+}

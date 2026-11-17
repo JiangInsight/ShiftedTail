@@ -1,0 +1,3 @@
+graph=C:\vldb_paper2_fair\matched\flickr_full\Flickr.bin n=24125 m=300836 dmax=546 kmax=225 sum_core=378659 method=opti threads=1
+result method=opti time=21.750s thresholds=378659 evals=4277318 cells=34926699688 shortcut=3334607
+memcap: limit_mb=32768 peak_mb=26 exit=0

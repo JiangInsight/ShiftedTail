@@ -1,0 +1,7 @@
+graph=D:\papers\VLDB\paper2\data\study\SupUser.bin n=192409 m=714570 dmax=14294 kmax=61 sum_core=726749 method=frontier pmodel=5 threads=24 L=29 load=0.02s prep=0.04s
+binomial seed rows=4097 p=0.39346934028736663
+  levels down to k=38 done: 0.0s (sweep 0.0s, peel 0.0s)
+  levels down to k=14 done: 0.2s (sweep 0.0s, peel 0.1s)
+  levels down to k=1 done: 0.4s (sweep 0.1s, peel 0.3s)
+result method=frontier time=0.42s sweep=0.11s peel=0.29s thresholds=726749 theta_sum=355264.141042 hash=7764aa34da349293 evals=814279 cells=6.519e+08 shortcut=611548 exact_pops=115201 pushes=2879617
+memcap: limit_mb=32768 peak_mb=174 exit=0

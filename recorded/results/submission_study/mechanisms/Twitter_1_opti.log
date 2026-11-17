@@ -1,0 +1,4 @@
+graph=C:\vldb_paper2_fair\literature_coverage\Twitter\Twitter.bin n=21882 m=215895 dmax=1820 kmax=52 sum_core=229574 method=opti threads=1
+work opti_dp_cells=425764821 repeat_calls=646989 repeated_vertex_levels=144413
+result method=opti time=1.680s thresholds=229574 evals=876563 cells=425764821 shortcut=188793
+memcap: limit_mb=32768 peak_mb=13 exit=0

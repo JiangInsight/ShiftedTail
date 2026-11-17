@@ -1,0 +1,19 @@
+{
+  "input": "biominedsaa_full",
+  "arm": "ucef",
+  "workers": 24,
+  "rep": 1,
+  "status": "ok",
+  "process_wall_s": 15.040263199975016,
+  "budget_s": 300,
+  "input_sha256": "599a6dfd24f770fa098d6f4439dbf50f1de0740013fc6625571ee6d4c868de10",
+  "exe_sha256": "32691a8946b210012cdd06f86e37be3674a4712034647be3c26b6117619c31b0",
+  "values": 7264786,
+  "max_abs": 1.0591527654923993e-12,
+  "mae": 2.4512387504802563e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0,
+  "output_sha256": "6f30e1e679c0b3a452c7e47e30309763a46fedebfb4129d223b20e461c5762c3",
+  "output_bytes": 58123664
+}

@@ -1,0 +1,29 @@
+{
+  "input": "Twitter",
+  "arm": "opti",
+  "rep": 4,
+  "workers": 1,
+  "status": "ok",
+  "process_wall_s": 1.5843988999840803,
+  "budget_s": 300,
+  "exe_sha256": "1bab0365812e3a83bf23f43c9dcb53d972563089a0dd587ea421695007e327a4",
+  "input_sha256": "c2137aedc155ac2db544e8193ef6057c417d542c00a04a6678b13937be484a1e",
+  "host_peak_mib": 13,
+  "fields": {
+    "method": "opti",
+    "time": "1.551s",
+    "thresholds": "229574",
+    "evals": "876563",
+    "cells": "425764821",
+    "shortcut": "188793"
+  },
+  "solver_s": 1.551,
+  "output_bytes": 1837216,
+  "output_sha256": "4edd91244ffa67bad01f342daf5bfe8d8c80c1bf8b77d6788a2fa2cd3e9a3737",
+  "values": 229574,
+  "max_abs": 9.923523909801888e-13,
+  "mae": 1.3437163294317261e-14,
+  "match6": 1.0,
+  "above_1e5": 0,
+  "above_1e6": 0
+}

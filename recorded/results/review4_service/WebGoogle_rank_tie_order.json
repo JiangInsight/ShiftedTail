@@ -1,0 +1,7 @@
+{
+  "ucef_values_sha256": "618fbf8b0404b727bb58dca1639cdf49d14533b6a92555160cdee0edca6f0590",
+  "naive_order_sha256": "aa77b942d182459ffbacb69a03345bb95e9884a6af58bf72b000c406c029723b",
+  "order_rule": "sort the unmodified binary64 thresholds; stable ties in increasing rank position",
+  "generation_s_from_open_through_close": 0.431645100004971,
+  "verifier_accepted": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "checks": [
+    "10 exhaustive uncertain graphs, 9 inclusive confidences each",
+    "UCEF at 1 and 3 workers, OptiUCF, direct author solvers, rank export",
+    "FMA and non-FMA checkers",
+    "988 exact-rational endpoint enclosures",
+    "14 exact boundary refinement queries",
+    "UCEF witness mutation and stale-cache rejection"
+  ],
+  "logs": [
+    "smoke.log",
+    "arithmetic.log",
+    "service-witness.log",
+    "service-cache.log"
+  ],
+  "driver_sha256": "ad198f95c51ac07b8d5de81881cf441a11c66eafc5673a007777c23c16396dd5",
+  "build_sha256": "5317a13292d34e5c559dd0ab8801992cacdc04c0ca2716432162de09383863e0"
+}

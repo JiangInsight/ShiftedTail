@@ -1,0 +1,4 @@
+k=20 checked=21144 lower_deficit=2.15272244e-13 upper_excess=1.08889102e-12
+k=1 checked=183787 lower_deficit=2.87103674e-13 upper_excess=1.17228449e-12
+certificate values=183787 max_lower_deficit=2.8710367416806553e-13 max_upper_excess=1.172284491701703e-12 unique_rounding_6dp=183787
+memcap: limit_mb=32768 peak_mb=7 exit=0

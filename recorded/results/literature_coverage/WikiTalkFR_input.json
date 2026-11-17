@@ -1,0 +1,16 @@
+{
+  "graph": "WikiTalkFR",
+  "vertices": 1409666,
+  "edges": 2267114,
+  "maximum_degree": 1095589,
+  "maximum_core": 120,
+  "values": 2279811,
+  "raw_rows": 4641928,
+  "loops": 788289,
+  "p_min": 0.39346933364868164,
+  "p_max": 1.0,
+  "binary_sha256": "b1f0a071555ff50507b91e8f1301fbc838c25ad02310a6f9827d835dc815337a",
+  "source": "https://networks.skewed.de/net/wiki_talk/files/fr.csv.zip",
+  "input_sha256": "ea7c61caae34a2413922c1cd7882607aae9bca47996105b38b8c9b8f5310d9b2",
+  "rule": "remove loops and isolated vertices, deduplicate unordered pairs and set p=1-exp(-event_count/2), rounded once to binary32"
+}
