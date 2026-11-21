@@ -4,7 +4,7 @@
  			sum = F_ZERO;
  		sum = roundf(sum * 1e6f) / 1e6f;
  	}
-+	__syncthreads(); // all warps must finish the reduction before shared rows are reused
++	__syncthreads();
  	return sum;
  }
  
@@ -12,7 +12,7 @@
  			sum = F_ZERO;
  		sum = roundf(sum * 1e6f) / 1e6f;
  	}
-+	__syncthreads(); // all warps must finish the reduction before shared rows are reused
++	__syncthreads();
  	return sum;
  }
  
@@ -20,7 +20,7 @@
  InitGlobalBuffer(&globalBuffer1);
  		InitPartitionedBuffer(&globalBuffer2);
  			}
-+			grid.sync(); // publish the reset before any block reduces its minimum
++			grid.sync();
  
  			for (int i = warpLeft + laneId; i < warpRight; i += WARP_SIZE)
  			{
@@ -37,7 +37,7 @@
  InitGlobalBuffer(&globalBuffer1);
  		InitPartitionedBuffer(&globalBuffer2);
  			}
-+			grid.sync(); // publish the reset before any block reduces its minimum
++			grid.sync();
  
  			for (int i = warpLeft + laneId; i < warpRight; i += WARP_SIZE)
  			{

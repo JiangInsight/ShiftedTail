@@ -61,7 +61,7 @@ def build_gpu(rounded):
                "static_cast<unsigned long long>(__double_as_longlong(minCurthresBlock)));", 4)
     s = change(s, "fmaxf(curThres", "fmax(curThres", 2)
     s = change(s, "sum = roundf(sum * 1e6f) / 1e6f;",
-               "sum = round(sum * 1e6) / 1e6;" if rounded else "// Retain the unrounded binary64 survival.", 5)
+               "sum = round(sum * 1e6) / 1e6;" if rounded else "", 5)
     p.write_text(s, encoding="utf8")
     script = (original/"build_windows.bat").read_text().replace(r"%~dp0..\..\tools\cuda13.1",
                                                                 str(ROOT/"tools/cuda13.1"))

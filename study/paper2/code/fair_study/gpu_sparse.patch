@@ -1,10 +1,9 @@
 --- a/kernel.cu
 +++ b/kernel.cu
-@@ -147,11 +147,18 @@
+@@ -147,11 +147,17 @@
  	return BLOCK_SIZE / WARP_SIZE * (2 * k * groups) * sizeof(Float);
  }
  
-+// The canonical file stores only eligible ranks, in stable support-core order.
 +__global__ void packEligible(const int* rank,const Float* result,double* output,int n) {
 +    int first=blockIdx.x*blockDim.x+threadIdx.x;
 +    for (int i=first;i<n;i+=gridDim.x*blockDim.x) output[i]=static_cast<double>(result[rank[i]]);
@@ -19,7 +18,7 @@
  	bool enableWriter = false;
  	int positionalIdx = 0;
  	std::string positionalArgs[3];
-@@ -217,6 +224,21 @@
+@@ -217,6 +223,21 @@
  	}
  
  	graph.ComputeCore();
@@ -41,7 +40,7 @@
  	graph.SortCore();
  
  	GraphGpu graphGpu;
-@@ -328,12 +350,26 @@
+@@ -328,12 +349,26 @@
  			}
  		}
  
@@ -68,7 +67,7 @@
  	auto t1 = clock::now();
  	printf("stop tick\n");
  	int us = std::chrono::duration_cast<std::chrono::microseconds>(t1 - t0).count() / 1e3;
-@@ -343,6 +379,7 @@
+@@ -343,6 +378,7 @@
  		std::cout << "Threshold binary saved to " << thresholdOutFile << "\n";
  	}
  
